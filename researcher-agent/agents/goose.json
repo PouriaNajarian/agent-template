@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "goose",
     "category":  "cli-agent",
     "usage_areas":  [
@@ -37,7 +37,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "goose",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.098,

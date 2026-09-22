@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "node-js-api-docs",
     "category":  "development",
     "description":  "An MCP server for accessing and searching Node.js API documentation.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "node-js-api-docs",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0274,

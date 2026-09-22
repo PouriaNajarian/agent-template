@@ -1,6 +1,6 @@
-﻿# Skills Index
+# Skills Index
 
-Verbatim copies from the mcp-skills catalog (`D:\Projects\MCP Skills\skills`),
+Verbatim copies from the mcp-skills catalog (`skills`),
 selected for the researcher agent: the `get_task_advice` hits plus the
 research-core catalog curation. Each entry links to its `SKILL.md`.
 

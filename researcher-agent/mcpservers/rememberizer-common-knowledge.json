@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "rememberizer-common-knowledge",
     "category":  "search",
     "description":  "Provides semantic search and retrieval for internal company knowledge bases, including documents and Slack discussions.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "rememberizer-common-knowledge",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0303,

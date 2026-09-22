@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["dashboard", "backtest", "equity curve"],
         "references": [
-            { "type": "catalog_file", "name": "backtest-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "backtest-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["walk-forward", "oos", "validation"],
         "references": [
-            { "type": "catalog_file", "name": "walk-forward-runner", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "walk-forward-runner", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["overfitting", "deflated sharpe", "leakage"],
         "references": [
-            { "type": "catalog_file", "name": "overfit-forensics", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "overfit-forensics", "path": "features.json" }
         ]
     }
 ]

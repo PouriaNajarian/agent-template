@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["sentiment", "dashboard", "catalysts"],
         "references": [
-            { "type": "catalog_file", "name": "market-sentiment-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "market-sentiment-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["news", "bias", "divergence"],
         "references": [
-            { "type": "catalog_file", "name": "news-intelligence", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "news-intelligence", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["reports", "citations", "evidence"],
         "references": [
-            { "type": "catalog_file", "name": "citation-ledger-reports", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "citation-ledger-reports", "path": "features.json" }
         ]
     },
     {
@@ -40,7 +40,7 @@
         "relevance": 0.21,
         "keywords": ["catalog", "search"],
         "references": [
-            { "type": "catalog_file", "name": "product-catalog", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "product-catalog", "path": "features.json" }
         ]
     }
 ]

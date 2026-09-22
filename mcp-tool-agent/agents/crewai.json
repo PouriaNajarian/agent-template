@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "framework",
     "description":  "Multi-agent orchestration framework for Python.",
     "install":  "pip install crewai crewai-tools",
@@ -30,7 +30,7 @@
                        },
                        {
                            "name":  "crewai",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "path":  "agents.json",
                            "type":  "catalog_file"
                        }
                    ],

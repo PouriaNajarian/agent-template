@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "platform",
     "description":  "Drag-and-drop LLM workflow builder.",
     "install":  "npm i -g flowise \u0026\u0026 flowise start",
@@ -31,7 +31,7 @@
                        },
                        {
                            "name":  "flowise",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "path":  "agents.json",
                            "type":  "catalog_file"
                        }
                    ],

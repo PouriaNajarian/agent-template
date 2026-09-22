@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "visual-tool",
     "description":  "Node-based workflow UI for stable diffusion image/video/audio generation.",
     "install":  "git clone https://github.com/comfyanonymous/ComfyUI \u0026\u0026 cd ComfyUI \u0026\u0026 pip install -r requirements.txt",
@@ -30,7 +30,7 @@
                        },
                        {
                            "name":  "comfyui",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "path":  "agents.json",
                            "type":  "catalog_file"
                        }
                    ],

@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "documind-mcp-server",
     "category":  "development",
     "description":  "An MCP server for analyzing documentation quality using advanced neural processing.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "documind-mcp-server",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.027,

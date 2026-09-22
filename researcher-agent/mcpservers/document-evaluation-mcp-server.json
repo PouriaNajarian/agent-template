@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "document-evaluation-mcp-server",
     "category":  "pdf-mcp",
     "description":  "Evaluates technical documentation against globalization standards, analyzing for translation issues, ambiguity, and sentence length.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "document-evaluation-mcp-server",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0278,

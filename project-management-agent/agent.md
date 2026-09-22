@@ -57,7 +57,7 @@ then drive the work through the owning agents and verify completion.
 |---|---|
 | Goal / scope | user + `skills/to-spec`, `skills/eng-spec-driven-development` |
 | Existing tickets | `spranab-saga-mcp` (jira-like tracker), `jira-mcp`, `linear-mcp`, `corbym-backlog-mcp`, `pm33-mcp-server` (WSJF, Monte Carlo, velocity) |
-| Agent inventory | the 11 agent folders under `d:\projects\agent template\` (each has `agent.md` = its contract) |
+| Agent inventory | the 11 agent folders under `` (each has `agent.md` = its contract) |
 | Repo status | `git` MCP; `skills/dev-using-git-worktrees` for parallel streams |
 | Calendar/schedule | `skills/cron-scheduler` for cadence; `louis030195-toggl-mcp` for time tracking |
 

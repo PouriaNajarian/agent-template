@@ -1,6 +1,6 @@
-﻿# Workflows Index
+# Workflows Index
 
-Verbatim workflow definitions copied from the mcp-skills catalog (`D:\Projects\MCP Skills\workflows`).
+Verbatim workflow definitions copied from the mcp-skills catalog (`workflows`).
 
 | Workflow | Purpose |
 |---|---|

@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "platform",
     "description":  "Visual framework for multi-agent and RAG apps.",
     "install":  "pip install langflow \u0026\u0026 langflow run",
@@ -30,7 +30,7 @@
                        },
                        {
                            "name":  "langflow",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "path":  "agents.json",
                            "type":  "catalog_file"
                        }
                    ],

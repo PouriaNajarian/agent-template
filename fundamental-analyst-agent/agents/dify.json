@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "platform",
     "description":  "LLMOps platform for building agents, RAG apps, and workflows visually.",
     "install":  "docker compose up -d (dify/docker)",
@@ -31,7 +31,7 @@
                        },
                        {
                            "name":  "dify",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "path":  "agents.json",
                            "type":  "catalog_file"
                        }
                    ],

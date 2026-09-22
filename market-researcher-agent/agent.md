@@ -58,7 +58,7 @@ source-quality grades, explicit conflicts and open questions.
 | Company fundamentals / SEC | `skills/xvary-stock-research`; MCP: `aegisgovdao-aegisgov-sec-mcp` (SEC EDGAR) |
 | News & sentiment | `skills/news-sentiment-engine`, `skills/helium-mcp` (3.2M+ articles, media-bias analysis), `skills/apify-market-research` |
 | Web | `webfetch`/`websearch`; `playwright` for JS-gated pages; `skills/firecrawl` |
-| Prior research | ripgrep `D:\Projects`, `memory`/`tdai-memory`, `skills/compile-knowledge` store |
+| Prior research | ripgrep `../` (project root), `memory`/`tdai-memory`, `skills/compile-knowledge` store |
 
 **Never write a finding you have not sourced.** If evidence is thin, say so
 in Open Questions — do not pad.

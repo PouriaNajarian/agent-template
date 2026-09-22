@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "openhands",
     "category":  "cloud-agent",
     "usage_areas":  [
@@ -38,7 +38,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "openhands",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.103,

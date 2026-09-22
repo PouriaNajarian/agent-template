@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["sprint", "board", "burndown"],
         "references": [
-            { "type": "catalog_file", "name": "sprint-board", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "sprint-board", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["velocity", "throughput", "forecast"],
         "references": [
-            { "type": "catalog_file", "name": "velocity-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "velocity-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["retro", "experiments", "actions"],
         "references": [
-            { "type": "catalog_file", "name": "retro-board", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "retro-board", "path": "features.json" }
         ]
     }
 ]

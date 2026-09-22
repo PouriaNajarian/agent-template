@@ -87,7 +87,7 @@ The knowledge graph is at `~/.claude/skills/knowledge-graph.json`.
 
 After adding or removing skills, regenerate:
 ```powershell
-powershell -ExecutionPolicy Bypass -File D:\Projects\gen-knowledge-graph.ps1
+powershell -ExecutionPolicy Bypass -File ../gen-knowledge-graph.ps1
 ```
 
 The script scans `~/.claude/skills/`, reads each `SKILL.md` frontmatter, builds category hubs, creates cross-category links, and writes the JSON to both the skills folder and the git repo.

@@ -1,4 +1,4 @@
-﻿{
+{
   "timestamp": "2026-09-20 20:57:46",
   "os": "Windows AMD64",
   "uptime_seconds": 3855.7,
@@ -173,7 +173,7 @@
         "name": "google-merchant-mcp",
         "command": "node",
         "args": [
-          "D:\\Projects\\google-merchant-mcp\\server.js"
+          "../google-merchant-mcp\\server.js"
         ],
         "description": "Google Merchant Center MCP \u2014 product feed diagnostics for PELLE",
         "custom": true,
@@ -184,7 +184,7 @@
         "name": "meta-ads-mcp-server",
         "command": "node",
         "args": [
-          "D:\\Projects\\meta-ads-mcp\\dist\\index.js"
+          "../meta-ads-mcp\\dist\\index.js"
         ],
         "description": "Meta Ads Catalog MCP - Facebook/Instagram Ads API: accounts, campaigns, ad sets, ads, creatives, media, insights, targeting, pages (PELLE)",
         "custom": true,

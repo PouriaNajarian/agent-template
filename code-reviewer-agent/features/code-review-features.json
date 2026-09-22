@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "category":  "hr",
         "description":  "Performance management: OKRs, reviews, 360 feedback, development plans.",
@@ -22,7 +22,7 @@
                            },
                            {
                                "name":  "performance-review",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -49,7 +49,7 @@
         "references":  [
                            {
                                "name":  "reviews-ratings",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -79,7 +79,7 @@
                            },
                            {
                                "name":  "crypto-wallets",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -107,7 +107,7 @@
         "references":  [
                            {
                                "name":  "product-catalog",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -136,7 +136,7 @@
                            },
                            {
                                "name":  "recommendations",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -170,7 +170,7 @@
                            },
                            {
                                "name":  "financial-reporting",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -203,7 +203,7 @@
                            },
                            {
                                "name":  "open-banking",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -236,7 +236,7 @@
                            },
                            {
                                "name":  "defi-integration",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -269,7 +269,7 @@
                            },
                            {
                                "name":  "identity-verification",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -302,7 +302,7 @@
                            },
                            {
                                "name":  "request-management",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -335,7 +335,7 @@
                            },
                            {
                                "name":  "availability-management",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -368,7 +368,7 @@
                            },
                            {
                                "name":  "lms",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -400,7 +400,7 @@
                            },
                            {
                                "name":  "a-b-testing",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -433,7 +433,7 @@
                            },
                            {
                                "name":  "change-management",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -466,7 +466,7 @@
                            },
                            {
                                "name":  "crm-reports",
-                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "path":  "features.json",
                                "type":  "catalog_file"
                            }
                        ],

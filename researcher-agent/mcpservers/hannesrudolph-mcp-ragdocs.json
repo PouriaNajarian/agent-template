@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "hannesrudolph-mcp-ragdocs",
     "category":  "knowledge-memory",
     "description":  "An MCP server implementation that provides tools for retrieving and processing documentation through vector search, enabling AI assistants to augment their responses with relevant documentation context",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "hannesrudolph-mcp-ragdocs",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.029,

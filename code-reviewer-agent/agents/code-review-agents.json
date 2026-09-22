@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "category":  "platform",
         "description":  "Visual framework for multi-agent and RAG apps.",
@@ -37,7 +37,7 @@
                            },
                            {
                                "name":  "langflow",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -87,7 +87,7 @@
                            },
                            {
                                "name":  "comfyui",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -140,7 +140,7 @@
                            },
                            {
                                "name":  "dify",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -192,7 +192,7 @@
                            },
                            {
                                "name":  "davinci-resolve",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -241,7 +241,7 @@
                            },
                            {
                                "name":  "crewai",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -290,7 +290,7 @@
                            },
                            {
                                "name":  "trae",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -340,7 +340,7 @@
                            },
                            {
                                "name":  "flowise",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -390,7 +390,7 @@
                            },
                            {
                                "name":  "autogen",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -440,7 +440,7 @@
                            },
                            {
                                "name":  "invoke-ai",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -490,7 +490,7 @@
                            },
                            {
                                "name":  "obs-studio",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -541,7 +541,7 @@
                            },
                            {
                                "name":  "figma",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -591,7 +591,7 @@
                            },
                            {
                                "name":  "aider",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -640,7 +640,7 @@
                            },
                            {
                                "name":  "cursor",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -691,7 +691,7 @@
                            },
                            {
                                "name":  "n8n",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -742,7 +742,7 @@
                            },
                            {
                                "name":  "blender",
-                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "path":  "agents.json",
                                "type":  "catalog_file"
                            }
                        ],

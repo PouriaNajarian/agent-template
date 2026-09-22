@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "researcher-mcp",
     "category":  "search",
     "description":  "A research assistant powered by Perplexity AI for intelligent search, documentation retrieval, and code assistance.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "researcher-mcp",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0267,

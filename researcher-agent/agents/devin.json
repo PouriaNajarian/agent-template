@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "devin",
     "category":  "cloud-agent",
     "usage_areas":  [
@@ -39,7 +39,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "devin",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.08,

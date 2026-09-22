@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "agents",
     "description":  "Centralized local MCP orchestrator: live health status of every MCP server on this machine, list known servers with install commands, get per-server info, logs and open incidents. Local HTTP MCP on port 8793 + health dashboard on 8790.",
     "ides":  [
@@ -33,7 +33,7 @@
                        },
                        {
                            "name":  "agent-mcp-orchestrator",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

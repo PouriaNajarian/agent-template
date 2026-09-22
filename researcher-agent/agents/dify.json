@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "dify",
     "category":  "platform",
     "usage_areas":  [
@@ -40,7 +40,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "dify",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.087,

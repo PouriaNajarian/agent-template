@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "category":  "crypto",
         "description":  "Crypto exchange platform guide - order books, custody, KYC, market data, security best practices.",
@@ -23,7 +23,7 @@
                            },
                            {
                                "name":  "crypto-exchange-guide",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -55,7 +55,7 @@
                            },
                            {
                                "name":  "github-rest-api-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -86,7 +86,7 @@
                            },
                            {
                                "name":  "identity-oauth-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -117,7 +117,7 @@
                            },
                            {
                                "name":  "open-banking-psd2-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -147,7 +147,7 @@
                            },
                            {
                                "name":  "itil-axelos-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -180,7 +180,7 @@
                            },
                            {
                                "name":  "model-context-protocol-spec",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -211,7 +211,7 @@
                            },
                            {
                                "name":  "defi-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -241,7 +241,7 @@
                            },
                            {
                                "name":  "social-platform-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -272,7 +272,7 @@
                            },
                            {
                                "name":  "lms-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -302,7 +302,7 @@
                            },
                            {
                                "name":  "tailwindcss-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -333,7 +333,7 @@
                            },
                            {
                                "name":  "python-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -363,7 +363,7 @@
                            },
                            {
                                "name":  "api-gateway-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -393,7 +393,7 @@
                            },
                            {
                                "name":  "ux-guidelines-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -424,7 +424,7 @@
                            },
                            {
                                "name":  "real-estate-platform-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -456,7 +456,7 @@
                            },
                            {
                                "name":  "google-maps-platform-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "path":  "docs.json",
                                "type":  "catalog_file"
                            }
                        ],

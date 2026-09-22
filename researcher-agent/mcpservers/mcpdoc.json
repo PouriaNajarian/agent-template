@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "mcpdoc",
     "category":  "search",
     "description":  "Access website documentation for AI search engines (llms.txt files) over MCP.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "mcpdoc",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0294,

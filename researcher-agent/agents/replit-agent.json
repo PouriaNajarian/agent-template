@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "replit-agent",
     "category":  "platform",
     "description":  "Replit Agent: autonomous app development in browser.",
@@ -34,7 +34,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "replit-agent",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.097,

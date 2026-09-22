@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "category":  "engineering",
         "description":  "Review code for correctness, security, readability, and maintainability before merging.",
@@ -46,7 +46,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "code-review-checklist",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\code-review-checklist\\SKILL.md",
+                               "path":  "skills\\code-review-checklist\\SKILL.md",
                                "resource":  "mcp-skills://skills/code-review-checklist",
                                "type":  "skill_file"
                            }
@@ -73,7 +73,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "cloudflare-security-audit",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\cloudflare-security-audit\\SKILL.md",
+                               "path":  "skills\\cloudflare-security-audit\\SKILL.md",
                                "resource":  "mcp-skills://skills/cloudflare-security-audit",
                                "type":  "skill_file"
                            }
@@ -100,7 +100,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "web-code-review",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\web-code-review\\SKILL.md",
+                               "path":  "skills\\web-code-review\\SKILL.md",
                                "resource":  "mcp-skills://skills/web-code-review",
                                "type":  "skill_file"
                            }
@@ -127,7 +127,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "performance-testing-review-ai-review",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\performance-testing-review-ai-review\\SKILL.md",
+                               "path":  "skills\\performance-testing-review-ai-review\\SKILL.md",
                                "resource":  "mcp-skills://skills/performance-testing-review-ai-review",
                                "type":  "skill_file"
                            }
@@ -154,7 +154,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "openai-security-best-practices",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\openai-security-best-practices\\SKILL.md",
+                               "path":  "skills\\openai-security-best-practices\\SKILL.md",
                                "resource":  "mcp-skills://skills/openai-security-best-practices",
                                "type":  "skill_file"
                            }
@@ -181,7 +181,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "code-review-ai-ai-review",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\code-review-ai-ai-review\\SKILL.md",
+                               "path":  "skills\\code-review-ai-ai-review\\SKILL.md",
                                "resource":  "mcp-skills://skills/code-review-ai-ai-review",
                                "type":  "skill_file"
                            }
@@ -208,7 +208,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "007",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\007\\SKILL.md",
+                               "path":  "skills\\007\\SKILL.md",
                                "resource":  "mcp-skills://skills/007",
                                "type":  "skill_file"
                            }
@@ -235,7 +235,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "review-refiner",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\review-refiner\\SKILL.md",
+                               "path":  "skills\\review-refiner\\SKILL.md",
                                "resource":  "mcp-skills://skills/review-refiner",
                                "type":  "skill_file"
                            }
@@ -262,7 +262,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "codebase-cleanup-deps-audit",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\codebase-cleanup-deps-audit\\SKILL.md",
+                               "path":  "skills\\codebase-cleanup-deps-audit\\SKILL.md",
                                "resource":  "mcp-skills://skills/codebase-cleanup-deps-audit",
                                "type":  "skill_file"
                            }
@@ -289,7 +289,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "threat-modeling-expert",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\threat-modeling-expert\\SKILL.md",
+                               "path":  "skills\\threat-modeling-expert\\SKILL.md",
                                "resource":  "mcp-skills://skills/threat-modeling-expert",
                                "type":  "skill_file"
                            }
@@ -316,7 +316,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "security-scanning-security-sast",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\security-scanning-security-sast\\SKILL.md",
+                               "path":  "skills\\security-scanning-security-sast\\SKILL.md",
                                "resource":  "mcp-skills://skills/security-scanning-security-sast",
                                "type":  "skill_file"
                            }
@@ -343,7 +343,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "ui-review",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\ui-review\\SKILL.md",
+                               "path":  "skills\\ui-review\\SKILL.md",
                                "resource":  "mcp-skills://skills/ui-review",
                                "type":  "skill_file"
                            }
@@ -370,7 +370,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "git-advanced-workflows",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\git-advanced-workflows\\SKILL.md",
+                               "path":  "skills\\git-advanced-workflows\\SKILL.md",
                                "resource":  "mcp-skills://skills/git-advanced-workflows",
                                "type":  "skill_file"
                            }
@@ -397,7 +397,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "threat-mitigation-mapping",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\threat-mitigation-mapping\\SKILL.md",
+                               "path":  "skills\\threat-mitigation-mapping\\SKILL.md",
                                "resource":  "mcp-skills://skills/threat-mitigation-mapping",
                                "type":  "skill_file"
                            }
@@ -424,7 +424,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "security-scanning-security-dependencies",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\security-scanning-security-dependencies\\SKILL.md",
+                               "path":  "skills\\security-scanning-security-dependencies\\SKILL.md",
                                "resource":  "mcp-skills://skills/security-scanning-security-dependencies",
                                "type":  "skill_file"
                            }
@@ -451,7 +451,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "wp-guard",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\wp-guard\\SKILL.md",
+                               "path":  "skills\\wp-guard\\SKILL.md",
                                "resource":  "mcp-skills://skills/wp-guard",
                                "type":  "skill_file"
                            }
@@ -478,7 +478,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "cc-skill-security-review",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\cc-skill-security-review\\SKILL.md",
+                               "path":  "skills\\cc-skill-security-review\\SKILL.md",
                                "resource":  "mcp-skills://skills/cc-skill-security-review",
                                "type":  "skill_file"
                            }
@@ -505,7 +505,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "differential-review",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\differential-review\\SKILL.md",
+                               "path":  "skills\\differential-review\\SKILL.md",
                                "resource":  "mcp-skills://skills/differential-review",
                                "type":  "skill_file"
                            }
@@ -532,7 +532,7 @@
                            {
                                "hint":  "Read this SKILL.md for the full instructions",
                                "name":  "dependency-management-deps-audit",
-                               "path":  "D:\\Projects\\MCP Skills\\skills\\dependency-management-deps-audit\\SKILL.md",
+                               "path":  "skills\\dependency-management-deps-audit\\SKILL.md",
                                "resource":  "mcp-skills://skills/dependency-management-deps-audit",
                                "type":  "skill_file"
                            }

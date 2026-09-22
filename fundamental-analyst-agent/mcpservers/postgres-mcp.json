@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "database",
     "description":  "A remote MCP server for Postgres, deployable on Cloudflare Workers without authentication.",
     "ides":  [
@@ -25,7 +25,7 @@
                        },
                        {
                            "name":  "postgres-mcp",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

@@ -47,4 +47,4 @@ Always query it before assuming a server or tool is available.
 | `install_mcp_server` | Install/register a server (local command or hosted URL) and push to all agent configs. |
 | `uninstall_mcp_server` | Remove a custom server from the system and all agent configs. |
 
-Source of truth on disk: `D:\projects\agent-mcp-orchestrator\`
+Source of truth on disk: `../agent-mcp-orchestrator\`

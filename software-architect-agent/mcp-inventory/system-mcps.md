@@ -1,4 +1,4 @@
-﻿# System MCP Inventory (agent-mcp-orchestrator :8790)
+# System MCP Inventory (agent-mcp-orchestrator :8790)
 
 Generated: 2026-09-20 20:58  
 Source: `http://localhost:8790/api/health`  
@@ -26,8 +26,8 @@ Summary: total=24 up=24 down=0 degraded=0
 | time | stdio | - | available | Time/timezone | uvx --system-certs mcp-server-time |
 | tdai-memory | stdio | - | available | TencentDB memory | node mcp-server.mjs |
 | agent-mcp-orchestrator | stdio | - | available | Query MCP server status and usage info | python agent_mcp_orchestrator.py |
-| google-merchant-mcp | stdio | - | available | Google Merchant Center MCP — product feed diagnostics for PELLE | node D:\Projects\google-merchant-mcp\server.js |
-| meta-ads-mcp-server | stdio | - | available | Meta Ads Catalog MCP - Facebook/Instagram Ads API: accounts, campaigns, ad sets, ads, creatives, media, insights, targeting, pages (PELLE) | node D:\Projects\meta-ads-mcp\dist\index.js |
+| google-merchant-mcp | stdio | - | available | Google Merchant Center MCP — product feed diagnostics for PELLE | node ../google-merchant-mcp\server.js |
+| meta-ads-mcp-server | stdio | - | available | Meta Ads Catalog MCP - Facebook/Instagram Ads API: accounts, campaigns, ad sets, ads, creatives, media, insights, targeting, pages (PELLE) | node ../meta-ads-mcp\dist\index.js |
 | postgres-mcp | stdio | - | available | Official Microsoft Postgres MCP server - query, analyze, and manage PostgreSQL databases (stdio) | npx -y @microsoft/postgres-mcp run |
 | Binance Cryptocurrency MCP | stdio | - | available | Access real-time Binance cryptocurrency market data: prices, candlestick charts, order books and trading history. | npx -y @snjyor/binance-mcp@latest |
 | @hanoak/unsplash-mcp-server | stdio | - | available | Production-ready MCP server for the Unsplash API — search photos, fetch details, Unsplash attribution & download-tracking compliance. Unofficial. | npx -y @hanoak/unsplash-mcp-server |

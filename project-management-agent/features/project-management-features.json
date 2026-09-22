@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["dashboard", "milestones", "risks"],
         "references": [
-            { "type": "catalog_file", "name": "program-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "program-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["risk", "register", "mitigation"],
         "references": [
-            { "type": "catalog_file", "name": "risk-register", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "risk-register", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["dependencies", "critical path"],
         "references": [
-            { "type": "catalog_file", "name": "dependency-graph", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "dependency-graph", "path": "features.json" }
         ]
     }
 ]

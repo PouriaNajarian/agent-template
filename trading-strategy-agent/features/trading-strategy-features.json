@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["strategy", "builder", "backtest"],
         "references": [
-            { "type": "catalog_file", "name": "strategy-builder", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "strategy-builder", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["risk", "dashboard", "limits"],
         "references": [
-            { "type": "catalog_file", "name": "risk-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "risk-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["journal", "trading-ledger", "decisions"],
         "references": [
-            { "type": "catalog_file", "name": "strategy-journal", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "strategy-journal", "path": "features.json" }
         ]
     }
 ]

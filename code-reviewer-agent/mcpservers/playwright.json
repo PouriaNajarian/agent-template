@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "browser",
     "description":  "Browser automation and testing: navigate, click, fill, screenshot, inspect DOM.",
     "ides":  [
@@ -33,7 +33,7 @@
                        },
                        {
                            "name":  "playwright",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

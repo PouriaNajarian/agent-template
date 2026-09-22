@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "rag-documentation",
     "category":  "search",
     "description":  "Retrieve and process documentation using vector search to provide context for AI assistants.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "rag-documentation",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0323,

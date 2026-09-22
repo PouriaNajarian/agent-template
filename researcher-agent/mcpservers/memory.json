@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "core",
     "description":  "Persistent knowledge-graph memory across sessions.",
     "ides":  [
@@ -30,7 +30,7 @@
                        },
                        {
                            "name":  "memory",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

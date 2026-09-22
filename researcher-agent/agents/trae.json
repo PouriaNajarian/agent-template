@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "trae",
     "category":  "ide",
     "description":  "ByteDance Trae: AI-native IDE.",
@@ -35,7 +35,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "trae",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.105,

@@ -24,7 +24,7 @@ Hunt **only** for sources and evidence. Load `skills/pi-web-search/SKILL.md`,
 - **Retrieval loop**: if a search comes back thin, re-formulate the query
   (different vocabulary, different source class) before giving up —
   `iterative-retrieval`.
-- **Local sources too**: ripgrep the local repo/caches (`D:\Projects\*`,
+- **Local sources too**: ripgrep the local repo/caches (`../*`,
   Obsidian vaults) for prior research on the same topic.
 - **Access log**: record every URL used + date accessed.
 

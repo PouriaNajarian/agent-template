@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "aws-documentation",
     "category":  "search",
     "description":  "Fetch, convert, and search AWS documentation pages, with recommendations for related content.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "aws-documentation",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0299,

@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "javadoc-mcp",
     "category":  "development",
     "description":  "A Model Context Protocol (MCP) server for searching Java documentation. This server enables AI assistants to search and retrieve Java API documentation from JSON files.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "javadoc-mcp",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0312,

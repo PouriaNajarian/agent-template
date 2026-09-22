@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "name":  "ripgrep",
         "description":  "Line-oriented search tool that recursively searches directories.",
@@ -26,7 +26,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "ripgrep",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.176,
@@ -62,7 +62,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "Playwright",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.146,
@@ -97,7 +97,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "Selenium",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.134,
@@ -132,7 +132,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "K6",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.124,
@@ -167,7 +167,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "Jest",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.118,
@@ -202,7 +202,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "MinIO",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.107,
@@ -238,7 +238,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "Postman",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.104,
@@ -273,7 +273,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "jq",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.102,
@@ -308,7 +308,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "PyTorch",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.096,
@@ -329,7 +329,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "omniroute",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                               "path":  "tools.json"
                            }
                        ],
         "relevance":  0.093,

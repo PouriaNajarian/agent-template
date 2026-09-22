@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "unity-docs",
     "category":  "search",
     "description":  "Search and retrieve Unity documentation and API references locally with smart version handling.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "unity-docs",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0308,

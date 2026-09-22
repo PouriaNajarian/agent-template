@@ -1,6 +1,6 @@
-﻿# Skills Index
+# Skills Index
 
-Verbatim copies from the mcp-skills catalog (D:\Projects\MCP Skills\skills),
+Verbatim copies from the mcp-skills catalog (skills),
 selected for the Backtest Agent agent. Each entry links to its SKILL.md.
 
 | Skill | Description |

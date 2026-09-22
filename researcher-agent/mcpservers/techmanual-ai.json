@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "techmanual-ai",
     "category":  "search",
     "description":  "Search and retrieve technical documentation for T\u0026amp;M, industrial automation, and power electronics. Covers everything from oscilloscopes, microcontrollers, vehicles, power supplies, and more from a wide range of manufacturers.",
@@ -27,7 +27,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "techmanual-ai",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0282,

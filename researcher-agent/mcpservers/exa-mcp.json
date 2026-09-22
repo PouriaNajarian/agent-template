@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "exa-mcp",
     "category":  "web",
     "description":  "Exa semantic web search and content retrieval.",
@@ -32,7 +32,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "exa-mcp",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           "path":  "mcpservers.json"
                        }
                    ],
     "relevance":  0.0286,

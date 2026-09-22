@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "vcs",
     "description":  "Git repository operations for agents.",
     "ides":  [
@@ -30,7 +30,7 @@
                        },
                        {
                            "name":  "git",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

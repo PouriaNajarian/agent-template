@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "name":  "anthropic-api-docs",
         "description":  "Anthropic Claude API documentation - models, tool use, prompt caching.",
@@ -18,7 +18,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "anthropic-api-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.36,
@@ -46,7 +46,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "realtime-chat-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.126,
@@ -76,7 +76,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "fastmcp-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.117,
@@ -104,7 +104,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "analytics-dashboard-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.117,
@@ -132,7 +132,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "openai-api-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.097,
@@ -160,7 +160,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "mcp-registry",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.097,
@@ -189,7 +189,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "lms-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.095,
@@ -219,7 +219,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "chromadb-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.094,
@@ -247,7 +247,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "payments-platform-docs",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.09,
@@ -278,7 +278,7 @@
                            {
                                "type":  "catalog_file",
                                "name":  "model-context-protocol-spec",
-                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                               "path":  "docs.json"
                            }
                        ],
         "relevance":  0.089,

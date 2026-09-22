@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "crewai",
     "category":  "framework",
     "usage_areas":  [
@@ -37,7 +37,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "crewai",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.105,

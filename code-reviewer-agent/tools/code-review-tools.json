@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "category":  "devops",
         "description":  "Infrastructure as code tool for building and versioning cloud infrastructure.",
@@ -29,7 +29,7 @@
                            },
                            {
                                "name":  "Terraform",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -66,7 +66,7 @@
                            },
                            {
                                "name":  "SonarQube",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -104,7 +104,7 @@
                            },
                            {
                                "name":  "Burp Suite Community",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -141,7 +141,7 @@
                            },
                            {
                                "name":  "MinIO",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -178,7 +178,7 @@
                            },
                            {
                                "name":  "Prettier",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -215,7 +215,7 @@
                            },
                            {
                                "name":  "Grafana",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -253,7 +253,7 @@
                            },
                            {
                                "name":  "LangChain",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -291,7 +291,7 @@
                            },
                            {
                                "name":  "ZAP",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -328,7 +328,7 @@
                            },
                            {
                                "name":  "eslint",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -365,7 +365,7 @@
                            },
                            {
                                "name":  "Docker",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -403,7 +403,7 @@
                            },
                            {
                                "name":  "FFmpeg",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -441,7 +441,7 @@
                            },
                            {
                                "name":  "Ollama",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -478,7 +478,7 @@
                            },
                            {
                                "name":  "Loki",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -515,7 +515,7 @@
                            },
                            {
                                "name":  "K6",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -552,7 +552,7 @@
                            },
                            {
                                "name":  "pytest",
-                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "path":  "tools.json",
                                "type":  "catalog_file"
                            }
                        ],

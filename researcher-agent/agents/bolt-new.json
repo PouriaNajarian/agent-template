@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "bolt-new",
     "category":  "platform",
     "description":  "StackBlitz Bolt: prompt-to-app web builder.",
@@ -35,7 +35,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "bolt-new",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.091,

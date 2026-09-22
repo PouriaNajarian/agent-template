@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "category":  "developer-tools",
         "description":  "Strict AI code reviewer powered by Groq. Finds bugs, vulnerabilities and SQL injections. Tools: analyze_code, compare_code, explain_code, generate_tests, analyze_file, HTML reports.",
@@ -32,7 +32,7 @@
                            },
                            {
                                "name":  "notasandy-mcp-code-sanitizer",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -72,7 +72,7 @@
                            },
                            {
                                "name":  "ai-pair-programmer-ruby",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -112,7 +112,7 @@
                            },
                            {
                                "name":  "mcp-code-review-server",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -152,7 +152,7 @@
                            },
                            {
                                "name":  "matter-ai",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -192,7 +192,7 @@
                            },
                            {
                                "name":  "mcp-code-sanitizer",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -232,7 +232,7 @@
                            },
                            {
                                "name":  "fantasieleven-code-callout",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -272,7 +272,7 @@
                            },
                            {
                                "name":  "gerrit-code-review",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -312,7 +312,7 @@
                            },
                            {
                                "name":  "selvage-lab-selvage",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -352,7 +352,7 @@
                            },
                            {
                                "name":  "reposentinel",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -392,7 +392,7 @@
                            },
                            {
                                "name":  "sverklo",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -432,7 +432,7 @@
                            },
                            {
                                "name":  "corbym-backlog-mcp",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -472,7 +472,7 @@
                            },
                            {
                                "name":  "phpcodearcheology-phpcodearcheology",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -512,7 +512,7 @@
                            },
                            {
                                "name":  "freepeak-db-mcp-server",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -552,7 +552,7 @@
                            },
                            {
                                "name":  "james-chahwan-repo-graph",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],
@@ -592,7 +592,7 @@
                            },
                            {
                                "name":  "cybersecurity-mcp-server",
-                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "path":  "mcpservers.json",
                                "type":  "catalog_file"
                            }
                        ],

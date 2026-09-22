@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "developer-tools",
     "description":  "Strict AI code reviewer powered by Groq. Finds bugs, vulnerabilities and SQL injections. Tools: analyze_code, compare_code, explain_code, generate_tests, analyze_file, HTML reports.",
     "ides":  [
@@ -25,7 +25,7 @@
                        },
                        {
                            "name":  "notasandy-mcp-code-sanitizer",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

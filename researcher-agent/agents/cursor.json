@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "cursor",
     "category":  "ide",
     "usage_areas":  [
@@ -37,7 +37,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "cursor",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.102,

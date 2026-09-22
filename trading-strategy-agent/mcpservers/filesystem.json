@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "core",
     "description":  "Filesystem access for agents: read, write, list, edit files with allowed-root restrictions.",
     "ides":  [
@@ -32,7 +32,7 @@
                        },
                        {
                            "name":  "filesystem",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

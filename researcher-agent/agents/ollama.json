@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "ollama",
     "category":  "runtime",
     "usage_areas":  [
@@ -37,7 +37,7 @@
                        {
                            "type":  "catalog_file",
                            "name":  "ollama",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           "path":  "agents.json"
                        }
                    ],
     "relevance":  0.087,

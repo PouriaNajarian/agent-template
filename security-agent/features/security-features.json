@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["dashboard", "findings", "severity"],
         "references": [
-            { "type": "catalog_file", "name": "security-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "security-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["secrets", "rotation", "remediation"],
         "references": [
-            { "type": "catalog_file", "name": "secrets-rotation", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "secrets-rotation", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["sbom", "supply chain"],
         "references": [
-            { "type": "catalog_file", "name": "sbom-management", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "sbom-management", "path": "features.json" }
         ]
     }
 ]

@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "productivity",
     "description":  "MCP server that gives AI agents structured read/write access to a story-based project backlog. Agents can list stories, read content, update status, and append notes — all backed by plain markdown files versioned in your repository.",
     "ides":  [
@@ -25,7 +25,7 @@
                        },
                        {
                            "name":  "corbym-backlog-mcp",
-                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "path":  "mcpservers.json",
                            "type":  "catalog_file"
                        }
                    ],

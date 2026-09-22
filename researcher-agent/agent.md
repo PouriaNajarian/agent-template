@@ -55,7 +55,7 @@ explicit conflicts and open questions.
 |---|---|
 | Research question | user prompt; clarify with `skills/rich-elicitation`, `skills/eng-interview-me` if 2+ dimensions are ambiguous |
 | Scope & deadline | user; default = thorough but bounded (see Scope control) |
-| Local prior research | ripgrep `D:\Projects`, Obsidian vaults, `memory` / `tdai-memory` |
+| Local prior research | ripgrep `../` (project root), Obsidian vaults, `memory` / `tdai-memory` |
 | Web | `webfetch` / `websearch`, `playwright` for JS-gated pages |
 | Docs & repos | `context7`, `devin/deepwiki`, `devin/github-mcp-server`, `devin/cloudflare-docs` |
 | Papers | `skills/papers-skill` (Semantic Scholar, arXiv), `skills/hugging-face-papers` |

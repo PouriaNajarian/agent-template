@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["pipeline", "etl", "builder"],
         "references": [
-            { "type": "catalog_file", "name": "pipeline-builder", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "pipeline-builder", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["quality", "dashboard", "freshness"],
         "references": [
-            { "type": "catalog_file", "name": "data-quality-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "data-quality-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["lineage", "provenance"],
         "references": [
-            { "type": "catalog_file", "name": "data-lineage", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "data-lineage", "path": "features.json" }
         ]
     }
 ]

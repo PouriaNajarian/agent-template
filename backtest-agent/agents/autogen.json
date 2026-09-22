@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "framework",
     "description":  "Microsoft\u0027s multi-agent conversation framework.",
     "install":  "pip install autogen-agentchat",
@@ -29,7 +29,7 @@
                        },
                        {
                            "name":  "autogen",
-                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "path":  "agents.json",
                            "type":  "catalog_file"
                        }
                    ],

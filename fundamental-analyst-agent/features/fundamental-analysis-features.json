@@ -7,7 +7,7 @@
         "relevance": 0.2,
         "keywords": ["fundamentals", "dashboard", "ratios"],
         "references": [
-            { "type": "catalog_file", "name": "fundamental-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "fundamental-dashboard", "path": "features.json" }
         ]
     },
     {
@@ -18,7 +18,7 @@
         "relevance": 0.18,
         "keywords": ["dcf", "valuation", "sensitivity"],
         "references": [
-            { "type": "catalog_file", "name": "valuation-modeler", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "valuation-modeler", "path": "features.json" }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "relevance": 0.16,
         "keywords": ["filings", "sec", "10-k"],
         "references": [
-            { "type": "catalog_file", "name": "filings-reader", "path": "D:\\Projects\\MCP Skills\\features.json" }
+            { "type": "catalog_file", "name": "filings-reader", "path": "features.json" }
         ]
     }
 ]
