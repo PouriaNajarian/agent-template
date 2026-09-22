@@ -1,0 +1,35 @@
+[
+    {
+        "category": "finance",
+        "description": "Strategy builder: visual block + natural language strategy creation to backtest.",
+        "name": "strategy-builder",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["strategy", "builder", "backtest"],
+        "references": [
+            { "type": "catalog_file", "name": "strategy-builder", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Risk dashboard: per-trade and portfolio caps, drawdown guards, R-multiple tracking.",
+        "name": "risk-dashboard",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["risk", "dashboard", "limits"],
+        "references": [
+            { "type": "catalog_file", "name": "risk-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Strategy journal: decision capture (thesis, plan, emotion) graded by decision quality, not P&L.",
+        "name": "strategy-journal",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["journal", "trading-ledger", "decisions"],
+        "references": [
+            { "type": "catalog_file", "name": "strategy-journal", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

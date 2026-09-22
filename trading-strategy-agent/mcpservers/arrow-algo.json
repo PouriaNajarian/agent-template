@@ -1,0 +1,15 @@
+﻿{
+    "name":  "arrow-algo",
+    "category":  "finance",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Automate Your Trading. Zero Code Required. Build, backtest, and run algorithmic strategies using visual blocks and AI. Connect your exchange and go live in minutes.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/arrowalgo-com-docs",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "qretro",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Your team\u0026#x27;s retrospectives, available to any MCP client — read boards, summaries, health trends and open action items, run planning poker, and write back.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/qretro-com-docs-mcp",
+    "url":  "",
+    "custom":  false
+}

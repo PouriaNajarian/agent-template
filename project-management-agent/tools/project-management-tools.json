@@ -1,0 +1,67 @@
+[
+    {
+        "category": "project-management",
+        "description": "Jira - issue and project tracking: issues, sprints, boards, roadmaps.",
+        "license": "Proprietary (free tier)",
+        "name": "Jira",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://www.atlassian.com/software/jira",
+        "keywords": ["jira", "issues", "sprints", "agile"],
+        "references": [
+            { "type": "web", "url": "https://www.atlassian.com/software/jira", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Linear - issue tracking and project management with speed as a feature.",
+        "license": "Proprietary (free tier)",
+        "name": "Linear",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://linear.app",
+        "keywords": ["linear", "issues", "projects"],
+        "references": [
+            { "type": "web", "url": "https://linear.app", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Notion - docs + databases for plans, wikis and trackers.",
+        "license": "Proprietary (free tier)",
+        "name": "Notion",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://www.notion.so",
+        "keywords": ["notion", "databases", "docs"],
+        "references": [
+            { "type": "web", "url": "https://www.notion.so", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Asana - work management: projects, tasks, timelines.",
+        "license": "Proprietary (free tier)",
+        "name": "Asana",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://asana.com",
+        "keywords": ["asana", "tasks", "projects"],
+        "references": [
+            { "type": "web", "url": "https://asana.com", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "productivity",
+        "description": "Todoist - personal and team task management.",
+        "license": "Proprietary (free tier)",
+        "name": "Todoist",
+        "ranking": "vector",
+        "relevance": 0.11,
+        "url": "https://todoist.com",
+        "keywords": ["todoist", "tasks"],
+        "references": [
+            { "type": "web", "url": "https://todoist.com", "hint": "Official site / source repository" }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "unquant",
+    "category":  "finance",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Hosted remote financial data MCP for AI agents, covering market data, company fundamentals, financial news, macroeconomics, and US Congress disclosures.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/dev-streetbeat/unquant-mcp-examples",
+    "url":  "",
+    "custom":  false
+}

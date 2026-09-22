@@ -1,0 +1,380 @@
+﻿{
+    "name":  "data-engineer-agent",
+    "generated":  "2026-09-22T14:29:25",
+    "generated_by":  "opencode - built from mcp-skills (vector index) + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (vector ranking; DeepSeek combined ranker timed out)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  72,
+                   "skills":  23,
+                   "workflows":  4,
+                   "mcpservers":  15,
+                   "agents":  6,
+                   "subagents":  5,
+                   "mcp_inventory":  8,
+                   "advice":  2
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  7799
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3850
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  11194
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3244
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  3848
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  400
+                  },
+                  {
+                      "path":  "advice\\task-advice-report.md",
+                      "category":  "advice",
+                      "bytes":  4708
+                  },
+                  {
+                      "path":  "advice\\task-advice.json",
+                      "category":  "advice",
+                      "bytes":  4902
+                  },
+                  {
+                      "path":  "agents\\autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents\\claude-code.json",
+                      "category":  "agents",
+                      "bytes":  1810
+                  },
+                  {
+                      "path":  "agents\\crewai.json",
+                      "category":  "agents",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "agents\\dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents\\flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents\\langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "docs\\data-engineer-docs.json",
+                      "category":  "docs",
+                      "bytes":  1898
+                  },
+                  {
+                      "path":  "features\\data-engineer-features.json",
+                      "category":  "features",
+                      "bytes":  1331
+                  },
+                  {
+                      "path":  "mcp-inventory\\agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  33557
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  56545
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  8790
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633470
+                  },
+                  {
+                      "path":  "mcp-inventory\\system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3864
+                  },
+                  {
+                      "path":  "mcpservers\\agent-mcp-orchestrator.json",
+                      "category":  "mcpservers",
+                      "bytes":  1845
+                  },
+                  {
+                      "path":  "mcpservers\\airflow-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  444
+                  },
+                  {
+                      "path":  "mcpservers\\clickhouse.json",
+                      "category":  "mcpservers",
+                      "bytes":  410
+                  },
+                  {
+                      "path":  "mcpservers\\context7.json",
+                      "category":  "mcpservers",
+                      "bytes":  1443
+                  },
+                  {
+                      "path":  "mcpservers\\data-studio-agent.json",
+                      "category":  "mcpservers",
+                      "bytes":  654
+                  },
+                  {
+                      "path":  "mcpservers\\dbt-labs-dbt-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  518
+                  },
+                  {
+                      "path":  "mcpservers\\filesystem.json",
+                      "category":  "mcpservers",
+                      "bytes":  1534
+                  },
+                  {
+                      "path":  "mcpservers\\git.json",
+                      "category":  "mcpservers",
+                      "bytes":  1302
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-skills.json",
+                      "category":  "mcpservers",
+                      "bytes":  1461
+                  },
+                  {
+                      "path":  "mcpservers\\memory.json",
+                      "category":  "mcpservers",
+                      "bytes":  1389
+                  },
+                  {
+                      "path":  "mcpservers\\mongodb-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  442
+                  },
+                  {
+                      "path":  "mcpservers\\playwright.json",
+                      "category":  "mcpservers",
+                      "bytes":  1508
+                  },
+                  {
+                      "path":  "mcpservers\\postgres-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  1206
+                  },
+                  {
+                      "path":  "mcpservers\\sixta-connect.json",
+                      "category":  "mcpservers",
+                      "bytes":  410
+                  },
+                  {
+                      "path":  "mcpservers\\winremote.json",
+                      "category":  "mcpservers",
+                      "bytes":  1328
+                  },
+                  {
+                      "path":  "skills\\content-hash-cache-pattern\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7236
+                  },
+                  {
+                      "path":  "skills\\cron-scheduler\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  217
+                  },
+                  {
+                      "path":  "skills\\data-engineer\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11948
+                  },
+                  {
+                      "path":  "skills\\data-engineering-data-pipeline\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7553
+                  },
+                  {
+                      "path":  "skills\\data-quality-frameworks\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1878
+                  },
+                  {
+                      "path":  "skills\\data-quality-frameworks\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  15943
+                  },
+                  {
+                      "path":  "skills\\data-storytelling\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13631
+                  },
+                  {
+                      "path":  "skills\\database\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5002
+                  },
+                  {
+                      "path":  "skills\\database-admin\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10283
+                  },
+                  {
+                      "path":  "skills\\database-architect\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  17642
+                  },
+                  {
+                      "path":  "skills\\database-design\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2067
+                  },
+                  {
+                      "path":  "skills\\database-design\\scripts\\schema_validator.py",
+                      "category":  "skills",
+                      "bytes":  5547
+                  },
+                  {
+                      "path":  "skills\\database-migration\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11878
+                  },
+                  {
+                      "path":  "skills\\database-migrations-sql-migrations\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2602
+                  },
+                  {
+                      "path":  "skills\\database-migrations-sql-migrations\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  14994
+                  },
+                  {
+                      "path":  "skills\\eng-observability-and-instrumentation\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11051
+                  },
+                  {
+                      "path":  "skills\\eng-performance-optimization\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  15143
+                  },
+                  {
+                      "path":  "skills\\ml-data-pipeline\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1725
+                  },
+                  {
+                      "path":  "skills\\ml-feature-engineering\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2110
+                  },
+                  {
+                      "path":  "skills\\postgresql-optimization\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4346
+                  },
+                  {
+                      "path":  "skills\\quant-analyst\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2192
+                  },
+                  {
+                      "path":  "skills\\sql-pro\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8305
+                  },
+                  {
+                      "path":  "skills\\sql-schema-design\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  231
+                  },
+                  {
+                      "path":  "subagents\\backfill-runner.md",
+                      "category":  "subagents",
+                      "bytes":  855
+                  },
+                  {
+                      "path":  "subagents\\data-dictionary-writer.md",
+                      "category":  "subagents",
+                      "bytes":  771
+                  },
+                  {
+                      "path":  "subagents\\pipeline-builder.md",
+                      "category":  "subagents",
+                      "bytes":  909
+                  },
+                  {
+                      "path":  "subagents\\quality-checker.md",
+                      "category":  "subagents",
+                      "bytes":  931
+                  },
+                  {
+                      "path":  "subagents\\schema-designer.md",
+                      "category":  "subagents",
+                      "bytes":  1072
+                  },
+                  {
+                      "path":  "tools\\data-engineer-tools.json",
+                      "category":  "tools",
+                      "bytes":  2625
+                  },
+                  {
+                      "path":  "workflows\\data-pipeline-build.md",
+                      "category":  "workflows",
+                      "bytes":  2618
+                  },
+                  {
+                      "path":  "workflows\\data-pipeline.md",
+                      "category":  "workflows",
+                      "bytes":  1955
+                  },
+                  {
+                      "path":  "workflows\\data-warehouse-build.md",
+                      "category":  "workflows",
+                      "bytes":  2800
+                  },
+                  {
+                      "path":  "workflows\\fw-ml-data-pipeline.md",
+                      "category":  "workflows",
+                      "bytes":  3545
+                  }
+              ]
+}

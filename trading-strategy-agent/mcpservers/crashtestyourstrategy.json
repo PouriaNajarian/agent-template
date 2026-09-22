@@ -1,0 +1,15 @@
+﻿{
+    "name":  "crashtestyourstrategy",
+    "category":  "finance",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Portfolio \u0026amp; trading-strategy stress diagnostics for AI agents: multi-asset stress with hedge-break detection, a daily preregistered regime outlook and deflated-Sharpe backtest-integrity checks. Remote streamable HTTP, free tier, no auth.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/fnobbe/crashtestyourstrategy-mcp",
+    "url":  "",
+    "custom":  false
+}

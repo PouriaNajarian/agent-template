@@ -1,0 +1,15 @@
+﻿{
+    "name":  "owasp-agentic-security-mcp",
+    "category":  "other",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "OWASP agentic AI security — prompt injection detection, tool poisoning prevention, agent trust boundaries by MEOK AI Labs",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/csoai-org/owasp-agentic-mcp",
+    "url":  "",
+    "custom":  false
+}

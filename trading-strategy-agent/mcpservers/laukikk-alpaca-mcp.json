@@ -1,0 +1,15 @@
+﻿{
+    "name":  "laukikk-alpaca-mcp",
+    "category":  "finance-fintech",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "An MCP Server for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access market data.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/laukikk/alpaca-mcp",
+    "url":  "",
+    "custom":  false
+}

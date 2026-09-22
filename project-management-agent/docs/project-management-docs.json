@@ -1,0 +1,38 @@
+[
+    {
+        "category": "project-management",
+        "description": "Jira documentation - issues, boards, sprints, reports.",
+        "name": "jira-docs",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://support.atlassian.com/jira-software-cloud",
+        "keywords": ["jira", "sprints", "agile"],
+        "references": [
+            { "type": "web", "url": "https://support.atlassian.com/jira-software-cloud", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Linear documentation - issue tracking, projects, roadmaps.",
+        "name": "linear-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://linear.app/docs",
+        "keywords": ["linear", "projects"],
+        "references": [
+            { "type": "web", "url": "https://linear.app/docs", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "PMBOK Guide - project management body of knowledge (planning, risk, schedule).",
+        "name": "pmbok-docs",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://www.pmi.org/pmbok-guide-standards",
+        "keywords": ["pmbok", "planning", "risk"],
+        "references": [
+            { "type": "web", "url": "https://www.pmi.org/pmbok-guide-standards", "hint": "The documentation page itself" }
+        ]
+    }
+]

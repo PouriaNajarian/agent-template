@@ -1,0 +1,466 @@
+﻿[
+    {
+        "category":  "crypto",
+        "description":  "Crypto exchange platform guide - order books, custody, KYC, market data, security best practices.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "crypto",
+                         "exchange",
+                         "custody",
+                         "order book"
+                     ],
+        "llm_reason":  "",
+        "name":  "crypto-exchange-guide",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://www.binance.com/en/research"
+                           },
+                           {
+                               "name":  "crypto-exchange-guide",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0328,
+        "url":  "https://www.binance.com/en/research"
+    },
+    {
+        "category":  "apis",
+        "description":  "GitHub REST API documentation - search, repositories, code scanning, rate limits.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "github",
+                         "rest api",
+                         "search",
+                         "repositories",
+                         "rate limits"
+                     ],
+        "llm_reason":  "",
+        "name":  "github-rest-api-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://docs.github.com/rest"
+                           },
+                           {
+                               "name":  "github-rest-api-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0323,
+        "url":  "https://docs.github.com/rest"
+    },
+    {
+        "category":  "security",
+        "description":  "Identity and OAuth/OIDC reference - authorization flows, tokens, SSO, passwordless.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "oauth",
+                         "oidc",
+                         "identity",
+                         "sso"
+                     ],
+        "llm_reason":  "",
+        "name":  "identity-oauth-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://oauth.net/2"
+                           },
+                           {
+                               "name":  "identity-oauth-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0317,
+        "url":  "https://oauth.net/2"
+    },
+    {
+        "category":  "banking",
+        "description":  "Open Banking / PSD2 specifications - consent, APIs, strong customer authentication.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "open banking",
+                         "psd2",
+                         "apis",
+                         "consent"
+                     ],
+        "llm_reason":  "",
+        "name":  "open-banking-psd2-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://www.openbanking.org.uk"
+                           },
+                           {
+                               "name":  "open-banking-psd2-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0312,
+        "url":  "https://www.openbanking.org.uk"
+    },
+    {
+        "category":  "it-service-management",
+        "description":  "ITIL 4 practice documentation by AXELOS/PeopleCert - incident, problem, change, release, service desk and more.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "itil",
+                         "itsm",
+                         "practices"
+                     ],
+        "llm_reason":  "",
+        "name":  "itil-axelos-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://www.axelos.com/certifications/itil-service-management"
+                           },
+                           {
+                               "name":  "itil-axelos-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0308,
+        "url":  "https://www.axelos.com/certifications/itil-service-management"
+    },
+    {
+        "category":  "mcp",
+        "description":  "Official Model Context Protocol specification - transport, lifecycle, tools, sampling, authentication.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "mcp",
+                         "specification",
+                         "protocol",
+                         "transports",
+                         "stdio",
+                         "http"
+                     ],
+        "llm_reason":  "",
+        "name":  "model-context-protocol-spec",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://modelcontextprotocol.io/specification"
+                           },
+                           {
+                               "name":  "model-context-protocol-spec",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0303,
+        "url":  "https://modelcontextprotocol.io/specification"
+    },
+    {
+        "category":  "crypto",
+        "description":  "DeFi protocols and standards - swaps, liquidity pools, ERC-20/721, security audits.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "defi",
+                         "swaps",
+                         "liquidity",
+                         "ethereum"
+                     ],
+        "llm_reason":  "",
+        "name":  "defi-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://ethereum.org/en/defi"
+                           },
+                           {
+                               "name":  "defi-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0299,
+        "url":  "https://ethereum.org/en/defi"
+    },
+    {
+        "category":  "social",
+        "description":  "Social platform reference - feeds, moderation, activity graphs, notification systems.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "social",
+                         "feeds",
+                         "moderation"
+                     ],
+        "llm_reason":  "",
+        "name":  "social-platform-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://developers.facebook.com/docs"
+                           },
+                           {
+                               "name":  "social-platform-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0294,
+        "url":  "https://developers.facebook.com/docs"
+    },
+    {
+        "category":  "education",
+        "description":  "Learning management system reference - courses, SCORM/xAPI, assessments, certificates.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "lms",
+                         "courses",
+                         "scorm",
+                         "xapi"
+                     ],
+        "llm_reason":  "",
+        "name":  "lms-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://www.imsglobal.org"
+                           },
+                           {
+                               "name":  "lms-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.029,
+        "url":  "https://www.imsglobal.org"
+    },
+    {
+        "category":  "web",
+        "description":  "Tailwind CSS documentation - utilities, config, themes.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "tailwind",
+                         "css",
+                         "styling"
+                     ],
+        "llm_reason":  "",
+        "name":  "tailwindcss-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://tailwindcss.com/docs"
+                           },
+                           {
+                               "name":  "tailwindcss-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0286,
+        "url":  "https://tailwindcss.com/docs"
+    },
+    {
+        "category":  "programming",
+        "description":  "Python standard library and language reference documentation.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "python",
+                         "standard library",
+                         "language reference",
+                         "programming"
+                     ],
+        "llm_reason":  "",
+        "name":  "python-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://docs.python.org/3"
+                           },
+                           {
+                               "name":  "python-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0282,
+        "url":  "https://docs.python.org/3"
+    },
+    {
+        "category":  "backend",
+        "description":  "API gateway and design reference - versioning, rate limiting, auth, observability.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "api",
+                         "gateway",
+                         "rate limiting"
+                     ],
+        "llm_reason":  "",
+        "name":  "api-gateway-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://apis.guru"
+                           },
+                           {
+                               "name":  "api-gateway-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0278,
+        "url":  "https://apis.guru"
+    },
+    {
+        "category":  "ux",
+        "description":  "UX/UI guidelines - usability heuristics, onboarding, conversion optimization.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "ux",
+                         "usability",
+                         "onboarding"
+                     ],
+        "llm_reason":  "",
+        "name":  "ux-guidelines-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://www.nngroup.com/articles"
+                           },
+                           {
+                               "name":  "ux-guidelines-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0274,
+        "url":  "https://www.nngroup.com/articles"
+    },
+    {
+        "category":  "real-estate",
+        "description":  "Real estate platform reference - listings, MLS integration, mortgage calculators, virtual tours.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "real estate",
+                         "listings",
+                         "mls",
+                         "mortgage"
+                     ],
+        "llm_reason":  "",
+        "name":  "real-estate-platform-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://www.mls.com"
+                           },
+                           {
+                               "name":  "real-estate-platform-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.027,
+        "url":  "https://www.mls.com"
+    },
+    {
+        "category":  "apis",
+        "description":  "Google Maps Platform documentation - Maps JS, Geocoding, Places, Directions, Routes APIs.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "google maps",
+                         "maps",
+                         "geocoding",
+                         "places",
+                         "directions"
+                     ],
+        "llm_reason":  "",
+        "name":  "google-maps-platform-docs",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "The documentation page itself",
+                               "type":  "web",
+                               "url":  "https://developers.google.com/maps"
+                           },
+                           {
+                               "name":  "google-maps-platform-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0267,
+        "url":  "https://developers.google.com/maps"
+    }
+]

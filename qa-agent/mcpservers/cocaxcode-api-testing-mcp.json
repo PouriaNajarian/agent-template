@@ -1,0 +1,15 @@
+﻿{
+    "name":  "cocaxcode-api-testing-mcp",
+    "category":  "developer-tools",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "The most complete API testing MCP — Postman inside your AI assistant. Per-project environment groups with {{variable}} interpolation, saved collections, multi-step flows with response extraction, assertions, load testing, and OpenAPI mock generation. 42 tools, zero cloud account needed.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/cocaxcode/api-testing-mcp",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,42 @@
+{
+    "name":  "devin__github-mcp-server",
+    "category":  "remote",
+    "description":  "GitHub MCP server (https://api.githubcopilot.com/mcp). Repository, file, issue and PR context for research on open-source projects. Remote MCP, installed on this machine.",
+    "transport":  "http",
+    "url":  "https://api.githubcopilot.com/mcp",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "ides":  [
+                 "claude",
+                 "opencode",
+                 "devin"
+             ],
+    "keywords":  [
+                     "github",
+                     "repositories",
+                     "issues",
+                     "source",
+                     "research"
+                 ],
+    "references":  [
+                       {
+                           "type":  "remote",
+                           "url":  "https://api.githubcopilot.com/mcp"
+                       },
+                       {
+                           "type":  "web",
+                           "url":  "https://github.com"
+                       }
+                   ],
+    "status":  "up (auth-gated)",
+    "relevance":  "primary-source access for open-source research",
+    "tools_for_research":  [
+                               "get_file_contents",
+                               "search_repositories",
+                               "list_issues",
+                               "search_code"
+                           ]
+}

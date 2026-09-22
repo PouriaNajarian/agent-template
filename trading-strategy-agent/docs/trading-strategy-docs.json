@@ -1,0 +1,38 @@
+[
+    {
+        "category": "finance",
+        "description": "QuantConnect documentation - strategy development, LEAN engine, data, orders.",
+        "name": "quantconnect-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://www.quantconnect.com/docs",
+        "keywords": ["quantconnect", "strategy", "lean"],
+        "references": [
+            { "type": "web", "url": "https://www.quantconnect.com/docs", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Backtrader documentation - cerebro, strategies, analyzers, indicators.",
+        "name": "backtrader-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://www.backtrader.com/docu",
+        "keywords": ["backtrader", "backtest"],
+        "references": [
+            { "type": "web", "url": "https://www.backtrader.com/docu", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "VectorBT documentation - signal generation, portfolio analytics, parameter sweeps.",
+        "name": "vectorbt-docs",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://vectorbt.dev/doc",
+        "keywords": ["vectorbt", "backtest"],
+        "references": [
+            { "type": "web", "url": "https://vectorbt.dev/doc", "hint": "The documentation page itself" }
+        ]
+    }
+]

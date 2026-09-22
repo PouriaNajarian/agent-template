@@ -1,0 +1,43 @@
+﻿{
+    "name":  "unity-docs",
+    "category":  "search",
+    "description":  "Search and retrieve Unity documentation and API references locally with smart version handling.",
+    "source_url":  "https://mcpservers.org/servers/Saqoosha/unity-docs-mcp",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "search",
+                     "retrieve",
+                     "unity",
+                     "documentation"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/Saqoosha/unity-docs-mcp",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "unity-docs",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0308,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027unity-docs\u0027)"
+}

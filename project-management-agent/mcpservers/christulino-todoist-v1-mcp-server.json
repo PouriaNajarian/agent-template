@@ -1,0 +1,15 @@
+﻿{
+    "name":  "christulino-todoist-v1-mcp-server",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "MCP server for Todoist built on the unified API v1. Stdio transport, 20 tools covering tasks, projects, sections, and labels. No daily reconnection issues.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/christulino/todoist-v1-mcp-server",
+    "url":  "",
+    "custom":  false
+}

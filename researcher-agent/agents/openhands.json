@@ -1,0 +1,49 @@
+﻿{
+    "name":  "openhands",
+    "category":  "cloud-agent",
+    "usage_areas":  [
+                        "coding",
+                        "automation"
+                    ],
+    "description":  "Open-source autonomous software development agent (formerly OpenDevin).",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac",
+                      "web"
+                  ],
+    "install":  "docker run -it --pull=always ghcr.io/all-hands-ai/openhands",
+    "source_url":  "https://docs.all-hands.dev",
+    "tutorial":  "https://docs.all-hands.dev",
+    "keywords":  [
+                     "openhands",
+                     "devin",
+                     "autonomous"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://docs.all-hands.dev",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://docs.all-hands.dev",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "docker run -it --pull=always ghcr.io/all-hands-ai/openhands"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "openhands",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.103,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

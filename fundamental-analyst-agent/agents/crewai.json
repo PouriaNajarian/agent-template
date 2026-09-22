@@ -1,0 +1,43 @@
+﻿{
+    "category":  "framework",
+    "description":  "Multi-agent orchestration framework for Python.",
+    "install":  "pip install crewai crewai-tools",
+    "keywords":  [
+                     "crew",
+                     "agents",
+                     "orchestration"
+                 ],
+    "name":  "crewai",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://crewai.com"
+                       },
+                       {
+                           "hint":  "Official docs / tutorial",
+                           "type":  "docs",
+                           "url":  "https://docs.crewai.com"
+                       },
+                       {
+                           "command":  "pip install crewai crewai-tools",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "crewai",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://crewai.com",
+    "tutorial":  "https://docs.crewai.com",
+    "usage_areas":  [
+                        "agents",
+                        "automation"
+                    ]
+}

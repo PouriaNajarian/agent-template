@@ -1,0 +1,72 @@
+[
+    {
+        "category": "data",
+        "description": "Open-source workflow management platform for data pipelines.",
+        "license": "Apache-2.0",
+        "name": "Airflow",
+        "ranking": "vector",
+        "relevance": 0.233,
+        "url": "https://airflow.apache.org",
+        "skill": "cron-scheduler",
+        "keywords": ["pipelines", "scheduler"],
+        "references": [
+            { "type": "web", "url": "https://airflow.apache.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Data build tool - analytics engineering with SQL models and tests.",
+        "license": "Apache-2.0",
+        "name": "dbt",
+        "ranking": "vector",
+        "relevance": 0.188,
+        "url": "https://www.getdbt.com",
+        "skill": "ml-data-pipeline",
+        "keywords": ["elt", "sql", "analytics"],
+        "references": [
+            { "type": "web", "url": "https://www.getdbt.com", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Data analysis and manipulation toolkit for Python.",
+        "license": "BSD-3-Clause",
+        "name": "Pandas",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "url": "https://pandas.pydata.org",
+        "skill": "ml-data-pipeline",
+        "keywords": ["dataframes", "analysis"],
+        "references": [
+            { "type": "web", "url": "https://pandas.pydata.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "In-process analytical SQL database for data analysis.",
+        "license": "MIT",
+        "name": "DuckDB",
+        "ranking": "vector",
+        "relevance": 0.138,
+        "url": "https://duckdb.org",
+        "skill": "sql-schema-design",
+        "keywords": ["analytics", "sql", "embedded"],
+        "references": [
+            { "type": "web", "url": "https://duckdb.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Great Expectations - data quality validation with expectations, suites and docs.",
+        "license": "Apache-2.0",
+        "name": "Great Expectations",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://greatexpectations.io",
+        "skill": "data-quality-frameworks",
+        "keywords": ["data quality", "expectations", "validation"],
+        "references": [
+            { "type": "web", "url": "https://greatexpectations.io", "hint": "Official site / source repository" }
+        ]
+    }
+]

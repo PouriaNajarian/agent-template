@@ -1,0 +1,54 @@
+[
+    {
+        "category": "project-management",
+        "description": "Jira - issue and sprint tracking: boards, sprints, reports (velocity, burndown).",
+        "license": "Proprietary (free tier)",
+        "name": "Jira",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://www.atlassian.com/software/jira",
+        "keywords": ["jira", "sprints", "agile", "scrum"],
+        "references": [
+            { "type": "web", "url": "https://www.atlassian.com/software/jira", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Linear - issue tracking with fast agile workflows.",
+        "license": "Proprietary (free tier)",
+        "name": "Linear",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://linear.app",
+        "keywords": ["linear", "issues", "agile"],
+        "references": [
+            { "type": "web", "url": "https://linear.app", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "productivity",
+        "description": "QRetro - retrospectives: boards, health trends, action items, planning poker.",
+        "license": "Proprietary (free tier)",
+        "name": "QRetro",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://qretro.com",
+        "keywords": ["retrospective", "agile", "boards"],
+        "references": [
+            { "type": "web", "url": "https://qretro.com", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "EasyRetro - online sprint retrospectives.",
+        "license": "Proprietary (free tier)",
+        "name": "EasyRetro",
+        "ranking": "vector",
+        "relevance": 0.11,
+        "url": "https://easyretro.io",
+        "keywords": ["retrospective", "sprint"],
+        "references": [
+            { "type": "web", "url": "https://easyretro.io", "hint": "Official site / source repository" }
+        ]
+    }
+]

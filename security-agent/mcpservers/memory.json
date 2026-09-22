@@ -1,0 +1,38 @@
+﻿{
+    "category":  "core",
+    "description":  "Persistent knowledge-graph memory across sessions.",
+    "ides":  [
+                 "claude",
+                 "cursor",
+                 "opencode"
+             ],
+    "install":  "npx -y @modelcontextprotocol/server-memory",
+    "keywords":  [
+                     "knowledge graph",
+                     "memory",
+                     "persistence"
+                 ],
+    "name":  "memory",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/modelcontextprotocol/servers"
+                       },
+                       {
+                           "command":  "npx -y @modelcontextprotocol/server-memory",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "memory",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/modelcontextprotocol/servers"
+}

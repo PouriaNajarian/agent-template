@@ -1,0 +1,43 @@
+﻿{
+    "name":  "javadoc-mcp",
+    "category":  "development",
+    "description":  "A Model Context Protocol (MCP) server for searching Java documentation. This server enables AI assistants to search and retrieve Java API documentation from JSON files.",
+    "source_url":  "https://mcpservers.org/servers/github-com-beamliu-mcp-java-doc-tree-main",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "searching",
+                     "java",
+                     "documentation",
+                     "enables"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/github-com-beamliu-mcp-java-doc-tree-main",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "javadoc-mcp",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0312,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027javadoc-mcp\u0027)"
+}

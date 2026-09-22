@@ -1,0 +1,15 @@
+﻿{
+    "name":  "roychri-mcp-server-asana",
+    "category":  "integrations",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "This Model Context Protocol server implementation of Asana allows you to talk to Asana API from MCP Client such as Anthropic\u0027s Claude Desktop Application, and many more.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/roychri/mcp-server-asana",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,291 @@
+﻿[
+    {
+        "name":  "product-catalog",
+        "description":  "Product listing, categories, search and filtering with SEO-friendly URLs.",
+        "category":  "ecommerce",
+        "url":  "",
+        "keywords":  [
+                         "products",
+                         "catalog",
+                         "search"
+                     ],
+        "references":  [
+                           {
+                               "type":  "catalog_file",
+                               "name":  "product-catalog",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.217,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "search",
+        "description":  "Full-text and faceted search with typo tolerance.",
+        "category":  "backend",
+        "url":  "https://apis.guru",
+        "keywords":  [
+                         "search",
+                         "full text",
+                         "facets"
+                     ],
+        "related_docs":  [
+                             "api-gateway-docs"
+                         ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://apis.guru",
+                               "hint":  "Feature spec / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "search",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.188,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "reviews-ratings",
+        "description":  "Product reviews with ratings, moderation and verified-buyer badges.",
+        "category":  "ecommerce",
+        "url":  "",
+        "keywords":  [
+                         "reviews",
+                         "ratings"
+                     ],
+        "references":  [
+                           {
+                               "type":  "catalog_file",
+                               "name":  "reviews-ratings",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.176,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "open-banking",
+        "description":  "Open banking: PSD2 APIs, consent management, third-party provider integrations.",
+        "category":  "banking",
+        "keywords":  [
+                         "open banking",
+                         "psd2",
+                         "apis"
+                     ],
+        "url":  "https://www.openbanking.org.uk",
+        "related_docs":  [
+                             "open-banking-psd2-docs"
+                         ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.openbanking.org.uk",
+                               "hint":  "Feature spec / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "open-banking",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.163,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "mobile-banking",
+        "description":  "Mobile banking app: biometric login, quick balance, push alerts, card controls, P2P.",
+        "category":  "banking",
+        "keywords":  [
+                         "mobile",
+                         "banking app",
+                         "p2p"
+                     ],
+        "url":  "https://www.openbanking.org.uk",
+        "related_docs":  [
+                             "open-banking-psd2-docs"
+                         ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.openbanking.org.uk",
+                               "hint":  "Feature spec / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "mobile-banking",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.158,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "card-management",
+        "description":  "Card management: issue/freeze/report cards, limits, contactless, virtual cards.",
+        "category":  "banking",
+        "keywords":  [
+                         "cards",
+                         "debit",
+                         "credit",
+                         "virtual card"
+                     ],
+        "url":  "https://www.openbanking.org.uk",
+        "related_docs":  [
+                             "open-banking-psd2-docs"
+                         ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.openbanking.org.uk",
+                               "hint":  "Feature spec / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "card-management",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.158,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "it-governance",
+        "description":  "COBIT-style IT governance: EDM (evaluate, direct, monitor), APO, BAI, DSS, MEA process domains linking IT goals to business goals.",
+        "category":  "it-governance",
+        "keywords":  [
+                         "cobit",
+                         "governance",
+                         "edm",
+                         "apo",
+                         "bai",
+                         "dss",
+                         "mea"
+                     ],
+        "url":  "https://www.isaca.org/resources/cobit",
+        "related_docs":  [
+                             "cobit-isaca-docs"
+                         ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.isaca.org/resources/cobit",
+                               "hint":  "Feature spec / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "it-governance",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.153,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "order-tracking",
+        "description":  "Order status timeline with email/webhook updates for customers.",
+        "category":  "ecommerce",
+        "url":  "",
+        "keywords":  [
+                         "orders",
+                         "tracking",
+                         "status"
+                     ],
+        "references":  [
+                           {
+                               "type":  "catalog_file",
+                               "name":  "order-tracking",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.152,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "fraud-detection",
+        "description":  "Fraud detection: real-time rules and ML scoring, velocity checks, device fingerprinting, case management.",
+        "category":  "banking",
+        "keywords":  [
+                         "fraud",
+                         "scoring",
+                         "case management"
+                     ],
+        "url":  "https://www.openbanking.org.uk",
+        "related_docs":  [
+                             "open-banking-psd2-docs"
+                         ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.openbanking.org.uk",
+                               "hint":  "Feature spec / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "fraud-detection",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.15,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "deep-linking",
+        "description":  "Deep links routing users into specific app screens.",
+        "category":  "mobile",
+        "url":  "https://developer.android.com/docs",
+        "keywords":  [
+                         "deep links",
+                         "routing"
+                     ],
+        "related_docs":  [
+                             "mobile-app-docs"
+                         ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://developer.android.com/docs",
+                               "hint":  "Feature spec / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "deep-linking",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json"
+                           }
+                       ],
+        "relevance":  0.15,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    }
+]

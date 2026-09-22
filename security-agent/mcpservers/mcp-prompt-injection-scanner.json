@@ -1,0 +1,15 @@
+﻿{
+    "name":  "mcp-prompt-injection-scanner",
+    "category":  "other",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Detects prompt injection attacks in MCP tool inputs — OWASP LLM Top 10 coverage, real-time scanning, severity scoring for AI agent security",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/csoai-org/meok-mcp-injection-scan-mcp",
+    "url":  "",
+    "custom":  false
+}

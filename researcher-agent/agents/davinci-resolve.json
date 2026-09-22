@@ -1,0 +1,47 @@
+﻿{
+    "name":  "davinci-resolve",
+    "category":  "video-editor",
+    "usage_areas":  [
+                        "video"
+                    ],
+    "description":  "Professional video editing and color grading (AI features).",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "install":  "Download from blackmagicdesign.com",
+    "source_url":  "https://www.blackmagicdesign.com/products/davinciresolve",
+    "tutorial":  "https://docs.blackmagicdesign.com",
+    "keywords":  [
+                     "video",
+                     "editing",
+                     "color"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://www.blackmagicdesign.com/products/davinciresolve",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://docs.blackmagicdesign.com",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "Download from blackmagicdesign.com"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "davinci-resolve",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.097,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

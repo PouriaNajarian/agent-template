@@ -1,0 +1,50 @@
+[
+    {
+        "category": "database",
+        "description": "PostgreSQL documentation - queries, indexing, partitioning, vacuum, replication.",
+        "name": "postgresql-docs",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://www.postgresql.org/docs",
+        "keywords": ["postgresql", "sql", "indexing"],
+        "references": [
+            { "type": "web", "url": "https://www.postgresql.org/docs", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "dbt documentation - models, tests, sources, docs, Jinja.",
+        "name": "dbt-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://docs.getdbt.com",
+        "keywords": ["dbt", "sql", "models"],
+        "references": [
+            { "type": "web", "url": "https://docs.getdbt.com", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "DuckDB documentation - in-process analytics, parquet, query optimization.",
+        "name": "duckdb-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://duckdb.org/docs",
+        "keywords": ["duckdb", "analytics", "parquet"],
+        "references": [
+            { "type": "web", "url": "https://duckdb.org/docs", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Great Expectations documentation - data quality expectations, suites, data docs.",
+        "name": "greatexpectations-docs",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://docs.greatexpectations.io",
+        "keywords": ["data quality", "expectations"],
+        "references": [
+            { "type": "web", "url": "https://docs.greatexpectations.io", "hint": "The documentation page itself" }
+        ]
+    }
+]

@@ -1,0 +1,652 @@
+﻿[
+    {
+        "name":  "hannesrudolph-mcp-ragdocs",
+        "category":  "knowledge-memory",
+        "description":  "An MCP server implementation that provides tools for retrieving and processing documentation through vector search, enabling AI assistants to augment their responses with relevant documentation context",
+        "source_url":  "https://github.com/hannesrudolph/mcp-ragdocs",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "implementation",
+                         "provides",
+                         "tools",
+                         "retrieving"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://github.com/hannesrudolph/mcp-ragdocs",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "hannesrudolph-mcp-ragdocs",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.029,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  true,
+        "run_hint":  "free: download repo and run (stdio) - https://github.com/hannesrudolph/mcp-ragdocs"
+    },
+    {
+        "name":  "exa-mcp",
+        "category":  "web",
+        "description":  "Exa semantic web search and content retrieval.",
+        "source_url":  "https://github.com/exa-labs/exa-mcp-server",
+        "install":  "npx -y exa-mcp-server",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+                     "claude",
+                     "cursor",
+                     "opencode"
+                 ],
+        "keywords":  [
+                         "search",
+                         "semantic",
+                         "web"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://github.com/exa-labs/exa-mcp-server",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "npx -y exa-mcp-server"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "exa-mcp",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0286,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  true,
+        "run_hint":  "install \u0026 run: npx -y exa-mcp-server"
+    },
+    {
+        "name":  "rag-documentation-mcp-server",
+        "category":  "rag-mcp",
+        "description":  "Retrieve and process documentation using vector search to provide relevant context for AI assistants.",
+        "source_url":  "https://mcpservers.org/servers/rahulretnan/mcp-ragdocs",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "retrieve",
+                         "process",
+                         "documentation",
+                         "vector"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/rahulretnan/mcp-ragdocs",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "rag-documentation-mcp-server",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0328,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027rag-documentation-mcp-server\u0027)"
+    },
+    {
+        "name":  "rag-documentation",
+        "category":  "search",
+        "description":  "Retrieve and process documentation using vector search to provide context for AI assistants.",
+        "source_url":  "https://mcpservers.org/servers/hannesrudolph/mcp-ragdocs",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "retrieve",
+                         "process",
+                         "documentation",
+                         "vector"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/hannesrudolph/mcp-ragdocs",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "rag-documentation",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0323,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027rag-documentation\u0027)"
+    },
+    {
+        "name":  "mcp-documentation-server",
+        "category":  "development",
+        "description":  "An AI-powered documentation server for code improvement and management, with Claude and Brave Search integration.",
+        "source_url":  "https://mcpservers.org/servers/mahawi1992/mcp-documentation-server",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "powered",
+                         "documentation",
+                         "code",
+                         "improvement"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/mahawi1992/mcp-documentation-server",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "mcp-documentation-server",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0317,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027mcp-documentation-server\u0027)"
+    },
+    {
+        "name":  "javadoc-mcp",
+        "category":  "development",
+        "description":  "A Model Context Protocol (MCP) server for searching Java documentation. This server enables AI assistants to search and retrieve Java API documentation from JSON files.",
+        "source_url":  "https://mcpservers.org/servers/github-com-beamliu-mcp-java-doc-tree-main",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "searching",
+                         "java",
+                         "documentation",
+                         "enables"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/github-com-beamliu-mcp-java-doc-tree-main",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "javadoc-mcp",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0312,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027javadoc-mcp\u0027)"
+    },
+    {
+        "name":  "unity-docs",
+        "category":  "search",
+        "description":  "Search and retrieve Unity documentation and API references locally with smart version handling.",
+        "source_url":  "https://mcpservers.org/servers/Saqoosha/unity-docs-mcp",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "search",
+                         "retrieve",
+                         "unity",
+                         "documentation"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/Saqoosha/unity-docs-mcp",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "unity-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0308,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027unity-docs\u0027)"
+    },
+    {
+        "name":  "rememberizer-common-knowledge",
+        "category":  "search",
+        "description":  "Provides semantic search and retrieval for internal company knowledge bases, including documents and Slack discussions.",
+        "source_url":  "https://mcpservers.org/servers/skydeckai/rememberizer-mcp-company-data-ck",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "provides",
+                         "semantic",
+                         "search",
+                         "retrieval"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/skydeckai/rememberizer-mcp-company-data-ck",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "rememberizer-common-knowledge",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0303,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027rememberizer-common-knowledge\u0027)"
+    },
+    {
+        "name":  "aws-documentation",
+        "category":  "search",
+        "description":  "Fetch, convert, and search AWS documentation pages, with recommendations for related content.",
+        "source_url":  "https://mcpservers.org/servers/awslabs/aws-documentation-mcp-server",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "fetch",
+                         "convert",
+                         "search",
+                         "documentation"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/awslabs/aws-documentation-mcp-server",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "aws-documentation",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0299,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027aws-documentation\u0027)"
+    },
+    {
+        "name":  "mcpdoc",
+        "category":  "search",
+        "description":  "Access website documentation for AI search engines (llms.txt files) over MCP.",
+        "source_url":  "https://mcpservers.org/servers/tevinric/mcpdoc",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "website",
+                         "documentation",
+                         "search",
+                         "engines"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/tevinric/mcpdoc",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "mcpdoc",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0294,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027mcpdoc\u0027)"
+    },
+    {
+        "name":  "techmanual-ai",
+        "category":  "search",
+        "description":  "Search and retrieve technical documentation for T\u0026amp;M, industrial automation, and power electronics. Covers everything from oscilloscopes, microcontrollers, vehicles, power supplies, and more from a wide range of manufacturers.",
+        "source_url":  "https://mcpservers.org/servers/techmanual-ai/techmanual.ai",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "search",
+                         "retrieve",
+                         "technical",
+                         "documentation"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/techmanual-ai/techmanual.ai",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "techmanual-ai",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0282,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027techmanual-ai\u0027)"
+    },
+    {
+        "name":  "document-evaluation-mcp-server",
+        "category":  "pdf-mcp",
+        "description":  "Evaluates technical documentation against globalization standards, analyzing for translation issues, ambiguity, and sentence length.",
+        "source_url":  "https://mcpservers.org/servers/yamasite/GlobalizationWritingMCP",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "evaluates",
+                         "technical",
+                         "documentation",
+                         "against"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/yamasite/GlobalizationWritingMCP",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "document-evaluation-mcp-server",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0278,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027document-evaluation-mcp-server\u0027)"
+    },
+    {
+        "name":  "node-js-api-docs",
+        "category":  "development",
+        "description":  "An MCP server for accessing and searching Node.js API documentation.",
+        "source_url":  "https://mcpservers.org/servers/lirantal/mcp-server-nodejs-api-docs",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "accessing",
+                         "searching",
+                         "node",
+                         "documentation"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/lirantal/mcp-server-nodejs-api-docs",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "node-js-api-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0274,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027node-js-api-docs\u0027)"
+    },
+    {
+        "name":  "documind-mcp-server",
+        "category":  "development",
+        "description":  "An MCP server for analyzing documentation quality using advanced neural processing.",
+        "source_url":  "https://mcpservers.org/servers/Sunwood-ai-labs/documind-mcp-server",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "analyzing",
+                         "documentation",
+                         "quality",
+                         "advanced"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/Sunwood-ai-labs/documind-mcp-server",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "documind-mcp-server",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.027,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027documind-mcp-server\u0027)"
+    },
+    {
+        "name":  "researcher-mcp",
+        "category":  "search",
+        "description":  "A research assistant powered by Perplexity AI for intelligent search, documentation retrieval, and code assistance.",
+        "source_url":  "https://mcpservers.org/servers/clssck/researcher-mcp",
+        "install":  "",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ides":  [
+
+                 ],
+        "keywords":  [
+                         "research",
+                         "assistant",
+                         "powered",
+                         "perplexity"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/clssck/researcher-mcp",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "researcher-mcp",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                           }
+                       ],
+        "relevance":  0.0267,
+        "ranking":  "combined",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "llm_reason":  "",
+        "query_used":  "MCP servers for web search and documentation retrieval",
+        "self_host":  false,
+        "run_hint":  "remote/paid service - see get_mcp_server(\u0027researcher-mcp\u0027)"
+    }
+]

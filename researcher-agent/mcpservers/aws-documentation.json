@@ -1,0 +1,43 @@
+﻿{
+    "name":  "aws-documentation",
+    "category":  "search",
+    "description":  "Fetch, convert, and search AWS documentation pages, with recommendations for related content.",
+    "source_url":  "https://mcpservers.org/servers/awslabs/aws-documentation-mcp-server",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "fetch",
+                     "convert",
+                     "search",
+                     "documentation"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/awslabs/aws-documentation-mcp-server",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "aws-documentation",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0299,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027aws-documentation\u0027)"
+}

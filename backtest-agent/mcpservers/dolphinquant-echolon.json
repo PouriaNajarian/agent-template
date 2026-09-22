@@ -1,0 +1,15 @@
+﻿{
+    "name":  "dolphinquant-echolon",
+    "category":  "finance-fintech",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "LLM-agent-native backtest framework for SHFE daily futures research. 23 MCP tools (strategy validation, scaffolding, indicator catalog, error-code lookup), 22 in-package skills, 32 catalogued error codes, working strategy templates. `pip install echolon` then `claude mcp add -s user echo",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/dolphinquant/echolon",
+    "url":  "",
+    "custom":  false
+}

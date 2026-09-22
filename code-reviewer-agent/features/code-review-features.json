@@ -1,0 +1,479 @@
+﻿[
+    {
+        "category":  "hr",
+        "description":  "Performance management: OKRs, reviews, 360 feedback, development plans.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "okr",
+                         "reviews",
+                         "feedback"
+                     ],
+        "llm_reason":  "",
+        "name":  "performance-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.sap.com/products/erp.html"
+                           },
+                           {
+                               "name":  "performance-review",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "erp-software-docs"
+                         ],
+        "relevance":  0.0328,
+        "url":  "https://www.sap.com/products/erp.html"
+    },
+    {
+        "category":  "ecommerce",
+        "description":  "Product reviews with ratings, moderation and verified-buyer badges.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "reviews",
+                         "ratings"
+                     ],
+        "llm_reason":  "",
+        "name":  "reviews-ratings",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "name":  "reviews-ratings",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0323,
+        "url":  ""
+    },
+    {
+        "category":  "crypto",
+        "description":  "Crypto wallets: hot/cold storage, withdrawal whitelisting, multi-sig, seed phrase management.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "wallet",
+                         "withdrawal",
+                         "multisig"
+                     ],
+        "llm_reason":  "",
+        "name":  "crypto-wallets",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.binance.com/en/research"
+                           },
+                           {
+                               "name":  "crypto-wallets",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "crypto-exchange-guide"
+                         ],
+        "relevance":  0.0317,
+        "url":  "https://www.binance.com/en/research"
+    },
+    {
+        "category":  "ecommerce",
+        "description":  "Product listing, categories, search and filtering with SEO-friendly URLs.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "products",
+                         "catalog",
+                         "search"
+                     ],
+        "llm_reason":  "",
+        "name":  "product-catalog",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "name":  "product-catalog",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0312,
+        "url":  ""
+    },
+    {
+        "category":  "analytics",
+        "description":  "Personalized product/content recommendations engine.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "recommendations",
+                         "personalization"
+                     ],
+        "llm_reason":  "",
+        "name":  "recommendations",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://developers.google.com/analytics"
+                           },
+                           {
+                               "name":  "recommendations",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "analytics-dashboard-docs"
+                         ],
+        "relevance":  0.0308,
+        "url":  "https://developers.google.com/analytics"
+    },
+    {
+        "category":  "finance",
+        "description":  "Financial reporting: P\u0026L, balance sheet, cash flow statements, IFRS/GAAP compliance, board packs.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "reports",
+                         "p\u0026l",
+                         "ifrs",
+                         "gaap"
+                     ],
+        "llm_reason":  "",
+        "name":  "financial-reporting",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.fintechfutures.com/guides"
+                           },
+                           {
+                               "name":  "financial-reporting",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "fintech-compliance-docs"
+                         ],
+        "relevance":  0.0303,
+        "url":  "https://www.fintechfutures.com/guides"
+    },
+    {
+        "category":  "banking",
+        "description":  "Open banking: PSD2 APIs, consent management, third-party provider integrations.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "open banking",
+                         "psd2",
+                         "apis"
+                     ],
+        "llm_reason":  "",
+        "name":  "open-banking",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.openbanking.org.uk"
+                           },
+                           {
+                               "name":  "open-banking",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "open-banking-psd2-docs"
+                         ],
+        "relevance":  0.0299,
+        "url":  "https://www.openbanking.org.uk"
+    },
+    {
+        "category":  "crypto",
+        "description":  "DeFi: swaps, liquidity pools, yield aggregation, smart contract interactions.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "defi",
+                         "swaps",
+                         "liquidity pools"
+                     ],
+        "llm_reason":  "",
+        "name":  "defi-integration",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.binance.com/en/research"
+                           },
+                           {
+                               "name":  "defi-integration",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "crypto-exchange-guide"
+                         ],
+        "relevance":  0.0294,
+        "url":  "https://www.binance.com/en/research"
+    },
+    {
+        "category":  "security",
+        "description":  "Identity verification: document checks, liveness, watchlist screening, re-verification.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "identity",
+                         "verification",
+                         "liveness"
+                     ],
+        "llm_reason":  "",
+        "name":  "identity-verification",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://oauth.net/2"
+                           },
+                           {
+                               "name":  "identity-verification",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "identity-oauth-docs"
+                         ],
+        "relevance":  0.029,
+        "url":  "https://oauth.net/2"
+    },
+    {
+        "category":  "it-service-management",
+        "description":  "Service request management: request fulfilment workflows with approvals and automation.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "itil",
+                         "requests",
+                         "workflow"
+                     ],
+        "llm_reason":  "",
+        "name":  "request-management",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.axelos.com/certifications/itil-service-management"
+                           },
+                           {
+                               "name":  "request-management",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "itil-axelos-docs"
+                         ],
+        "relevance":  0.0286,
+        "url":  "https://www.axelos.com/certifications/itil-service-management"
+    },
+    {
+        "category":  "it-service-management",
+        "description":  "Availability management: availability targets, redundancy design, downtime analysis.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "itil",
+                         "availability",
+                         "uptime"
+                     ],
+        "llm_reason":  "",
+        "name":  "availability-management",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.axelos.com/certifications/itil-service-management"
+                           },
+                           {
+                               "name":  "availability-management",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "itil-axelos-docs"
+                         ],
+        "relevance":  0.0282,
+        "url":  "https://www.axelos.com/certifications/itil-service-management"
+    },
+    {
+        "category":  "education",
+        "description":  "LMS: courses, lessons, quizzes, enrollments, certificates, progress tracking.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "lms",
+                         "courses",
+                         "quizzes"
+                     ],
+        "llm_reason":  "",
+        "name":  "lms",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.imsglobal.org"
+                           },
+                           {
+                               "name":  "lms",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "lms-docs"
+                         ],
+        "relevance":  0.0278,
+        "url":  "https://www.imsglobal.org"
+    },
+    {
+        "category":  "analytics",
+        "description":  "A/B/n experiments with statistical significance reporting.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "a/b testing",
+                         "experiments"
+                     ],
+        "llm_reason":  "",
+        "name":  "a-b-testing",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://developers.google.com/analytics"
+                           },
+                           {
+                               "name":  "a-b-testing",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "analytics-dashboard-docs"
+                         ],
+        "relevance":  0.0274,
+        "url":  "https://developers.google.com/analytics"
+    },
+    {
+        "category":  "it-service-management",
+        "description":  "Change enablement: change requests, approvals, CAB, risk assessment, implementation windows.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "itil",
+                         "changes",
+                         "cab"
+                     ],
+        "llm_reason":  "",
+        "name":  "change-management",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.axelos.com/certifications/itil-service-management"
+                           },
+                           {
+                               "name":  "change-management",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "itil-axelos-docs"
+                         ],
+        "relevance":  0.027,
+        "url":  "https://www.axelos.com/certifications/itil-service-management"
+    },
+    {
+        "category":  "crm",
+        "description":  "CRM analytics: dashboards, funnels, revenue reports, team performance.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "crm reports",
+                         "dashboards",
+                         "funnels"
+                     ],
+        "llm_reason":  "",
+        "name":  "crm-reports",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Feature spec / docs",
+                               "type":  "web",
+                               "url":  "https://www.salesforce.com/resources"
+                           },
+                           {
+                               "name":  "crm-reports",
+                               "path":  "D:\\Projects\\MCP Skills\\features.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "related_docs":  [
+                             "crm-software-docs"
+                         ],
+        "relevance":  0.0267,
+        "url":  "https://www.salesforce.com/resources"
+    }
+]

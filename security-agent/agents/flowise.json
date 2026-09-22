@@ -1,0 +1,45 @@
+﻿{
+    "category":  "platform",
+    "description":  "Drag-and-drop LLM workflow builder.",
+    "install":  "npm i -g flowise \u0026\u0026 flowise start",
+    "keywords":  [
+                     "flowise",
+                     "workflow",
+                     "llm"
+                 ],
+    "name":  "flowise",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac",
+                      "cloud"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://flowiseai.com"
+                       },
+                       {
+                           "hint":  "Official docs / tutorial",
+                           "type":  "docs",
+                           "url":  "https://docs.flowiseai.com"
+                       },
+                       {
+                           "command":  "npm i -g flowise \u0026\u0026 flowise start",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "flowise",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://flowiseai.com",
+    "tutorial":  "https://docs.flowiseai.com",
+    "usage_areas":  [
+                        "agents",
+                        "workflows",
+                        "chat"
+                    ]
+}

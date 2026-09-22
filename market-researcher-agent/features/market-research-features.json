@@ -1,0 +1,46 @@
+[
+    {
+        "category": "research",
+        "description": "Market research: sentiment dashboards, catalyst trackers, sector heatmaps, watchlists with alerts.",
+        "name": "market-sentiment-dashboard",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["sentiment", "dashboard", "catalysts"],
+        "references": [
+            { "type": "catalog_file", "name": "market-sentiment-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "news",
+        "description": "News intelligence: curated feeds, bias labels, divergence alerts between price and news.",
+        "name": "news-intelligence",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["news", "bias", "divergence"],
+        "references": [
+            { "type": "catalog_file", "name": "news-intelligence", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "research",
+        "description": "Evidence-led research reports: citation ledger, source grading, confidence per claim.",
+        "name": "citation-ledger-reports",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["reports", "citations", "evidence"],
+        "references": [
+            { "type": "catalog_file", "name": "citation-ledger-reports", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "ecommerce",
+        "description": "Product catalog with search/filtering - reusable pattern for watchlist/scan results.",
+        "name": "product-catalog",
+        "ranking": "vector",
+        "relevance": 0.21,
+        "keywords": ["catalog", "search"],
+        "references": [
+            { "type": "catalog_file", "name": "product-catalog", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

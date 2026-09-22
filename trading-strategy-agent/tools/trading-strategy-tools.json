@@ -1,0 +1,68 @@
+[
+    {
+        "category": "finance",
+        "description": "Backtrader - Python backtesting and strategy framework.",
+        "license": "GPL-3.0",
+        "name": "Backtrader",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://www.backtrader.com",
+        "keywords": ["backtest", "strategy"],
+        "references": [
+            { "type": "web", "url": "https://www.backtrader.com", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "VectorBT - vectorized backtesting and strategy analysis on pandas/numpy.",
+        "license": "Apache-2.0",
+        "name": "VectorBT",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://vectorbt.dev",
+        "keywords": ["backtest", "vectorized", "portfolio"],
+        "references": [
+            { "type": "web", "url": "https://vectorbt.dev", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "QuantConnect LEAN - open-source algorithmic trading engine for strategy research and live trading.",
+        "license": "Apache-2.0",
+        "name": "QuantConnect LEAN",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://www.quantconnect.com",
+        "keywords": ["algorithmic trading", "backtest"],
+        "references": [
+            { "type": "web", "url": "https://www.quantconnect.com", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Data analysis and manipulation toolkit for Python - signal computation.",
+        "license": "BSD-3-Clause",
+        "name": "Pandas",
+        "ranking": "vector",
+        "relevance": 0.11,
+        "url": "https://pandas.pydata.org",
+        "skill": "ml-data-pipeline",
+        "keywords": ["dataframes", "analysis"],
+        "references": [
+            { "type": "web", "url": "https://pandas.pydata.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "pandas-ta - technical analysis indicators library for signal computation.",
+        "license": "MIT",
+        "name": "pandas-ta",
+        "ranking": "vector",
+        "relevance": 0.1,
+        "url": "https://github.com/twopirllc/pandas-ta",
+        "keywords": ["indicators", "signals"],
+        "references": [
+            { "type": "web", "url": "https://github.com/twopirllc/pandas-ta", "hint": "Official site / source repository" }
+        ]
+    }
+]

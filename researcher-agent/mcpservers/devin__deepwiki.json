@@ -1,0 +1,41 @@
+{
+    "name":  "devin__deepwiki",
+    "category":  "remote",
+    "description":  "DeepWiki repository docs. AI-powered documentation for any GitHub repository: read wiki structure/contents, ask questions about a repo. Remote MCP (https://mcp.deepwiki.com/mcp), installed on this machine.",
+    "transport":  "http",
+    "url":  "https://mcp.deepwiki.com/mcp",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "ides":  [
+                 "claude",
+                 "opencode",
+                 "devin"
+             ],
+    "keywords":  [
+                     "deepwiki",
+                     "github",
+                     "documentation",
+                     "repository",
+                     "research"
+                 ],
+    "references":  [
+                       {
+                           "type":  "remote",
+                           "url":  "https://mcp.deepwiki.com/mcp"
+                       },
+                       {
+                           "type":  "web",
+                           "url":  "https://deepwiki.com"
+                       }
+                   ],
+    "status":  "up",
+    "relevance":  "high — researcher agent uses it for repository/documentation research",
+    "tools_for_research":  [
+                               "deepwiki_read_wiki_structure",
+                               "deepwiki_read_wiki_contents",
+                               "deepwiki_ask_question"
+                           ]
+}

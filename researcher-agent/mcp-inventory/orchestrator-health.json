@@ -1,0 +1,316 @@
+{
+  "timestamp": "2026-09-21 23:39:57",
+  "os": "Windows AMD64",
+  "uptime_seconds": 99987.1,
+  "servers": {
+    "http": [
+      {
+        "name": "mcp-skills",
+        "port": 8788,
+        "protocol": "http",
+        "url": "http://localhost:8788/mcp",
+        "frontend_url": "http://localhost:8787",
+        "description": "Skill discovery and ranking (678 skills)",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "status": "up",
+        "detail": "HTTP 406",
+        "latency_ms": 5.9
+      },
+      {
+        "name": "playwright",
+        "port": 8791,
+        "protocol": "sse",
+        "url": "http://localhost:8791/sse",
+        "description": "Browser automation (chromium)",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "status": "up",
+        "detail": "HTTP 200",
+        "latency_ms": 13.0
+      },
+      {
+        "name": "winremote",
+        "port": 8792,
+        "protocol": "http",
+        "url": "http://localhost:8792/mcp",
+        "description": "Windows remote control (process, registry, services)",
+        "platforms": [
+          "windows"
+        ],
+        "status": "up",
+        "detail": "HTTP 406",
+        "latency_ms": 28.4
+      },
+      {
+        "name": "agent-mcp-orchestrator",
+        "port": 8793,
+        "protocol": "http",
+        "url": "http://localhost:8793/mcp",
+        "description": "MCP server: AI agents query server status + usage info",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "status": "up",
+        "detail": "HTTP 200",
+        "latency_ms": 3.4
+      },
+      {
+        "name": "omniroute",
+        "port": 20128,
+        "protocol": "http",
+        "url": "http://localhost:20128/api/mcp/stream",
+        "description": "OmniRoute AI gateway MCP - 352 providers, 1200+ models (dashboard :20128/dashboard)",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "status": "up",
+        "detail": "HTTP 401",
+        "latency_ms": 7.0
+      },
+      {
+        "name": "9router",
+        "port": 20228,
+        "protocol": "http",
+        "url": "http://localhost:20228/api/mcp",
+        "description": "9Router AI proxy MCP - 60+ providers, 3-tier fallback (dashboard :20228/dashboard)",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "status": "up",
+        "detail": "HTTP 401",
+        "latency_ms": 7.3
+      }
+    ],
+    "stdio": [
+      {
+        "name": "context7",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@upstash/context7-mcp@latest"
+        ],
+        "description": "Library docs lookup",
+        "status": "available",
+        "detail": "Binary 'npx' found in PATH"
+      },
+      {
+        "name": "filesystem",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem"
+        ],
+        "description": "File system access",
+        "status": "available",
+        "detail": "Binary 'npx' found in PATH"
+      },
+      {
+        "name": "git",
+        "command": "uvx",
+        "args": [
+          "mcp-server-git"
+        ],
+        "description": "Git operations",
+        "status": "available",
+        "detail": "Binary 'uvx' found in PATH"
+      },
+      {
+        "name": "memory",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-memory"
+        ],
+        "description": "Knowledge graph memory",
+        "status": "available",
+        "detail": "Binary 'npx' found in PATH"
+      },
+      {
+        "name": "time",
+        "command": "uvx",
+        "args": [
+          "--system-certs",
+          "mcp-server-time"
+        ],
+        "description": "Time/timezone",
+        "status": "available",
+        "detail": "Binary 'uvx' found in PATH"
+      },
+      {
+        "name": "tdai-memory",
+        "command": "node",
+        "args": [
+          "mcp-server.mjs"
+        ],
+        "description": "TencentDB memory",
+        "status": "available",
+        "detail": "Binary 'node' found in PATH"
+      },
+      {
+        "name": "agent-mcp-orchestrator",
+        "command": "python",
+        "args": [
+          "agent_mcp_orchestrator.py"
+        ],
+        "description": "Query MCP server status and usage info",
+        "status": "available",
+        "detail": "Binary 'python' found in PATH"
+      },
+      {
+        "name": "google-merchant-mcp",
+        "command": "node",
+        "args": [
+          "D:\\Projects\\google-merchant-mcp\\server.js"
+        ],
+        "description": "Google Merchant Center MCP \u2014 product feed diagnostics for PELLE",
+        "custom": true,
+        "status": "available",
+        "detail": "Binary 'node' found in PATH"
+      },
+      {
+        "name": "meta-ads-mcp-server",
+        "command": "node",
+        "args": [
+          "D:\\Projects\\meta-ads-mcp\\dist\\index.js"
+        ],
+        "description": "Meta Ads Catalog MCP - Facebook/Instagram Ads API: accounts, campaigns, ad sets, ads, creatives, media, insights, targeting, pages (PELLE)",
+        "custom": true,
+        "status": "available",
+        "detail": "Binary 'node' found in PATH"
+      },
+      {
+        "name": "postgres-mcp",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@microsoft/postgres-mcp",
+          "run"
+        ],
+        "description": "Official Microsoft Postgres MCP server - query, analyze, and manage PostgreSQL databases (stdio)",
+        "custom": true,
+        "status": "available",
+        "detail": "Binary 'npx' found in PATH"
+      },
+      {
+        "name": "Binance Cryptocurrency MCP",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@snjyor/binance-mcp@latest"
+        ],
+        "description": "Access real-time Binance cryptocurrency market data: prices, candlestick charts, order books and trading history.",
+        "custom": true,
+        "status": "available",
+        "detail": "Binary 'npx' found in PATH"
+      },
+      {
+        "name": "@hanoak/unsplash-mcp-server",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@hanoak/unsplash-mcp-server"
+        ],
+        "description": "Production-ready MCP server for the Unsplash API \u2014 search photos, fetch details, Unsplash attribution & download-tracking compliance. Unofficial.",
+        "custom": true,
+        "status": "available",
+        "detail": "Binary 'npx' found in PATH"
+      }
+    ],
+    "remote": [
+      {
+        "name": "devin/cloudflare-docs",
+        "url": "https://docs.mcp.cloudflare.com/mcp",
+        "description": "Cloudflare documentation",
+        "status": "up",
+        "detail": "HTTP 403",
+        "latency_ms": 881.3
+      },
+      {
+        "name": "devin/deepwiki",
+        "url": "https://mcp.deepwiki.com/mcp",
+        "description": "DeepWiki repository docs",
+        "status": "up",
+        "detail": "HTTP 406",
+        "latency_ms": 1521.6
+      },
+      {
+        "name": "devin/github-mcp-server",
+        "url": "https://api.githubcopilot.com/mcp",
+        "description": "GitHub MCP server",
+        "status": "up",
+        "detail": "HTTP 401",
+        "latency_ms": 1100.7
+      }
+    ],
+    "frontends": [
+      {
+        "name": "mcp-skills-dashboard",
+        "port": 8787,
+        "url": "http://localhost:8787",
+        "server": "mcp-skills",
+        "description": "MCP Skills web dashboard (browse/search skills, activity feed)",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "is_frontend": true,
+        "status": "up",
+        "detail": "HTTP 200",
+        "latency_ms": 6.4
+      },
+      {
+        "name": "omniroute-dashboard",
+        "port": 20128,
+        "url": "http://localhost:20128/dashboard",
+        "server": "omniroute",
+        "description": "OmniRoute web dashboard (352 providers, API keys, combos, usage)",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "is_frontend": true,
+        "status": "up",
+        "detail": "HTTP 200",
+        "latency_ms": 91.0
+      },
+      {
+        "name": "9router-dashboard",
+        "port": 20228,
+        "url": "http://localhost:20228/dashboard",
+        "server": "9router",
+        "description": "9Router web dashboard (providers, combos, quota tracker, token saver)",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "is_frontend": true,
+        "status": "up",
+        "detail": "HTTP 200",
+        "latency_ms": 14.8
+      }
+    ]
+  },
+  "summary": {
+    "total": 24,
+    "up": 24,
+    "down": 0,
+    "degraded": 0,
+    "skip": 0
+  }
+}

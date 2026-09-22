@@ -1,0 +1,39 @@
+{
+    "name":  "devin__cloudflare-docs",
+    "category":  "remote",
+    "description":  "Cloudflare documentation search. Semantic search over Cloudflare product docs (Workers, Pages, R2, D1, KV, Queues, AI, Zero Trust, etc.). Remote MCP (https://docs.mcp.cloudflare.com/mcp), installed on this machine.",
+    "transport":  "http",
+    "url":  "https://docs.mcp.cloudflare.com/mcp",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "ides":  [
+                 "claude",
+                 "opencode",
+                 "devin"
+             ],
+    "keywords":  [
+                     "cloudflare",
+                     "docs",
+                     "search",
+                     "documentation"
+                 ],
+    "references":  [
+                       {
+                           "type":  "remote",
+                           "url":  "https://docs.mcp.cloudflare.com/mcp"
+                       },
+                       {
+                           "type":  "web",
+                           "url":  "https://developers.cloudflare.com"
+                       }
+                   ],
+    "status":  "up",
+    "relevance":  "vendor docs lookup for research topics involving the Cloudflare platform",
+    "tools_for_research":  [
+                               "cloudflare-docs_search_cloudflare_documentation",
+                               "cloudflare-docs_migrate_pages_to_workers_guide"
+                           ]
+}

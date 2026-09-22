@@ -1,0 +1,15 @@
+﻿{
+    "name":  "alpaca",
+    "category":  "cloud",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Interact with the Alpaca trading API for stock trading, account management, and market data using LLMs.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/MCP-Mirror/tedlikeskix_alpaca-mcp-server",
+    "url":  "",
+    "custom":  false
+}

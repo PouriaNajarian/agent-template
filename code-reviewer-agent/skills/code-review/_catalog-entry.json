@@ -1,0 +1,28 @@
+﻿{
+    "elapsed_ms":  2,
+    "result":  {
+                   "category":  "engineering",
+                   "description":  "Review code for correctness, security, readability, and maintainability before merging.",
+                   "example_task":  "Review the checkout PR for security issues.",
+                   "file_content":  "",
+                   "keywords":  [
+                                    "review",
+                                    "pr",
+                                    "merge",
+                                    "quality",
+                                    "lint"
+                                ],
+                   "name":  "code-review",
+                   "references":  [
+                                      {
+                                          "hint":  "Read this SKILL.md for the full instructions",
+                                          "name":  "code-review",
+                                          "path":  null,
+                                          "resource":  "mcp-skills://skills/code-review",
+                                          "type":  "skill_file"
+                                      }
+                                  ],
+                   "when_to_use":  "Before merging a change or when asked to assess code quality."
+               },
+    "tool":  "get_skill"
+}

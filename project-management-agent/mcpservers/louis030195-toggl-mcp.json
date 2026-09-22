@@ -1,0 +1,15 @@
+﻿{
+    "name":  "louis030195-toggl-mcp",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Time tracking integration with Toggl Track. Start/stop timers, manage time entries, track project time, and get today\u0027s summary. Perfect for productivity tracking and billing workflows.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/louis030195/toggl-mcp",
+    "url":  "",
+    "custom":  false
+}

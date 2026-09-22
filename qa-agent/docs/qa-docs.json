@@ -1,0 +1,38 @@
+[
+    {
+        "category": "testing",
+        "description": "Playwright documentation - testing, page object model, CI, debugging.",
+        "name": "playwright-docs",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "url": "https://playwright.dev/docs",
+        "keywords": ["playwright", "e2e", "testing"],
+        "references": [
+            { "type": "web", "url": "https://playwright.dev/docs", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "pytest documentation - fixtures, parametrize, plugins, coverage integration.",
+        "name": "pytest-docs",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://docs.pytest.org",
+        "keywords": ["pytest", "python", "testing"],
+        "references": [
+            { "type": "web", "url": "https://docs.pytest.org", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "Vitest documentation - unit testing, coverage, mocking.",
+        "name": "vitest-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://vitest.dev/guide",
+        "keywords": ["vitest", "unit tests"],
+        "references": [
+            { "type": "web", "url": "https://vitest.dev/guide", "hint": "The documentation page itself" }
+        ]
+    }
+]

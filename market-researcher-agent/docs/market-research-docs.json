@@ -1,0 +1,50 @@
+[
+    {
+        "category": "finance",
+        "description": "Fintech compliance guide - KYC/AML, licensing, payments regulation, sanctions screening.",
+        "name": "fintech-compliance-docs",
+        "ranking": "vector",
+        "relevance": 0.138,
+        "url": "https://www.fintechfutures.com/guides",
+        "keywords": ["fintech", "kyc", "aml", "compliance"],
+        "references": [
+            { "type": "web", "url": "https://www.fintechfutures.com/guides", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "SEC EDGAR full-text search documentation - company filings, financial statements, exhibit search.",
+        "name": "sec-edgar-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://www.sec.gov/edgar/search",
+        "keywords": ["sec", "edgar", "filings"],
+        "references": [
+            { "type": "web", "url": "https://www.sec.gov/edgar/search", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Binance Research - institutional-grade market analysis, industry reports, deep dives.",
+        "name": "binance-research-docs",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://www.binance.com/en/research",
+        "keywords": ["crypto", "research", "reports"],
+        "references": [
+            { "type": "web", "url": "https://www.binance.com/en/research", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "marketplace",
+        "description": "Marketplace platform reference - seller onboarding, commissions, escrow, dispute resolution.",
+        "name": "marketplace-platform-docs",
+        "ranking": "vector",
+        "relevance": 0.136,
+        "url": "https://stripe.com/connect",
+        "keywords": ["marketplace", "sellers", "commissions"],
+        "references": [
+            { "type": "web", "url": "https://stripe.com/connect", "hint": "The documentation page itself" }
+        ]
+    }
+]

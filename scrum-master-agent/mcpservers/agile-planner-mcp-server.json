@@ -1,0 +1,15 @@
+﻿{
+    "name":  "agile-planner-mcp-server",
+    "category":  "development",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "An AI-powered server for generating agile artifacts like backlogs, features, and user stories.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/cyberlife-coder/agile-planner-mcp-server",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "category": "cli-agent",
+        "description": "Anthropic's CLI agent with skills, MCP, and subagents.",
+        "install": "npm i -g @anthropic-ai/claude-code",
+        "name": "claude-code",
+        "platforms": ["windows", "linux", "mac"],
+        "ranking": "vector",
+        "relevance": 0.13,
+        "source_url": "https://docs.anthropic.com/en/docs/claude-code",
+        "tutorial": "https://docs.anthropic.com/en/docs/claude-code",
+        "usage_areas": ["coding", "agents"],
+        "references": [
+            { "type": "repo", "url": "https://docs.anthropic.com/en/docs/claude-code", "hint": "Read the repo README / docs" }
+        ]
+    },
+    {
+        "category": "platform",
+        "description": "LLMOps platform for building agents, RAG apps, and workflows visually.",
+        "install": "docker compose up -d (dify/docker)",
+        "name": "dify",
+        "platforms": ["windows", "linux", "mac", "cloud"],
+        "ranking": "vector",
+        "relevance": 0.129,
+        "source_url": "https://dify.ai",
+        "tutorial": "https://docs.dify.ai",
+        "usage_areas": ["agents", "workflows", "chat", "automation"],
+        "references": [
+            { "type": "repo", "url": "https://dify.ai", "hint": "Read the repo README / docs" }
+        ]
+    },
+    {
+        "category": "platform",
+        "description": "Role-based collaborative AI agent framework (CrewAI) for multi-agent research crews.",
+        "install": "pip install crewai",
+        "name": "crewai",
+        "platforms": ["windows", "linux", "mac"],
+        "ranking": "vector",
+        "relevance": 0.125,
+        "source_url": "https://www.crewai.com",
+        "tutorial": "https://docs.crewai.com",
+        "usage_areas": ["agents", "workflows"],
+        "references": [
+            { "type": "repo", "url": "https://www.crewai.com", "hint": "Read the repo README / docs" }
+        ]
+    },
+    {
+        "category": "platform",
+        "description": "Visual framework for multi-agent and RAG apps.",
+        "install": "pip install langflow && langflow run",
+        "name": "langflow",
+        "platforms": ["windows", "linux", "mac"],
+        "ranking": "vector",
+        "relevance": 0.12,
+        "source_url": "https://langflow.org",
+        "tutorial": "https://docs.langflow.org",
+        "usage_areas": ["agents", "workflows"],
+        "references": [
+            { "type": "repo", "url": "https://langflow.org", "hint": "Read the repo README / docs" }
+        ]
+    }
+]

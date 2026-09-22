@@ -1,0 +1,48 @@
+﻿{
+    "name":  "claude-code",
+    "category":  "cli-agent",
+    "usage_areas":  [
+                        "coding",
+                        "agents"
+                    ],
+    "description":  "Anthropic\u0027s CLI agent with skills, MCP, and subagents.",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "install":  "npm i -g @anthropic-ai/claude-code",
+    "source_url":  "https://docs.anthropic.com/en/docs/claude-code",
+    "tutorial":  "https://docs.anthropic.com/en/docs/claude-code",
+    "keywords":  [
+                     "claude",
+                     "cli",
+                     "coding"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://docs.anthropic.com/en/docs/claude-code",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://docs.anthropic.com/en/docs/claude-code",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "npm i -g @anthropic-ai/claude-code"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "claude-code",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.089,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

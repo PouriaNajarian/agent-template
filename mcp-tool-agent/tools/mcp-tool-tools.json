@@ -1,0 +1,68 @@
+[
+    {
+        "category": "development",
+        "description": "FastMCP - high-level Python framework for building MCP servers with minimal code.",
+        "license": "MIT",
+        "name": "FastMCP",
+        "ranking": "vector",
+        "relevance": 0.17,
+        "url": "https://github.com/jlowin/fastmcp",
+        "keywords": ["mcp", "python", "server"],
+        "references": [
+            { "type": "web", "url": "https://github.com/jlowin/fastmcp", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "MCP SDK - official TypeScript and Python SDKs for building MCP servers and clients.",
+        "license": "MIT",
+        "name": "MCP SDK",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+        "keywords": ["mcp", "sdk", "typescript"],
+        "references": [
+            { "type": "web", "url": "https://github.com/modelcontextprotocol/typescript-sdk", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "mcp-gateway - universal MCP gateway: single-port multiplexing, Meta-MCP, OpenAPI auto-import.",
+        "license": "MIT",
+        "name": "mcp-gateway",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://github.com/MikkoParkkola/mcp-gateway",
+        "keywords": ["gateway", "multiplexing", "meta-mcp"],
+        "references": [
+            { "type": "web", "url": "https://github.com/MikkoParkkola/mcp-gateway", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "pytest - testing framework for verifying MCP server tools.",
+        "license": "MIT",
+        "name": "pytest",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://pytest.org",
+        "skill": "eng-test-driven-development",
+        "keywords": ["python", "testing"],
+        "references": [
+            { "type": "web", "url": "https://pytest.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "OmniRoute - AI gateway: one endpoint over 352 providers, auto-fallback, MCP server included.",
+        "license": "MIT",
+        "name": "OmniRoute",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://github.com/diegosouzapw/OmniRoute",
+        "keywords": ["gateway", "llm", "fallback"],
+        "references": [
+            { "type": "web", "url": "https://github.com/diegosouzapw/OmniRoute", "hint": "Official site / source repository" }
+        ]
+    }
+]

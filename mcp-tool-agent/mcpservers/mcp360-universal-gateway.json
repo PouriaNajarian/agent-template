@@ -1,0 +1,15 @@
+﻿{
+    "name":  "mcp360-universal-gateway",
+    "category":  "development",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Unified MCP gateway that gives AI agents access to 100+ tools, marketplace MCPs, and custom MCP servers through simple search and execute workflows.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/mcp360/unified-gateway-mcp",
+    "url":  "",
+    "custom":  false
+}

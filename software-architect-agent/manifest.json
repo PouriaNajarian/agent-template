@@ -1,0 +1,848 @@
+﻿{
+    "name":  "software-architect-agent",
+    "generated":  "2026-09-21T22:00:43",
+    "generated_by":  "opencode - built from mcp-skills get_task_advice + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8788 (get_task_advice, elapsed 283.0s)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "recommended_workflow":  "fw-feature-delivery",
+    "primary_skills":  [
+                           "software-architecture",
+                           "architect-review"
+                       ],
+    "counts":  {
+                   "total_files":  164,
+                   "skills":  97,
+                   "workflows":  36,
+                   "mcpservers":  1,
+                   "agents":  1,
+                   "subagents":  6,
+                   "tools":  1,
+                   "docs":  1,
+                   "features":  1,
+                   "mcp_inventory":  9,
+                   "advice":  3
+               },
+    "files":  [
+                  {
+                      "path":  "advice/task-advice.json",
+                      "category":  "advice",
+                      "bytes":  332130
+                  },
+                  {
+                      "path":  "advice/task-advice-report.md",
+                      "category":  "advice",
+                      "bytes":  18647
+                  },
+                  {
+                      "path":  "advice/task-advice-run1.json",
+                      "category":  "advice",
+                      "bytes":  213029
+                  },
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  12890
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  4590
+                  },
+                  {
+                      "path":  "agents/software-architect-agents-ranking.json",
+                      "category":  "agents",
+                      "bytes":  48044
+                  },
+                  {
+                      "path":  "docs/software-architect-docs-ranking.json",
+                      "category":  "docs",
+                      "bytes":  31938
+                  },
+                  {
+                      "path":  "features/software-architect-features-ranking.json",
+                      "category":  "features",
+                      "bytes":  33762
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  33325
+                  },
+                  {
+                      "path":  "mcp-inventory/agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3227
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  122034
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-catalog.tsv",
+                      "category":  "mcp-inventory",
+                      "bytes":  3180208
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  30964
+                  },
+                  {
+                      "path":  "mcp-inventory/orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory/orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  9098
+                  },
+                  {
+                      "path":  "mcp-inventory/orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633465
+                  },
+                  {
+                      "path":  "mcp-inventory/system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3854
+                  },
+                  {
+                      "path":  "mcpservers/software-architect-mcpservers-ranking.json",
+                      "category":  "mcpservers",
+                      "bytes":  48798
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3437
+                  },
+                  {
+                      "path":  "skills/agent-architecture-audit/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  24902
+                  },
+                  {
+                      "path":  "skills/api-design/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13144
+                  },
+                  {
+                      "path":  "skills/api-design-principles/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1842
+                  },
+                  {
+                      "path":  "skills/api-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2934
+                  },
+                  {
+                      "path":  "skills/architect-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8614
+                  },
+                  {
+                      "path":  "skills/architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2262
+                  },
+                  {
+                      "path":  "skills/architecture-decision-records/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13454
+                  },
+                  {
+                      "path":  "skills/architecture-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2302
+                  },
+                  {
+                      "path":  "skills/architecture-refiner/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  15050
+                  },
+                  {
+                      "path":  "skills/aws-serverless-eda/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12803
+                  },
+                  {
+                      "path":  "skills/backend-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  18948
+                  },
+                  {
+                      "path":  "skills/backend-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13829
+                  },
+                  {
+                      "path":  "skills/brave-man/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11265
+                  },
+                  {
+                      "path":  "skills/brooks-audit/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2749
+                  },
+                  {
+                      "path":  "skills/c4-architecture-c4-architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  17068
+                  },
+                  {
+                      "path":  "skills/c4-code/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8151
+                  },
+                  {
+                      "path":  "skills/c4-component/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5076
+                  },
+                  {
+                      "path":  "skills/c4-container/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5677
+                  },
+                  {
+                      "path":  "skills/c4-context/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5323
+                  },
+                  {
+                      "path":  "skills/clean-code-refiner/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12251
+                  },
+                  {
+                      "path":  "skills/cloud-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8135
+                  },
+                  {
+                      "path":  "skills/codebase-cleanup-refactor-clean/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2255
+                  },
+                  {
+                      "path":  "skills/codebase-cleanup-tech-debt/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10566
+                  },
+                  {
+                      "path":  "skills/codebase-design/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7104
+                  },
+                  {
+                      "path":  "skills/code-refactoring-refactor-clean/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2274
+                  },
+                  {
+                      "path":  "skills/code-refactoring-tech-debt/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10562
+                  },
+                  {
+                      "path":  "skills/code-standards/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3004
+                  },
+                  {
+                      "path":  "skills/council/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  14566
+                  },
+                  {
+                      "path":  "skills/database-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  17378
+                  },
+                  {
+                      "path":  "skills/database-migrations/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13412
+                  },
+                  {
+                      "path":  "skills/ddd-context-mapping/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1627
+                  },
+                  {
+                      "path":  "skills/ddd-refiner/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12021
+                  },
+                  {
+                      "path":  "skills/ddd-strategic-design/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1636
+                  },
+                  {
+                      "path":  "skills/ddd-tactical-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1699
+                  },
+                  {
+                      "path":  "skills/deployment-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12225
+                  },
+                  {
+                      "path":  "skills/design-first/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9144
+                  },
+                  {
+                      "path":  "skills/design-orchestration/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3931
+                  },
+                  {
+                      "path":  "skills/dev-verification-before-completion/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3727
+                  },
+                  {
+                      "path":  "skills/dev-writing-plans/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6946
+                  },
+                  {
+                      "path":  "skills/diagram-architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6448
+                  },
+                  {
+                      "path":  "skills/diagram-d2/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5600
+                  },
+                  {
+                      "path":  "skills/diagram-graphviz/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3842
+                  },
+                  {
+                      "path":  "skills/diagram-mermaid/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3832
+                  },
+                  {
+                      "path":  "skills/diagram-plantuml/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3751
+                  },
+                  {
+                      "path":  "skills/diagram-structurizr/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5389
+                  },
+                  {
+                      "path":  "skills/distributed-tracing/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10913
+                  },
+                  {
+                      "path":  "skills/docs-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4510
+                  },
+                  {
+                      "path":  "skills/domain-driven-design/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2540
+                  },
+                  {
+                      "path":  "skills/domain-modeling/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3647
+                  },
+                  {
+                      "path":  "skills/dotnet-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7523
+                  },
+                  {
+                      "path":  "skills/dotnet-webapi/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  21978
+                  },
+                  {
+                      "path":  "skills/eng-api-and-interface-design/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10388
+                  },
+                  {
+                      "path":  "skills/eng-documentation-and-adrs/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9842
+                  },
+                  {
+                      "path":  "skills/eng-planning-and-task-breakdown/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7779
+                  },
+                  {
+                      "path":  "skills/eng-security-and-hardening/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  20748
+                  },
+                  {
+                      "path":  "skills/eng-spec-driven-development/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8656
+                  },
+                  {
+                      "path":  "skills/error-handling-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1633
+                  },
+                  {
+                      "path":  "skills/event-sourcing-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3008
+                  },
+                  {
+                      "path":  "skills/frontend-architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  23537
+                  },
+                  {
+                      "path":  "skills/frontend-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  15960
+                  },
+                  {
+                      "path":  "skills/golang-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  14189
+                  },
+                  {
+                      "path":  "skills/graphify/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  42006
+                  },
+                  {
+                      "path":  "skills/graphql-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7675
+                  },
+                  {
+                      "path":  "skills/grilling/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1900
+                  },
+                  {
+                      "path":  "skills/grill-with-docs/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  218
+                  },
+                  {
+                      "path":  "skills/improve-codebase-architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6084
+                  },
+                  {
+                      "path":  "skills/karpathy-guidelines/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2540
+                  },
+                  {
+                      "path":  "skills/knowledge-priming-refiner/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7572
+                  },
+                  {
+                      "path":  "skills/kotlin-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  19554
+                  },
+                  {
+                      "path":  "skills/langchain-architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10811
+                  },
+                  {
+                      "path":  "skills/microservices-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1742
+                  },
+                  {
+                      "path":  "skills/monorepo-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2534
+                  },
+                  {
+                      "path":  "skills/ms-azure-enterprise-infra-planner/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3637
+                  },
+                  {
+                      "path":  "skills/ms-cloud-solution-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  17547
+                  },
+                  {
+                      "path":  "skills/multi-agent-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12464
+                  },
+                  {
+                      "path":  "skills/multi-cloud-architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5521
+                  },
+                  {
+                      "path":  "skills/nodejs-backend-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1712
+                  },
+                  {
+                      "path":  "skills/ontoly-software-graph/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7280
+                  },
+                  {
+                      "path":  "skills/postgres-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4102
+                  },
+                  {
+                      "path":  "skills/python-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  16991
+                  },
+                  {
+                      "path":  "skills/react-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4520
+                  },
+                  {
+                      "path":  "skills/requirement-forge-refiner/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11923
+                  },
+                  {
+                      "path":  "skills/research/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  809
+                  },
+                  {
+                      "path":  "skills/rust-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  14527
+                  },
+                  {
+                      "path":  "skills/safe-refactor/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  709
+                  },
+                  {
+                      "path":  "skills/security-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12236
+                  },
+                  {
+                      "path":  "skills/senior-architect/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4785
+                  },
+                  {
+                      "path":  "skills/service-mesh-expert/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2793
+                  },
+                  {
+                      "path":  "skills/software-architect-skills-ranking.json",
+                      "category":  "skills",
+                      "bytes":  125300
+                  },
+                  {
+                      "path":  "skills/software-architecture/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4066
+                  },
+                  {
+                      "path":  "skills/spec-driven-loop/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13426
+                  },
+                  {
+                      "path":  "skills/sql-schema-design/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  232
+                  },
+                  {
+                      "path":  "skills/stride-analysis-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1475
+                  },
+                  {
+                      "path":  "skills/threat-modeling-expert/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2478
+                  },
+                  {
+                      "path":  "skills/to-spec/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3020
+                  },
+                  {
+                      "path":  "skills/to-tickets/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5749
+                  },
+                  {
+                      "path":  "skills/web-documentation/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1774
+                  },
+                  {
+                      "path":  "skills/workflow-orchestration-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10121
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  23359
+                  },
+                  {
+                      "path":  "subagents/adr-writer.md",
+                      "category":  "subagents",
+                      "bytes":  1730
+                  },
+                  {
+                      "path":  "subagents/domain-modeler.md",
+                      "category":  "subagents",
+                      "bytes":  1644
+                  },
+                  {
+                      "path":  "subagents/integration-pattern-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1696
+                  },
+                  {
+                      "path":  "subagents/nonfunctional-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1722
+                  },
+                  {
+                      "path":  "subagents/system-design-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1883
+                  },
+                  {
+                      "path":  "subagents/tech-debt-auditor.md",
+                      "category":  "subagents",
+                      "bytes":  1459
+                  },
+                  {
+                      "path":  "tools/software-architect-tools-ranking.json",
+                      "category":  "tools",
+                      "bytes":  38706
+                  },
+                  {
+                      "path":  "workflows/api-gateway-build.md",
+                      "category":  "workflows",
+                      "bytes":  690
+                  },
+                  {
+                      "path":  "workflows/api-integration.md",
+                      "category":  "workflows",
+                      "bytes":  509
+                  },
+                  {
+                      "path":  "workflows/api-security-review.md",
+                      "category":  "workflows",
+                      "bytes":  570
+                  },
+                  {
+                      "path":  "workflows/build-ai-feature.md",
+                      "category":  "workflows",
+                      "bytes":  773
+                  },
+                  {
+                      "path":  "workflows/code-review-pass.md",
+                      "category":  "workflows",
+                      "bytes":  662
+                  },
+                  {
+                      "path":  "workflows/database-migration.md",
+                      "category":  "workflows",
+                      "bytes":  503
+                  },
+                  {
+                      "path":  "workflows/data-pipeline-build.md",
+                      "category":  "workflows",
+                      "bytes":  698
+                  },
+                  {
+                      "path":  "workflows/dependency-upgrade.md",
+                      "category":  "workflows",
+                      "bytes":  531
+                  },
+                  {
+                      "path":  "workflows/design-to-code.md",
+                      "category":  "workflows",
+                      "bytes":  817
+                  },
+                  {
+                      "path":  "workflows/documentation-generation.md",
+                      "category":  "workflows",
+                      "bytes":  657
+                  },
+                  {
+                      "path":  "workflows/frontend-design-system.md",
+                      "category":  "workflows",
+                      "bytes":  699
+                  },
+                  {
+                      "path":  "workflows/fw-agentic-coding-loop.md",
+                      "category":  "workflows",
+                      "bytes":  771
+                  },
+                  {
+                      "path":  "workflows/fw-ai-agent-setup.md",
+                      "category":  "workflows",
+                      "bytes":  893
+                  },
+                  {
+                      "path":  "workflows/fw-api-development.md",
+                      "category":  "workflows",
+                      "bytes":  921
+                  },
+                  {
+                      "path":  "workflows/fw-code-review.md",
+                      "category":  "workflows",
+                      "bytes":  888
+                  },
+                  {
+                      "path":  "workflows/fw-compliance-audit.md",
+                      "category":  "workflows",
+                      "bytes":  864
+                  },
+                  {
+                      "path":  "workflows/fw-deployment.md",
+                      "category":  "workflows",
+                      "bytes":  850
+                  },
+                  {
+                      "path":  "workflows/fw-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  1242
+                  },
+                  {
+                      "path":  "workflows/fw-model-development.md",
+                      "category":  "workflows",
+                      "bytes":  1207
+                  },
+                  {
+                      "path":  "workflows/fw-orchestrate-agents.md",
+                      "category":  "workflows",
+                      "bytes":  834
+                  },
+                  {
+                      "path":  "workflows/fw-parallel-agent-execution.md",
+                      "category":  "workflows",
+                      "bytes":  757
+                  },
+                  {
+                      "path":  "workflows/fw-read-knowledge-graph.md",
+                      "category":  "workflows",
+                      "bytes":  704
+                  },
+                  {
+                      "path":  "workflows/fw-research-optimize-execute.md",
+                      "category":  "workflows",
+                      "bytes":  844
+                  },
+                  {
+                      "path":  "workflows/fw-role-separated-agents.md",
+                      "category":  "workflows",
+                      "bytes":  787
+                  },
+                  {
+                      "path":  "workflows/fw-spec-driven-development.md",
+                      "category":  "workflows",
+                      "bytes":  774
+                  },
+                  {
+                      "path":  "workflows/fw-update-knowledge-graph.md",
+                      "category":  "workflows",
+                      "bytes":  694
+                  },
+                  {
+                      "path":  "workflows/fw-verification-loop.md",
+                      "category":  "workflows",
+                      "bytes":  667
+                  },
+                  {
+                      "path":  "workflows/k8s-deploy-pipeline.md",
+                      "category":  "workflows",
+                      "bytes":  703
+                  },
+                  {
+                      "path":  "workflows/legacy-migration.md",
+                      "category":  "workflows",
+                      "bytes":  680
+                  },
+                  {
+                      "path":  "workflows/nextjs-app-build.md",
+                      "category":  "workflows",
+                      "bytes":  659
+                  },
+                  {
+                      "path":  "workflows/performance-optimization.md",
+                      "category":  "workflows",
+                      "bytes":  777
+                  },
+                  {
+                      "path":  "workflows/release-shipping.md",
+                      "category":  "workflows",
+                      "bytes":  666
+                  },
+                  {
+                      "path":  "workflows/security-audit.md",
+                      "category":  "workflows",
+                      "bytes":  646
+                  },
+                  {
+                      "path":  "workflows/software-architect-workflows-ranking.json",
+                      "category":  "workflows",
+                      "bytes":  184984
+                  },
+                  {
+                      "path":  "workflows/tdd-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  696
+                  },
+                  {
+                      "path":  "workflows/terraform-cloud-setup.md",
+                      "category":  "workflows",
+                      "bytes":  665
+                  },
+                  {
+                      "path":  "workflows/test-strategy-rollout.md",
+                      "category":  "workflows",
+                      "bytes":  666
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  5247
+                  }
+              ]
+}

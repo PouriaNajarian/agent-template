@@ -1,0 +1,563 @@
+﻿[
+    {
+        "category":  "devops",
+        "description":  "Infrastructure as code tool for building and versioning cloud infrastructure.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "iac",
+                         "infrastructure",
+                         "cloud"
+                     ],
+        "license":  "BSL-1.1",
+        "llm_reason":  "",
+        "name":  "Terraform",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://www.terraform.io"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "terraform-iac",
+                               "resource":  "mcp-skills://skills/terraform-iac",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "Terraform",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0328,
+        "skill":  "terraform-iac",
+        "url":  "https://www.terraform.io"
+    },
+    {
+        "category":  "quality",
+        "description":  "Continuous code quality and security inspection platform.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "code quality",
+                         "static analysis"
+                     ],
+        "license":  "LGPL-3.0",
+        "llm_reason":  "",
+        "name":  "SonarQube",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://www.sonarsource.com/products/sonarqube"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "cf-code-review",
+                               "resource":  "mcp-skills://skills/cf-code-review",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "SonarQube",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0323,
+        "skill":  "cf-code-review",
+        "url":  "https://www.sonarsource.com/products/sonarqube"
+    },
+    {
+        "category":  "security",
+        "description":  "Free web application security testing tool for manual pentesting.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "pentest",
+                         "intercept",
+                         "proxy"
+                     ],
+        "license":  "Free (community)",
+        "llm_reason":  "",
+        "name":  "Burp Suite Community",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://portswigger.net/burp"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "sec-web-assessment",
+                               "resource":  "mcp-skills://skills/sec-web-assessment",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "Burp Suite Community",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0317,
+        "skill":  "sec-web-assessment",
+        "url":  "https://portswigger.net/burp"
+    },
+    {
+        "category":  "storage",
+        "description":  "High-performance, S3-compatible object storage - free and open source.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "s3",
+                         "object storage"
+                     ],
+        "license":  "AGPL-3.0",
+        "llm_reason":  "",
+        "name":  "MinIO",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://min.io"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "docker-containerization",
+                               "resource":  "mcp-skills://skills/docker-containerization",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "MinIO",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0312,
+        "skill":  "docker-containerization",
+        "url":  "https://min.io"
+    },
+    {
+        "category":  "frontend",
+        "description":  "Opinionated code formatter supporting many languages.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "format",
+                         "style"
+                     ],
+        "license":  "MIT",
+        "llm_reason":  "",
+        "name":  "Prettier",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://prettier.io"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "coding-standards",
+                               "resource":  "mcp-skills://skills/coding-standards",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "Prettier",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0308,
+        "skill":  "coding-standards",
+        "url":  "https://prettier.io"
+    },
+    {
+        "category":  "observability",
+        "description":  "Open-source analytics and interactive visualization web application.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "dashboards",
+                         "visualization"
+                     ],
+        "license":  "AGPL-3.0",
+        "llm_reason":  "",
+        "name":  "Grafana",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://grafana.com"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "eng-observability-and-instrumentation",
+                               "resource":  "mcp-skills://skills/eng-observability-and-instrumentation",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "Grafana",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0303,
+        "skill":  "eng-observability-and-instrumentation",
+        "url":  "https://grafana.com"
+    },
+    {
+        "category":  "ai",
+        "description":  "Framework for developing LLM applications.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "llm",
+                         "rag",
+                         "agents"
+                     ],
+        "license":  "MIT",
+        "llm_reason":  "",
+        "name":  "LangChain",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://www.langchain.com"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "ml-fine-tuning",
+                               "resource":  "mcp-skills://skills/ml-fine-tuning",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "LangChain",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0299,
+        "skill":  "ml-fine-tuning",
+        "url":  "https://www.langchain.com"
+    },
+    {
+        "category":  "security",
+        "description":  "OWASP Zed Attack Proxy - free web app security scanner.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "pentest",
+                         "scanner",
+                         "owasp"
+                     ],
+        "license":  "Apache-2.0",
+        "llm_reason":  "",
+        "name":  "ZAP",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://www.zaproxy.org"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "sec-owasp-testing",
+                               "resource":  "mcp-skills://skills/sec-owasp-testing",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "ZAP",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0294,
+        "skill":  "sec-owasp-testing",
+        "url":  "https://www.zaproxy.org"
+    },
+    {
+        "category":  "frontend",
+        "description":  "Static code analysis tool for identifying problematic JavaScript patterns.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "lint",
+                         "javascript"
+                     ],
+        "license":  "MIT",
+        "llm_reason":  "",
+        "name":  "eslint",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://eslint.org"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "coding-standards",
+                               "resource":  "mcp-skills://skills/coding-standards",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "eslint",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.029,
+        "skill":  "coding-standards",
+        "url":  "https://eslint.org"
+    },
+    {
+        "category":  "devops",
+        "description":  "Containerization platform for building, shipping and running applications.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "container",
+                         "deployment"
+                     ],
+        "license":  "Apache-2.0",
+        "llm_reason":  "",
+        "name":  "Docker",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://www.docker.com"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "docker-containerization",
+                               "resource":  "mcp-skills://skills/docker-containerization",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "Docker",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0286,
+        "skill":  "docker-containerization",
+        "url":  "https://www.docker.com"
+    },
+    {
+        "category":  "media",
+        "description":  "Complete cross-platform solution to record, convert and stream audio and video.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "video",
+                         "audio",
+                         "convert"
+                     ],
+        "license":  "LGPL-2.1",
+        "llm_reason":  "",
+        "name":  "FFmpeg",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://ffmpeg.org"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "ffmpeg",
+                               "resource":  "mcp-skills://skills/ffmpeg",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "FFmpeg",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0282,
+        "skill":  "ffmpeg",
+        "url":  "https://ffmpeg.org"
+    },
+    {
+        "category":  "ai",
+        "description":  "Run large language models locally with a simple API.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "llm",
+                         "local",
+                         "inference"
+                     ],
+        "license":  "MIT",
+        "llm_reason":  "",
+        "name":  "Ollama",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://ollama.com"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "ml-model-development",
+                               "resource":  "mcp-skills://skills/ml-model-development",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "Ollama",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0278,
+        "skill":  "ml-model-development",
+        "url":  "https://ollama.com"
+    },
+    {
+        "category":  "observability",
+        "description":  "Horizontally-scalable log aggregation from Grafana Labs.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "logs",
+                         "aggregation"
+                     ],
+        "license":  "AGPL-3.0",
+        "llm_reason":  "",
+        "name":  "Loki",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://grafana.com/oss/loki"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "eng-observability-and-instrumentation",
+                               "resource":  "mcp-skills://skills/eng-observability-and-instrumentation",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "Loki",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0274,
+        "skill":  "eng-observability-and-instrumentation",
+        "url":  "https://grafana.com/oss/loki"
+    },
+    {
+        "category":  "testing",
+        "description":  "Open-source load testing tool for engineering teams.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "load testing",
+                         "perf"
+                     ],
+        "license":  "AGPL-3.0",
+        "llm_reason":  "",
+        "name":  "K6",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://k6.io"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "web-performance-optimization",
+                               "resource":  "mcp-skills://skills/web-performance-optimization",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "K6",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.027,
+        "skill":  "web-performance-optimization",
+        "url":  "https://k6.io"
+    },
+    {
+        "category":  "testing",
+        "description":  "Mature full-featured Python testing framework.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "keywords":  [
+                         "python",
+                         "unit tests"
+                     ],
+        "license":  "MIT",
+        "llm_reason":  "",
+        "name":  "pytest",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Official site / source repository",
+                               "type":  "web",
+                               "url":  "https://pytest.org"
+                           },
+                           {
+                               "hint":  "Related skill that uses this tool",
+                               "name":  "eng-test-driven-development",
+                               "resource":  "mcp-skills://skills/eng-test-driven-development",
+                               "type":  "skill"
+                           },
+                           {
+                               "name":  "pytest",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0267,
+        "skill":  "eng-test-driven-development",
+        "url":  "https://pytest.org"
+    }
+]

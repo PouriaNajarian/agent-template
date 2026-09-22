@@ -1,0 +1,82 @@
+[
+    {
+        "category": "security",
+        "description": "OWASP Zed Attack Proxy - free web app security scanner.",
+        "license": "Apache-2.0",
+        "name": "ZAP",
+        "ranking": "vector",
+        "relevance": 0.186,
+        "url": "https://www.zaproxy.org",
+        "skill": "sec-owasp-testing",
+        "keywords": ["pentest", "scanner", "owasp"],
+        "references": [
+            { "type": "web", "url": "https://www.zaproxy.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "Semgrep - fast static analysis for vulnerabilities and code quality.",
+        "license": "LGPL-2.1",
+        "name": "Semgrep",
+        "ranking": "vector",
+        "relevance": 0.17,
+        "url": "https://semgrep.dev",
+        "keywords": ["sast", "static analysis", "security"],
+        "references": [
+            { "type": "web", "url": "https://semgrep.dev", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "Gitleaks - secrets detection in git repositories.",
+        "license": "MIT",
+        "name": "Gitleaks",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "url": "https://github.com/gitleaks/gitleaks",
+        "keywords": ["secrets", "scanning", "git"],
+        "references": [
+            { "type": "web", "url": "https://github.com/gitleaks/gitleaks", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "Trivy - comprehensive vulnerability scanner for dependencies and containers (SBOM).",
+        "license": "Apache-2.0",
+        "name": "Trivy",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://trivy.dev",
+        "keywords": ["sca", "vulnerabilities", "sbom"],
+        "references": [
+            { "type": "web", "url": "https://trivy.dev", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "Burp Suite Community - web application security testing (manual pentesting).",
+        "license": "Free (community)",
+        "name": "Burp Suite Community",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://portswigger.net/burp",
+        "skill": "sec-web-assessment",
+        "keywords": ["pentest", "intercept", "proxy"],
+        "references": [
+            { "type": "web", "url": "https://portswigger.net/burp", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "Bandit - Python security linter (SAST).",
+        "license": "Apache-2.0",
+        "name": "Bandit",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://bandit.readthedocs.io",
+        "keywords": ["python", "sast", "linter"],
+        "references": [
+            { "type": "web", "url": "https://bandit.readthedocs.io", "hint": "Official site / source repository" }
+        ]
+    }
+]

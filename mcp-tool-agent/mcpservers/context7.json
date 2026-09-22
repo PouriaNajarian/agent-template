@@ -1,0 +1,41 @@
+﻿{
+    "category":  "docs",
+    "description":  "Up-to-date library and framework documentation injection.",
+    "ides":  [
+                 "claude",
+                 "cline",
+                 "cursor",
+                 "devin",
+                 "opencode"
+             ],
+    "install":  "npx -y @upstash/context7-mcp@latest",
+    "keywords":  [
+                     "docs",
+                     "documentation",
+                     "framework",
+                     "library"
+                 ],
+    "name":  "context7",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/upstash/context7"
+                       },
+                       {
+                           "command":  "npx -y @upstash/context7-mcp@latest",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "context7",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/upstash/context7"
+}

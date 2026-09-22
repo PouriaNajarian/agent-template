@@ -1,0 +1,15 @@
+﻿{
+    "name":  "cryptoanalysismcp",
+    "category":  "development",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Provides comprehensive cryptocurrency technical analysis, including real-time price data, technical indicators, chart pattern detection, and trading signals for over 2,500 cryptocurrencies.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/M-Pineapple/CryptoAnalysisMCP",
+    "url":  "",
+    "custom":  false
+}

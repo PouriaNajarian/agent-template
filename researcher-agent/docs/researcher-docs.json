@@ -1,0 +1,290 @@
+﻿[
+    {
+        "name":  "anthropic-api-docs",
+        "description":  "Anthropic Claude API documentation - models, tool use, prompt caching.",
+        "category":  "ai",
+        "url":  "https://docs.anthropic.com",
+        "keywords":  [
+                         "anthropic",
+                         "claude",
+                         "api"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://docs.anthropic.com",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "anthropic-api-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.36,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "realtime-chat-docs",
+        "description":  "Real-time communication reference - WebSocket chat, presence, delivery guarantees.",
+        "category":  "communication",
+        "url":  "https://socket.io/docs",
+        "keywords":  [
+                         "chat",
+                         "websocket",
+                         "realtime"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://socket.io/docs",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "realtime-chat-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.126,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "fastmcp-docs",
+        "description":  "FastMCP framework documentation - building MCP servers with Python, tools, resources, prompts.",
+        "category":  "mcp",
+        "url":  "https://gofastmcp.com",
+        "keywords":  [
+                         "fastmcp",
+                         "mcp server",
+                         "python",
+                         "tools",
+                         "resources"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://gofastmcp.com",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "fastmcp-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.117,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "analytics-dashboard-docs",
+        "description":  "Analytics platform reference - event tracking, funnels, dashboards, warehouse-native analytics.",
+        "category":  "analytics",
+        "url":  "https://developers.google.com/analytics",
+        "keywords":  [
+                         "analytics",
+                         "dashboards",
+                         "funnels"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://developers.google.com/analytics",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "analytics-dashboard-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.117,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "openai-api-docs",
+        "description":  "OpenAI API documentation - models, chat, embeddings, agents.",
+        "category":  "ai",
+        "url":  "https://platform.openai.com/docs",
+        "keywords":  [
+                         "openai",
+                         "gpt",
+                         "api"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://platform.openai.com/docs",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "openai-api-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.097,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "mcp-registry",
+        "description":  "Official Model Context Protocol registry of servers and integrations.",
+        "category":  "mcp",
+        "url":  "https://registry.modelcontextprotocol.io",
+        "keywords":  [
+                         "mcp",
+                         "registry",
+                         "servers"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://registry.modelcontextprotocol.io",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "mcp-registry",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.097,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "lms-docs",
+        "description":  "Learning management system reference - courses, SCORM/xAPI, assessments, certificates.",
+        "category":  "education",
+        "url":  "https://www.imsglobal.org",
+        "keywords":  [
+                         "lms",
+                         "courses",
+                         "scorm",
+                         "xapi"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.imsglobal.org",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "lms-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.095,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "chromadb-docs",
+        "description":  "Chroma vector database documentation - collections, embeddings, querying, persistence.",
+        "category":  "databases",
+        "url":  "https://docs.trychroma.com",
+        "keywords":  [
+                         "chromadb",
+                         "vector database",
+                         "embeddings",
+                         "collections",
+                         "hnsw"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://docs.trychroma.com",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "chromadb-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.094,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "payments-platform-docs",
+        "description":  "Payments platform reference - payment methods, processors, payouts, reconciliation.",
+        "category":  "payments",
+        "url":  "https://docs.stripe.com/payments",
+        "keywords":  [
+                         "payments",
+                         "processors",
+                         "payouts"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://docs.stripe.com/payments",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "payments-platform-docs",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.09,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "model-context-protocol-spec",
+        "description":  "Official Model Context Protocol specification - transport, lifecycle, tools, sampling, authentication.",
+        "category":  "mcp",
+        "url":  "https://modelcontextprotocol.io/specification",
+        "keywords":  [
+                         "mcp",
+                         "specification",
+                         "protocol",
+                         "transports",
+                         "stdio",
+                         "http"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://modelcontextprotocol.io/specification",
+                               "hint":  "The documentation page itself"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "model-context-protocol-spec",
+                               "path":  "D:\\Projects\\MCP Skills\\docs.json"
+                           }
+                       ],
+        "relevance":  0.089,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    }
+]

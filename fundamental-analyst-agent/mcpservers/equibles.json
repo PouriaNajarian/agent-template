@@ -1,0 +1,15 @@
+﻿{
+    "name":  "equibles",
+    "category":  "finance",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "US stock market \u0026amp; financial data — SEC filings full-text search, XBRL fundamentals, 13F institutional holdings, insider \u0026amp; congressional trades, earnings-call transcripts, short interest, and FRED macro; 90+ tools, free tier, self-hostable.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/daniel3303/stock-market-mcp-server",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "binance-cryptocurrency-mcp",
+    "category":  "database",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Access real-time Binance cryptocurrency market data, including prices, order books, and trading history.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/CarlosIrineuCosta/binance-mcp-enhanced",
+    "url":  "",
+    "custom":  false
+}

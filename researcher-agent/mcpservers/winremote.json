@@ -1,0 +1,37 @@
+﻿{
+    "category":  "desktop",
+    "description":  "Windows desktop control: screenshots, clicks, typing, shell.",
+    "ides":  [
+                 "claude",
+                 "cursor",
+                 "devin",
+                 "opencode"
+             ],
+    "install":  "pip install winremote-mcp",
+    "keywords":  [
+                     "desktop",
+                     "ui automation",
+                     "windows"
+                 ],
+    "name":  "winremote",
+    "platforms":  [
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/ivanstepanovftw/winremote"
+                       },
+                       {
+                           "command":  "pip install winremote-mcp",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "winremote",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/ivanstepanovftw/winremote"
+}

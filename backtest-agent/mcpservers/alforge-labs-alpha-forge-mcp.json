@@ -1,0 +1,15 @@
+﻿{
+    "name":  "alforge-labs-alpha-forge-mcp",
+    "category":  "finance-fintech",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "AlphaForge quant CLI as an MCP server — backtest, optimize (Optuna TPE), and walk-forward-test trading strategies from Claude Desktop, Cursor, or Claude Code. Local-first, anti-overfitting. `uvx alpha-forge-mcp`",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/alforge-labs/alpha-forge-mcp",
+    "url":  "",
+    "custom":  false
+}

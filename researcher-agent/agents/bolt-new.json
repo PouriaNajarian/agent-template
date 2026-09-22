@@ -1,0 +1,46 @@
+﻿{
+    "name":  "bolt-new",
+    "category":  "platform",
+    "description":  "StackBlitz Bolt: prompt-to-app web builder.",
+    "usage_areas":  [
+                        "coding",
+                        "design"
+                    ],
+    "platforms":  [
+                      "web"
+                  ],
+    "install":  "bolt.new",
+    "source_url":  "https://bolt.new",
+    "tutorial":  "https://stackblitz.com",
+    "keywords":  [
+                     "bolt",
+                     "web app",
+                     "no-code"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://bolt.new",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://stackblitz.com",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "bolt.new"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "bolt-new",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.091,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

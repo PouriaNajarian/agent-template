@@ -1,0 +1,35 @@
+[
+    {
+        "category": "project-management",
+        "description": "Program dashboard: milestones, task graph, risks, velocity per project.",
+        "name": "program-dashboard",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["dashboard", "milestones", "risks"],
+        "references": [
+            { "type": "catalog_file", "name": "program-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Risk register: likelihood x impact scoring, mitigation tracking, escalation.",
+        "name": "risk-register",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["risk", "register", "mitigation"],
+        "references": [
+            { "type": "catalog_file", "name": "risk-register", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Dependency graph: task blocking edges, critical path, cycle detection.",
+        "name": "dependency-graph",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["dependencies", "critical path"],
+        "references": [
+            { "type": "catalog_file", "name": "dependency-graph", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

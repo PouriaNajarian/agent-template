@@ -1,0 +1,15 @@
+﻿{
+    "name":  "clickhouse",
+    "category":  "database",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "An MCP server for interacting with a ClickHouse database.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/burakdirin/clickhouse-mcp-server",
+    "url":  "",
+    "custom":  false
+}

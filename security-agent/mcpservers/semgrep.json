@@ -1,0 +1,15 @@
+﻿{
+    "name":  "semgrep",
+    "category":  "development",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Static code analysis using Semgrep for security vulnerability detection and code quality improvements.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/Szowesgad/mcp-server-semgrep",
+    "url":  "",
+    "custom":  false
+}

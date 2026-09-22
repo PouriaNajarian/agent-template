@@ -1,0 +1,15 @@
+﻿{
+    "name":  "corbym-backlog-mcp",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "MCP server that gives AI agents structured read/write access to a story-based project backlog. Agents can list stories, read content, update status, and append notes — all backed by plain markdown files versioned in your repository.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/corbym/backlog-mcp",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,43 @@
+﻿{
+    "name":  "rememberizer-common-knowledge",
+    "category":  "search",
+    "description":  "Provides semantic search and retrieval for internal company knowledge bases, including documents and Slack discussions.",
+    "source_url":  "https://mcpservers.org/servers/skydeckai/rememberizer-mcp-company-data-ck",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "provides",
+                     "semantic",
+                     "search",
+                     "retrieval"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/skydeckai/rememberizer-mcp-company-data-ck",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "rememberizer-common-knowledge",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0303,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027rememberizer-common-knowledge\u0027)"
+}

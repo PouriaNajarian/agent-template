@@ -1,0 +1,50 @@
+[
+    {
+        "category": "development",
+        "description": "Model Context Protocol specification documentation - transports, lifecycle, security.",
+        "name": "mcp-spec-docs",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "url": "https://modelcontextprotocol.io",
+        "keywords": ["mcp", "spec", "protocol"],
+        "references": [
+            { "type": "web", "url": "https://modelcontextprotocol.io", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "FastMCP documentation - building MCP servers in Python.",
+        "name": "fastmcp-docs",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://github.com/jlowin/fastmcp",
+        "keywords": ["fastmcp", "mcp", "python"],
+        "references": [
+            { "type": "web", "url": "https://github.com/jlowin/fastmcp", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "MCP TypeScript SDK documentation - building servers/clients in TypeScript.",
+        "name": "mcp-ts-sdk-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+        "keywords": ["mcp", "sdk", "typescript"],
+        "references": [
+            { "type": "web", "url": "https://github.com/modelcontextprotocol/typescript-sdk", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "agent-mcp-orchestrator API reference - endpoints for inventory, install, sync.",
+        "name": "orchestrator-api-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "http://localhost:8790",
+        "keywords": ["orchestrator", "api", "inventory"],
+        "references": [
+            { "type": "web", "url": "http://localhost:8790", "hint": "The documentation page itself" }
+        ]
+    }
+]

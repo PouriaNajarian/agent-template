@@ -1,0 +1,43 @@
+﻿{
+    "name":  "mcp-documentation-server",
+    "category":  "development",
+    "description":  "An AI-powered documentation server for code improvement and management, with Claude and Brave Search integration.",
+    "source_url":  "https://mcpservers.org/servers/mahawi1992/mcp-documentation-server",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "powered",
+                     "documentation",
+                     "code",
+                     "improvement"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/mahawi1992/mcp-documentation-server",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "mcp-documentation-server",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0317,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027mcp-documentation-server\u0027)"
+}

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "financial-data-mcp-server",
+    "category":  "web-scraping",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Provides real-time financial market data from Yahoo Finance.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/Samarth2001/Financial-Data-MCP-Server",
+    "url":  "",
+    "custom":  false
+}

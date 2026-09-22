@@ -1,0 +1,35 @@
+[
+    {
+        "category": "testing",
+        "description": "Coverage dashboard: line/branch coverage per module, trends, gates.",
+        "name": "coverage-dashboard",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["coverage", "dashboard", "gates"],
+        "references": [
+            { "type": "catalog_file", "name": "coverage-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "Flaky test tracker: quarantine, rerun stats, failure history.",
+        "name": "flaky-tracker",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["flaky", "tests", "tracker"],
+        "references": [
+            { "type": "catalog_file", "name": "flaky-tracker", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "Acceptance verification: acceptance criteria to executable scenario tests.",
+        "name": "acceptance-verifier",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["acceptance", "scenarios", "verification"],
+        "references": [
+            { "type": "catalog_file", "name": "acceptance-verifier", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

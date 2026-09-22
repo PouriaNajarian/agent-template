@@ -1,0 +1,15 @@
+﻿{
+    "name":  "tradingview-backtest-assistant",
+    "category":  "communication",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "exposes a remote MCP endpoint so agents can: run strategy backtests by symbol/timeframe/date range, pass strategy inputs programmatically,receive structured backtest results (trades, win rate, profit, drawdown).",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/vtlk/tv-pinescript-backtest-engine-mcp",
+    "url":  "",
+    "custom":  false
+}

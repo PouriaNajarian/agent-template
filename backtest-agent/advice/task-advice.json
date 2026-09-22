@@ -1,0 +1,147 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: backtesting-frameworks, quant-analyst, ml-model-evaluation",
+                                     "Follow the workflow: fw-model-evaluation"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Connect / install the MCP servers: alphaassay, alforge-labs-alpha-forge-mcp, tradingview-backtest-assistant",
+                                     "Use the tools: Backtrader, VectorBT, QuantStats"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Verify the backtest ran, fees applied, IS/OOS clean, overfitting checked",
+                                     "Consult the documentation: backtrader-docs, vectorbt-docs",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "backtest-dashboard",
+                                         "walk-forward-runner",
+                                         "overfit-forensics"
+                                     ],
+                        "workflow":  [
+                                         "fw-model-evaluation",
+                                         "fw-model-development"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "backtrader-docs",
+                                     "vectorbt-docs",
+                                     "deflated-sharpe-docs"
+                                 ],
+                        "tools":  [
+                                      "Backtrader",
+                                      "VectorBT",
+                                      "QuantStats",
+                                      "Pandas",
+                                      "SciPy"
+                                  ],
+                        "skills":  [
+                                       "backtesting-frameworks",
+                                       "quant-analyst",
+                                       "ml-model-evaluation",
+                                       "ml-data-pipeline",
+                                       "risk-manager",
+                                       "trading-ledger",
+                                       "data-storytelling",
+                                       "sql-pro",
+                                       "eng-test-driven-development",
+                                       "dev-verification-before-completion"
+                                   ],
+                        "mcpserver":  [
+                                          "alphaassay",
+                                          "alforge-labs-alpha-forge-mcp",
+                                          "tradingview-backtest-assistant",
+                                          "dolphinquant-echolon",
+                                          "crashtestyourstrategy",
+                                          "keel-trade-keel-trade"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Never report a backtest you have not run; never tune on test data.",
+                     "Fees/slippage and IS/OOS separation are mandatory."
+                 ],
+    "task":  "Build a Backtest Agent for a trading/investment system: implements and runs backtests of strategy specifications: executes rules against historical data with realistic costs, computes performance/risk metrics (expectancy, Sharpe, max drawdown, hit rate, exposure), runs IS/OOS and walk-forward analysis, detects overfitting, and produces a verdict with confidence",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://www.backtrader.com",
+                                      "https://vectorbt.dev",
+                                      "https://github.com/ranaroussi/quantstats"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027alphaassay\u0027)",
+                                           "get_mcp_server(\u0027alforge-labs-alpha-forge-mcp\u0027)",
+                                           "get_mcp_server(\u0027tradingview-backtest-assistant\u0027)",
+                                           "get_mcp_server(\u0027crashtestyourstrategy\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027backtesting-frameworks\u0027)",
+                                       "get_skill(\u0027quant-analyst\u0027)",
+                                       "get_skill(\u0027ml-model-evaluation\u0027)",
+                                       "get_skill(\u0027risk-manager\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027fw-model-evaluation\u0027)",
+                                          "get_workflow(\u0027fw-model-development\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the Backtest agent, following the operating loop in agent.md and the fw-model-evaluation workflow.",
+    "ordered_steps":  [
+                          "Read the spec; verify unambiguity (spec-interpreter); escalate ambiguities.",
+                          "Pull/validate historical data (ml-data-pipeline, postgres-mcp).",
+                          "Implement the strategy with tests (backtesting-frameworks, eng-test-driven-development).",
+                          "Run full-period + IS/OOS + walk-forward with fees/slippage.",
+                          "Compute metrics (metrics-computer): expectancy, Sharpe, max DD, hit rate, exposure.",
+                          "Validate: overfitting checks (alphaassay deflated Sharpe, crashtestyourstrategy stress).",
+                          "Write report + verdict (report-writer); verify before completing."
+                      ],
+    "requirement":  "Backtest agent: run backtests, metrics sharpe max drawdown, walk-forward, overfitting detection, statistical significance, performance attribution",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "strong (backtesting-frameworks, quant-analyst, ml-model-evaluation)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "medium (Backtrader, VectorBT, QuantStats, SciPy)",
+                     "docs":  "medium - web-verify the URLs before relying on them",
+                     "mcpservers":  "strong (alphaassay, alpha-forge, tradingview backtest, crashtestyourstrategy)",
+                     "workflows":  "medium (model evaluation reused)"
+                 },
+    "advice_elapsed_s":  null
+}

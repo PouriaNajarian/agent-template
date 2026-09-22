@@ -1,0 +1,38 @@
+[
+    {
+        "category": "finance",
+        "description": "Backtrader documentation - cerebro, strategies, analyzers, indicators.",
+        "name": "backtrader-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://www.backtrader.com/docu",
+        "keywords": ["backtrader", "backtest"],
+        "references": [
+            { "type": "web", "url": "https://www.backtrader.com/docu", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "VectorBT documentation - signal generation, portfolio analytics, parameter sweeps.",
+        "name": "vectorbt-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://vectorbt.dev/doc",
+        "keywords": ["vectorbt", "backtest"],
+        "references": [
+            { "type": "web", "url": "https://vectorbt.dev/doc", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Deflated Sharpe ratio methodology - correcting Sharpe for multiple testing.",
+        "name": "deflated-sharpe-docs",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551",
+        "keywords": ["deflated sharpe", "multiple testing", "overfitting"],
+        "references": [
+            { "type": "web", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551", "hint": "The documentation page itself" }
+        ]
+    }
+]

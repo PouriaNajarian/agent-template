@@ -1,0 +1,35 @@
+[
+    {
+        "category": "data",
+        "description": "Data pipeline builder: drag-and-drop ingestion -> transform -> load with validation steps.",
+        "name": "pipeline-builder",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["pipeline", "etl", "builder"],
+        "references": [
+            { "type": "catalog_file", "name": "pipeline-builder", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Data quality dashboard: freshness, row counts, validation pass/fail per table.",
+        "name": "data-quality-dashboard",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["quality", "dashboard", "freshness"],
+        "references": [
+            { "type": "catalog_file", "name": "data-quality-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Data lineage: source-to-table-to-consumer graph with provenance.",
+        "name": "data-lineage",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["lineage", "provenance"],
+        "references": [
+            { "type": "catalog_file", "name": "data-lineage", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

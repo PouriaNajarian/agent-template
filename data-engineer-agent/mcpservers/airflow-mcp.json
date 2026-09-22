@@ -1,0 +1,15 @@
+﻿{
+    "name":  "airflow-mcp",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Interact with Apache Airflow using natural language to manage and monitor your data workflows.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/hipposys-ltd/airflow-mcp",
+    "url":  "",
+    "custom":  false
+}

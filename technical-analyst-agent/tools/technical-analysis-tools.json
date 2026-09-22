@@ -1,0 +1,68 @@
+[
+    {
+        "category": "data",
+        "description": "Data analysis and manipulation toolkit for Python - OHLCV and indicator computation.",
+        "license": "BSD-3-Clause",
+        "name": "Pandas",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://pandas.pydata.org",
+        "skill": "ml-data-pipeline",
+        "keywords": ["dataframes", "analysis"],
+        "references": [
+            { "type": "web", "url": "https://pandas.pydata.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "pandas-ta - technical analysis indicators library: RSI, MACD, BB, ATR, OBV, 100+ indicators.",
+        "license": "MIT",
+        "name": "pandas-ta",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://github.com/twopirllc/pandas-ta",
+        "keywords": ["indicators", "technical analysis"],
+        "references": [
+            { "type": "web", "url": "https://github.com/twopirllc/pandas-ta", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "TA-Lib - technical analysis library with 150+ indicator functions.",
+        "license": "BSD-3-Clause",
+        "name": "TA-Lib",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://ta-lib.org",
+        "keywords": ["indicators", "technical analysis"],
+        "references": [
+            { "type": "web", "url": "https://ta-lib.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Backtrader - Python backtesting and charting framework for strategy validation.",
+        "license": "GPL-3.0",
+        "name": "Backtrader",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://www.backtrader.com",
+        "keywords": ["backtest", "strategy", "charting"],
+        "references": [
+            { "type": "web", "url": "https://www.backtrader.com", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Matplotlib - charting library for plotting price charts and indicator overlays.",
+        "license": "PSF-2.0",
+        "name": "Matplotlib",
+        "ranking": "vector",
+        "relevance": 0.11,
+        "url": "https://matplotlib.org",
+        "keywords": ["charting", "plots"],
+        "references": [
+            { "type": "web", "url": "https://matplotlib.org", "hint": "Official site / source repository" }
+        ]
+    }
+]

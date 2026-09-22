@@ -1,0 +1,86 @@
+[
+    {
+        "category": "testing",
+        "description": "Playwright - cross-browser automation and end-to-end testing framework.",
+        "license": "Apache-2.0",
+        "name": "Playwright",
+        "ranking": "vector",
+        "relevance": 0.216,
+        "url": "https://playwright.dev",
+        "skill": "e2e-testing",
+        "keywords": ["browser", "e2e", "testing"],
+        "references": [
+            { "type": "web", "url": "https://playwright.dev", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "pytest - mature full-featured Python testing framework.",
+        "license": "MIT",
+        "name": "pytest",
+        "ranking": "vector",
+        "relevance": 0.145,
+        "url": "https://pytest.org",
+        "skill": "eng-test-driven-development",
+        "keywords": ["python", "unit tests"],
+        "references": [
+            { "type": "web", "url": "https://pytest.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "Vitest - blazing fast unit test framework powered by Vite.",
+        "license": "MIT",
+        "name": "Vitest",
+        "ranking": "vector",
+        "relevance": 0.191,
+        "url": "https://vitest.dev",
+        "skill": "web-testing-strategy",
+        "keywords": ["unit tests", "vite"],
+        "references": [
+            { "type": "web", "url": "https://vitest.dev", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "Jest - delightful JavaScript testing framework with zero config.",
+        "license": "MIT",
+        "name": "Jest",
+        "ranking": "vector",
+        "relevance": 0.141,
+        "url": "https://jestjs.io",
+        "skill": "web-testing-strategy",
+        "keywords": ["javascript", "unit tests"],
+        "references": [
+            { "type": "web", "url": "https://jestjs.io", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "k6 - open-source load testing tool.",
+        "license": "AGPL-3.0",
+        "name": "K6",
+        "ranking": "vector",
+        "relevance": 0.146,
+        "url": "https://k6.io",
+        "skill": "k6-load-testing",
+        "keywords": ["load testing", "perf"],
+        "references": [
+            { "type": "web", "url": "https://k6.io", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "testing",
+        "description": "Cypress - fast, easy and reliable browser-based E2E testing.",
+        "license": "MIT",
+        "name": "Cypress",
+        "ranking": "vector",
+        "relevance": 0.149,
+        "url": "https://www.cypress.io",
+        "skill": "e2e-testing",
+        "keywords": ["e2e", "browser", "cypress"],
+        "references": [
+            { "type": "web", "url": "https://www.cypress.io", "hint": "Official site / source repository" }
+        ]
+    }
+]

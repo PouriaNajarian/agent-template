@@ -1,0 +1,35 @@
+[
+    {
+        "category": "finance",
+        "description": "Technical analysis dashboard: multi-timeframe trend, levels, indicator panels.",
+        "name": "ta-dashboard",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["dashboard", "indicators", "timeframes"],
+        "references": [
+            { "type": "catalog_file", "name": "ta-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Chart pattern detector: candlestick + chart pattern recognition with validity context.",
+        "name": "pattern-detector",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["patterns", "candlesticks"],
+        "references": [
+            { "type": "catalog_file", "name": "pattern-detector", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Levels engine: automatic S/R detection with confluence scoring and trade plan builder.",
+        "name": "levels-engine-feature",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["support", "resistance", "levels"],
+        "references": [
+            { "type": "catalog_file", "name": "levels-engine-feature", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

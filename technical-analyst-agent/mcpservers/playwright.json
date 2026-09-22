@@ -1,0 +1,41 @@
+﻿{
+    "category":  "browser",
+    "description":  "Browser automation and testing: navigate, click, fill, screenshot, inspect DOM.",
+    "ides":  [
+                 "claude",
+                 "cline",
+                 "cursor",
+                 "devin",
+                 "opencode"
+             ],
+    "install":  "npx -y @playwright/mcp@latest --browser chromium",
+    "keywords":  [
+                     "automation",
+                     "browser",
+                     "e2e",
+                     "testing"
+                 ],
+    "name":  "playwright",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/microsoft/playwright-mcp"
+                       },
+                       {
+                           "command":  "npx -y @playwright/mcp@latest --browser chromium",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "playwright",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/microsoft/playwright-mcp"
+}

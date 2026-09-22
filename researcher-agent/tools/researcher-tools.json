@@ -1,0 +1,341 @@
+﻿[
+    {
+        "name":  "ripgrep",
+        "description":  "Line-oriented search tool that recursively searches directories.",
+        "category":  "frontend",
+        "license":  "MIT",
+        "url":  "https://github.com/BurntSushi/ripgrep",
+        "skill":  "diagnosing-bugs",
+        "keywords":  [
+                         "search",
+                         "regex",
+                         "grep"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://github.com/BurntSushi/ripgrep",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "diagnosing-bugs",
+                               "resource":  "mcp-skills://skills/diagnosing-bugs",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "ripgrep",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.176,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "Playwright",
+        "description":  "Cross-browser automation and end-to-end testing framework.",
+        "category":  "testing",
+        "license":  "Apache-2.0",
+        "url":  "https://playwright.dev",
+        "skill":  "e2e-testing",
+        "keywords":  [
+                         "browser",
+                         "e2e",
+                         "testing"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://playwright.dev",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "e2e-testing",
+                               "resource":  "mcp-skills://skills/e2e-testing",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "Playwright",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.146,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "Selenium",
+        "description":  "Automates browsers for web testing across many languages.",
+        "category":  "testing",
+        "license":  "Apache-2.0",
+        "url":  "https://www.selenium.dev",
+        "skill":  "e2e-testing",
+        "keywords":  [
+                         "browser",
+                         "automation"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.selenium.dev",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "e2e-testing",
+                               "resource":  "mcp-skills://skills/e2e-testing",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "Selenium",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.134,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "K6",
+        "description":  "Open-source load testing tool for engineering teams.",
+        "category":  "testing",
+        "license":  "AGPL-3.0",
+        "url":  "https://k6.io",
+        "skill":  "web-performance-optimization",
+        "keywords":  [
+                         "load testing",
+                         "perf"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://k6.io",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "web-performance-optimization",
+                               "resource":  "mcp-skills://skills/web-performance-optimization",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "K6",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.124,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "Jest",
+        "description":  "Delightful JavaScript testing framework with zero config.",
+        "category":  "testing",
+        "license":  "MIT",
+        "url":  "https://jestjs.io",
+        "skill":  "web-testing-strategy",
+        "keywords":  [
+                         "javascript",
+                         "unit tests"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://jestjs.io",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "web-testing-strategy",
+                               "resource":  "mcp-skills://skills/web-testing-strategy",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "Jest",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.118,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "MinIO",
+        "description":  "High-performance, S3-compatible object storage - free and open source.",
+        "category":  "storage",
+        "license":  "AGPL-3.0",
+        "url":  "https://min.io",
+        "skill":  "docker-containerization",
+        "keywords":  [
+                         "s3",
+                         "object storage"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://min.io",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "docker-containerization",
+                               "resource":  "mcp-skills://skills/docker-containerization",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "MinIO",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.107,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "Postman",
+        "description":  "API platform for building, testing and documenting APIs.",
+        "category":  "testing",
+        "license":  "Free (commercial)",
+        "url":  "https://www.postman.com",
+        "skill":  "api-design",
+        "keywords":  [
+                         "api",
+                         "testing",
+                         "collections"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://www.postman.com",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "api-design",
+                               "resource":  "mcp-skills://skills/api-design",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "Postman",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.104,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "jq",
+        "description":  "Lightweight command-line JSON processor.",
+        "category":  "devops",
+        "license":  "MIT",
+        "url":  "https://jqlang.github.io/jq",
+        "skill":  "backend-patterns",
+        "keywords":  [
+                         "json",
+                         "cli"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://jqlang.github.io/jq",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "backend-patterns",
+                               "resource":  "mcp-skills://skills/backend-patterns",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "jq",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.102,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "PyTorch",
+        "description":  "Open-source ML framework with GPU acceleration.",
+        "category":  "ai",
+        "license":  "BSD-3-Clause",
+        "url":  "https://pytorch.org",
+        "skill":  "ml-model-development",
+        "keywords":  [
+                         "deep learning",
+                         "tensors"
+                     ],
+        "references":  [
+                           {
+                               "type":  "web",
+                               "url":  "https://pytorch.org",
+                               "hint":  "Official site / source repository"
+                           },
+                           {
+                               "type":  "skill",
+                               "name":  "ml-model-development",
+                               "resource":  "mcp-skills://skills/ml-model-development",
+                               "hint":  "Related skill that uses this tool"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "PyTorch",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.096,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "omniroute",
+        "category":  "llm-gateway",
+        "license":  "MIT",
+        "description":  "Free AI gateway/router: one OpenAI-compatible endpoint over 352 providers + 1200 models with auto-fallback; CLI, Docker, Electron, MCP server.",
+        "source_url":  "https://github.com/diegosouzapw/OmniRoute",
+        "install":  "npm install -g omniroute",
+        "related_skill":  "",
+        "references":  [
+                           {
+                               "type":  "catalog_file",
+                               "name":  "omniroute",
+                               "path":  "D:\\Projects\\MCP Skills\\tools.json"
+                           }
+                       ],
+        "relevance":  0.093,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    }
+]

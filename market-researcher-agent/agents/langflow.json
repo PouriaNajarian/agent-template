@@ -1,0 +1,43 @@
+﻿{
+    "category":  "platform",
+    "description":  "Visual framework for multi-agent and RAG apps.",
+    "install":  "pip install langflow \u0026\u0026 langflow run",
+    "keywords":  [
+                     "langflow",
+                     "agents",
+                     "rag"
+                 ],
+    "name":  "langflow",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://langflow.org"
+                       },
+                       {
+                           "hint":  "Official docs / tutorial",
+                           "type":  "docs",
+                           "url":  "https://docs.langflow.org"
+                       },
+                       {
+                           "command":  "pip install langflow \u0026\u0026 langflow run",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "langflow",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://langflow.org",
+    "tutorial":  "https://docs.langflow.org",
+    "usage_areas":  [
+                        "agents",
+                        "workflows"
+                    ]
+}

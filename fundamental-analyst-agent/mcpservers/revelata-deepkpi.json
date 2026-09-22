@@ -1,0 +1,15 @@
+﻿{
+    "name":  "revelata-deepkpi",
+    "category":  "other",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Deep fundamental data from SEC filings, including operational KPIs not found on Bloomberg, built for your financial AI agents.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/revelata-deepkpi-mcp",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "agile-team-mcp-server",
+    "category":  "development",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "An MCP server providing model wrapper tools for agile development teams, requiring external API keys.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/danielscholl/agile-team-mcp-server",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "category": "finance",
+        "description": "Backtrader - Python backtesting framework with analyzers (Sharpe, drawdown) and strategies.",
+        "license": "GPL-3.0",
+        "name": "Backtrader",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://www.backtrader.com",
+        "keywords": ["backtest", "framework"],
+        "references": [
+            { "type": "web", "url": "https://www.backtrader.com", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "VectorBT - vectorized backtesting and portfolio analytics on pandas/numpy.",
+        "license": "Apache-2.0",
+        "name": "VectorBT",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://vectorbt.dev",
+        "keywords": ["backtest", "vectorized"],
+        "references": [
+            { "type": "web", "url": "https://vectorbt.dev", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "QuantStats - portfolio analytics library: Sharpe, drawdown, tearsheets.",
+        "license": "Apache-2.0",
+        "name": "QuantStats",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://github.com/ranaroussi/quantstats",
+        "keywords": ["analytics", "tearsheet", "metrics"],
+        "references": [
+            { "type": "web", "url": "https://github.com/ranaroussi/quantstats", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Data analysis and manipulation toolkit for Python - trade/equity series.",
+        "license": "BSD-3-Clause",
+        "name": "Pandas",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://pandas.pydata.org",
+        "skill": "ml-data-pipeline",
+        "keywords": ["dataframes", "analysis"],
+        "references": [
+            { "type": "web", "url": "https://pandas.pydata.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "scipy stats - statistical testing (t-tests, bootstrap) for backtest significance.",
+        "license": "BSD-3-Clause",
+        "name": "SciPy",
+        "ranking": "vector",
+        "relevance": 0.11,
+        "url": "https://scipy.org",
+        "keywords": ["statistics", "testing"],
+        "references": [
+            { "type": "web", "url": "https://scipy.org", "hint": "Official site / source repository" }
+        ]
+    }
+]

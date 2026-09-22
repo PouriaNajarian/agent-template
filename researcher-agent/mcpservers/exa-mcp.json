@@ -1,0 +1,48 @@
+﻿{
+    "name":  "exa-mcp",
+    "category":  "web",
+    "description":  "Exa semantic web search and content retrieval.",
+    "source_url":  "https://github.com/exa-labs/exa-mcp-server",
+    "install":  "npx -y exa-mcp-server",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+                 "claude",
+                 "cursor",
+                 "opencode"
+             ],
+    "keywords":  [
+                     "search",
+                     "semantic",
+                     "web"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://github.com/exa-labs/exa-mcp-server",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "npx -y exa-mcp-server"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "exa-mcp",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0286,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  true,
+    "run_hint":  "install \u0026 run: npx -y exa-mcp-server"
+}

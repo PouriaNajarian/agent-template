@@ -1,0 +1,43 @@
+﻿{
+    "name":  "rag-documentation",
+    "category":  "search",
+    "description":  "Retrieve and process documentation using vector search to provide context for AI assistants.",
+    "source_url":  "https://mcpservers.org/servers/hannesrudolph/mcp-ragdocs",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "retrieve",
+                     "process",
+                     "documentation",
+                     "vector"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/hannesrudolph/mcp-ragdocs",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "rag-documentation",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0323,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027rag-documentation\u0027)"
+}

@@ -1,0 +1,48 @@
+﻿{
+    "name":  "cursor",
+    "category":  "ide",
+    "usage_areas":  [
+                        "coding",
+                        "design"
+                    ],
+    "description":  "AI-first code editor with agents, composer, and MCP support.",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "install":  "Download from cursor.com",
+    "source_url":  "https://cursor.com",
+    "tutorial":  "https://cursor.com/docs",
+    "keywords":  [
+                     "editor",
+                     "ide",
+                     "coding"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://cursor.com",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://cursor.com/docs",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "Download from cursor.com"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "cursor",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.102,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

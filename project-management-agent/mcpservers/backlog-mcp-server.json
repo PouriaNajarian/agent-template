@@ -1,0 +1,15 @@
+﻿{
+    "name":  "backlog-mcp-server",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "An MCP server for interacting with the Backlog API, a project management and collaboration tool.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/safx/backlog-mcp-server-rust",
+    "url":  "",
+    "custom":  false
+}

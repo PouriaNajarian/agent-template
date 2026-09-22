@@ -1,0 +1,157 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: ecom-project-management, team-collaboration-standup-notes, retro",
+                                     "Follow the scrum cadence workflow"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Connect / install the MCP servers: jira-mcp, jira-sprint-dashboard, pm33-mcp-server, qretro",
+                                     "Run the ceremonies: planning, standup, review, retro"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Verify metrics come from the tracker, not vibes",
+                                     "Consult the documentation: scrum-guide-docs, jira-scrum-docs",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "sprint-board",
+                                         "velocity-dashboard",
+                                         "retro-board"
+                                     ],
+                        "workflow":  [
+                                         "fw-role-separated-agents",
+                                         "fw-agentic-coding-loop",
+                                         "fw-spec-driven-development"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "scrum-guide-docs",
+                                     "jira-scrum-docs",
+                                     "scrum-org-docs"
+                                 ],
+                        "tools":  [
+                                      "Jira",
+                                      "Linear",
+                                      "QRetro",
+                                      "EasyRetro"
+                                  ],
+                        "skills":  [
+                                       "ecom-project-management",
+                                       "team-collaboration-standup-notes",
+                                       "planning-with-files",
+                                       "plan-writing",
+                                       "eng-planning-and-task-breakdown",
+                                       "wrike-automation",
+                                       "dev-brainstorming",
+                                       "context-driven-development",
+                                       "dev-verification-before-completion",
+                                       "dev-dispatching-parallel-agents",
+                                       "eng-spec-driven-development",
+                                       "to-tickets",
+                                       "to-spec",
+                                       "retro",
+                                       "triage"
+                                   ],
+                        "mcpserver":  [
+                                          "jira-sprint-dashboard",
+                                          "jira-mcp",
+                                          "agile-team-mcp-server",
+                                          "agile-luminary",
+                                          "agile-planner-mcp-server",
+                                          "qretro",
+                                          "spranab-saga-mcp",
+                                          "pm33-mcp-server",
+                                          "tacticlaunch-mcp-linear",
+                                          "corbym-backlog-mcp"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Never claim a sprint is on track without the tracker data.",
+                     "Velocity is a trend, not a single sprint."
+                 ],
+    "task":  "Build a Scrum Master Agent for a trading/investment system: facilitates scrum ceremonies (sprint planning, daily standup, sprint review, retrospective), coaches the team (human + AI agents), removes impediments, guards the process, and tracks agile metrics (velocity, burndown, throughput, cycle time, team health)",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://www.atlassian.com/software/jira",
+                                      "https://linear.app",
+                                      "https://qretro.com"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027jira-mcp\u0027)",
+                                           "get_mcp_server(\u0027jira-sprint-dashboard\u0027)",
+                                           "get_mcp_server(\u0027pm33-mcp-server\u0027)",
+                                           "get_mcp_server(\u0027qretro\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://scrumguides.org",
+                                     "https://support.atlassian.com/jira-software-cloud"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027ecom-project-management\u0027)",
+                                       "get_skill(\u0027team-collaboration-standup-notes\u0027)",
+                                       "get_skill(\u0027retro\u0027)",
+                                       "get_skill(\u0027eng-planning-and-task-breakdown\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027fw-role-separated-agents\u0027)",
+                                          "get_workflow(\u0027fw-agentic-coding-loop\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the Scrum Master agent, following the operating loop in agent.md and the scrum cadence from fw-role-separated-agents.",
+    "ordered_steps":  [
+                          "Backlog grooming (backlog-groomer, pm33 WSJF).",
+                          "Sprint planning: goal, plan, capacity, owners (sprint-planner).",
+                          "Daily standup digest + blockers (standup-runner).",
+                          "Guard the sprint: burndown vs ideal (jira-sprint-dashboard).",
+                          "Sprint review: demo with evidence.",
+                          "Retrospective + experiments (retro-facilitator, qretro).",
+                          "Metrics \u0026 health report (metrics-reporter); verify before completing."
+                      ],
+    "requirement":  "Scrum master agent: scrum ceremonies, sprint planning, daily standup, sprint review, retrospective, agile coaching, velocity, burndown, impediment removal",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "strong (ecom-project-management, standup notes, retro, planning)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "medium (Jira, Linear, QRetro)",
+                     "docs":  "medium - web-verify the URLs before relying on them",
+                     "mcpservers":  "strong (jira, sprint dashboard, pm33, qretro)",
+                     "workflows":  "medium (role-separated, agentic loop)"
+                 },
+    "advice_elapsed_s":  null
+}

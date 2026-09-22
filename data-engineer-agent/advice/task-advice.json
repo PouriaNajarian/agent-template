@@ -1,0 +1,60 @@
+{
+  "task": "Build a Data Engineer AI agent for a trading/investment system: builds data pipelines for market data (ingestion, cleaning, normalization, validation, storage, serving), schema design, migrations, data quality checks, idempotent scheduled ingestion, reproducible dataset versioning",
+  "requirement": "Data engineer agent: ETL pipelines, market data ingestion, cleaning, normalization, schema design, SQL, data quality, time-series stores",
+  "advice_elapsed_s": null,
+  "ranking_engine": "vector",
+  "generated": "2026-09-22",
+  "categories_returned": ["agents", "docs", "features", "mcpservers", "skills", "tools", "workflows"],
+  "summary": "Apply the recommended skills, workflow and tools for building the Data Engineer agent, following the operating loop in agent.md and the data-pipeline-build workflow.",
+  "recommended": {
+    "agent": ["claude-code", "dify"],
+    "docs": ["postgresql-docs", "dbt-docs", "duckdb-docs", "greatexpectations-docs"],
+    "features": ["pipeline-builder", "data-quality-dashboard", "data-lineage"],
+    "mcpserver": ["data-studio-agent", "postgres-mcp", "clickhouse", "mongodb-mcp-server", "dbt-labs-dbt-mcp", "airflow-mcp", "sixta-connect"],
+    "skills": ["ml-data-pipeline", "data-engineer", "database", "database-design", "database-migration", "sql-pro", "data-quality-frameworks", "data-engineering-data-pipeline", "database-architect", "database-admin", "postgresql-optimization", "database-migrations-sql-migrations", "data-storytelling", "quant-analyst", "sql-schema-design", "ml-feature-engineering", "cron-scheduler", "eng-observability-and-instrumentation", "eng-performance-optimization", "content-hash-cache-pattern"],
+    "tools": ["Airflow", "dbt", "Pandas", "DuckDB", "Great Expectations"],
+    "workflow": ["data-pipeline-build", "data-warehouse-build", "data-pipeline", "fw-ml-data-pipeline"]
+  },
+  "plan": [
+    {"phase": "Setup", "actions": ["Load the top skills: ml-data-pipeline, data-engineer, sql-schema-design", "Follow the workflow: data-pipeline-build"]},
+    {"phase": "Implement", "actions": ["Connect / install the MCP servers: postgres-mcp, data-studio-agent, clickhouse, dbt-labs-dbt-mcp, airflow-mcp", "Use the tools: Airflow, dbt, Pandas, DuckDB"]},
+    {"phase": "Verify", "actions": ["Run the quality gates: schema, idempotency, freshness, counts, validation", "Consult the documentation: postgresql-docs, dbt-docs, duckdb-docs", "Implement, then verify before completing."]}
+  ],
+  "ordered_steps": [
+    "Design the pipeline: sources -> raw -> clean -> curated layers (ml-data-pipeline, sql-schema-design)",
+    "Design the schema with keys/indexes/partitioning (database-design, database-architect, sql-pro, postgresql-optimization)",
+    "Implement ingestion + transforms (data-engineer, data-engineering-data-pipeline, ml-feature-engineering, content-hash-cache-pattern)",
+    "Wire data quality (data-quality-frameworks, eng-observability-and-instrumentation)",
+    "Schedule idempotent runs (cron-scheduler)",
+    "Run end-to-end, verify gates, write the data dictionary."
+  ],
+  "cautions": [
+    "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+    "Never ship a pipeline that has not been run end-to-end.",
+    "Time-series data must be exchange-session aware (no weekend/holiday gaps)."
+  ],
+  "how_to_read": {
+    "skills": ["get_skill('ml-data-pipeline')", "get_skill('data-engineer')", "get_skill('data-quality-frameworks')", "get_skill('database-design')", "get_skill('sql-pro')", "get_skill('cron-scheduler')"],
+    "mcpservers": ["get_mcp_server('data-studio-agent')", "get_mcp_server('postgres-mcp')", "get_mcp_server('dbt-labs-dbt-mcp')", "get_mcp_server('airflow-mcp')"],
+    "workflows": ["get_workflow('data-pipeline-build')", "get_workflow('data-warehouse-build')", "get_workflow('fw-ml-data-pipeline')"],
+    "tools": ["https://airflow.apache.org", "https://www.getdbt.com", "https://pandas.pydata.org", "https://duckdb.org"],
+    "docs": ["https://www.postgresql.org/docs", "https://docs.getdbt.com"]
+  },
+  "combined_ranking_functions": {
+    "agents": "get_agents_combined(task)",
+    "docs": "get_docs_combined(task)",
+    "features": "get_features_combined(task)",
+    "mcpservers": "get_mcpservers_combined(task)",
+    "skills": "get_skills_combined(task)",
+    "tools": "get_tools_combined(task)",
+    "workflows": "get_workflows_combined(task)"
+  },
+  "coverage": {
+    "skills": "strong (data/database catalog coverage excellent)",
+    "mcpservers": "strong (database catalog 958 entries)",
+    "workflows": "strong (data-pipeline-build, data-warehouse-build, fw-ml-data-pipeline)",
+    "tools": "strong (Airflow, dbt, Pandas, DuckDB)",
+    "docs": "medium - web-verify the URLs before relying on them",
+    "features": "medium - web-verify the URLs before relying on them"
+  }
+}

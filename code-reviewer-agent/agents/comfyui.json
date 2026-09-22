@@ -1,0 +1,45 @@
+﻿{
+    "category":  "visual-tool",
+    "description":  "Node-based workflow UI for stable diffusion image/video/audio generation.",
+    "install":  "git clone https://github.com/comfyanonymous/ComfyUI \u0026\u0026 cd ComfyUI \u0026\u0026 pip install -r requirements.txt",
+    "keywords":  [
+                     "stable diffusion",
+                     "workflow",
+                     "generation"
+                 ],
+    "name":  "comfyui",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/comfyanonymous/ComfyUI"
+                       },
+                       {
+                           "hint":  "Official docs / tutorial",
+                           "type":  "docs",
+                           "url":  "https://docs.comfy.org"
+                       },
+                       {
+                           "command":  "git clone https://github.com/comfyanonymous/ComfyUI \u0026\u0026 cd ComfyUI \u0026\u0026 pip install -r requirements.txt",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "comfyui",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/comfyanonymous/ComfyUI",
+    "tutorial":  "https://docs.comfy.org",
+    "usage_areas":  [
+                        "video",
+                        "image",
+                        "audio",
+                        "design"
+                    ]
+}

@@ -1,0 +1,16 @@
+﻿{
+    "name":  "jira-mcp",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Jira issues, sprints, projects.",
+    "ides":  [
+                 "claude",
+                 "opencode"
+             ],
+    "install":  "uvx mcp-atlassian",
+    "source_url":  "https://github.com/sooperset/mcp-atlassian",
+    "url":  "",
+    "custom":  false
+}

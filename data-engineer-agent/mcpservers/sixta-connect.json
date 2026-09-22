@@ -1,0 +1,15 @@
+﻿{
+    "name":  "sixta-connect",
+    "category":  "database",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Database Reliability Engineer-grade SQL analysis inside any MCP client",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/connect-sixta-ai",
+    "url":  "",
+    "custom":  false
+}

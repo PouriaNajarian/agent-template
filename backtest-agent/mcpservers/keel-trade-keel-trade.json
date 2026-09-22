@@ -1,0 +1,15 @@
+﻿{
+    "name":  "keel-trade-keel-trade",
+    "category":  "finance-fintech",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Build, backtest, and automate Hyperliquid trading strategies. Typed strategy composition, deterministic backtests on real Hyperliquid funding + price history, opt-in live execution with bit-for-bit backtest-to-live parity.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/keel-trade/keel-trade",
+    "url":  "",
+    "custom":  false
+}

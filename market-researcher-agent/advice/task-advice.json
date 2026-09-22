@@ -1,0 +1,62 @@
+{
+  "task": "Build a Market Researcher AI agent for a trading/investment system: researches markets, sectors, companies, news and sentiment; finds macro trends, catalysts and investment opportunities; produces structured, citation-backed market research reports with an evidence ledger; uses web research, financial data MCP servers, news feeds, and subagents for sector scans, news analysis and sentiment grading",
+  "requirement": "Market researcher agent: research markets/sectors/companies, news + sentiment, macro trends, catalysts, citation-backed reports, evidence ledger",
+  "advice_elapsed_s": null,
+  "ranking_engine": "vector",
+  "generated": "2026-09-22",
+  "categories_returned": ["agents", "docs", "features", "mcpservers", "skills", "tools", "workflows"],
+  "summary": "Apply the recommended skills, workflow and tools for building the Market Researcher agent, following the operating loop in agent.md and the fw-research-optimize-execute workflow.",
+  "recommended": {
+    "agent": ["claude-code", "dify", "crewai", "langflow"],
+    "docs": ["fintech-compliance-docs", "sec-edgar-docs", "binance-research-docs", "marketplace-platform-docs"],
+    "features": ["market-sentiment-dashboard", "news-intelligence", "citation-ledger-reports", "product-catalog"],
+    "mcpserver": ["yahoo-finance", "mcp-yahoo-finance", "alpha-vantage", "financekit-mcp", "findata-mcp", "binance-cryptocurrency-mcp", "aegisgovdao-aegisgov-sec-mcp", "alpaca"],
+    "skills": ["gemini-deep-research", "deep-research", "research-prompt", "ml-web-research", "web-web-research", "efficient-web-research", "multi-source-search", "news-sentiment-engine", "apify-market-research", "competitive-landscape", "market-sizing-analysis", "compile-knowledge", "longbridge-market-data", "xvary-stock-research", "quant-analyst", "helium-mcp", "firecrawl", "tavily-web", "pi-web-search", "citation-management"],
+    "tools": ["Pandas", "DuckDB", "open-deep-research", "rss-parser + LLM sentiment", "findata"],
+    "workflow": ["fw-research-optimize-execute"]
+  },
+  "plan": [
+    {"phase": "Setup", "actions": ["Load the top skills: deep-research, news-sentiment-engine, ml-web-research", "Follow the workflow: fw-research-optimize-execute"]},
+    {"phase": "Implement", "actions": ["Connect / install the MCP servers: yahoo-finance, alpha-vantage, financekit-mcp, binance-cryptocurrency-mcp, aegisgovdao-aegisgov-sec-mcp", "Use the agent/platform: claude-code (or dify/crewai for crew orchestration)"]},
+    {"phase": "Verify", "actions": ["Consult the documentation: sec-edgar-docs, binance-research-docs", "Use the open-source tools: Pandas, DuckDB", "Include the features: market-sentiment-dashboard, news-intelligence, citation-ledger-reports", "Implement, then verify before completing."]}
+  ],
+  "ordered_steps": [
+    "Clarify & scope the research question (research-prompt, deep-research)",
+    "Mandatory web protocol (ml-web-research, efficient-web-research)",
+    "Fan out parallel passes: sector-scout, news-hunter, data-gatherer (fw-parallel-agent-execution)",
+    "Cross-validate with the evidence ledger (multi-source-search)",
+    "Synthesize (competitive-landscape, market-sizing-analysis, compile-knowledge)",
+    "Write the report + citation ledger, verify before completing."
+  ],
+  "cautions": [
+    "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+    "Financial data claims must always be sourced - no fabricated tickers/numbers.",
+    "Sentiment must carry a source distribution, not a vibe."
+  ],
+  "how_to_read": {
+    "skills": ["get_skill('deep-research')", "get_skill('news-sentiment-engine')", "get_skill('longbridge-market-data')", "get_skill('multi-source-search')", "get_skill('competitive-landscape')", "get_skill('xvary-stock-research')"],
+    "mcpservers": ["get_mcp_server('yahoo-finance')", "get_mcp_server('financekit-mcp')", "get_mcp_server('findata-mcp')", "get_mcp_server('aegisgovdao-aegisgov-sec-mcp')"],
+    "workflows": ["get_workflow('fw-research-optimize-execute')", "get_workflow('fw-parallel-agent-execution')", "get_workflow('fw-role-separated-agents')"],
+    "agents": ["get_agent('claude-code')", "get_agent('dify')", "get_agent('crewai')"],
+    "docs": ["https://www.sec.gov/edgar/search"],
+    "tools": ["https://pandas.pydata.org", "https://duckdb.org", "https://github.com/langchain-ai/open_deep_research"]
+  },
+  "combined_ranking_functions": {
+    "agents": "get_agents_combined(task)",
+    "docs": "get_docs_combined(task)",
+    "features": "get_features_combined(task)",
+    "mcpservers": "get_mcpservers_combined(task)",
+    "skills": "get_skills_combined(task)",
+    "tools": "get_tools_combined(task)",
+    "workflows": "get_workflows_combined(task)"
+  },
+  "coverage": {
+    "skills": "strong (finance/news/research catalog coverage good)",
+    "mcpservers": "strong (finance-fintech + web-scraping catalogs)",
+    "workflows": "medium (research-specific workflows exist)",
+    "agents": "medium",
+    "docs": "medium - web-verify the URLs before relying on them",
+    "features": "medium - web-verify the URLs before relying on them",
+    "tools": "medium - web-verify the URLs before relying on them"
+  }
+}

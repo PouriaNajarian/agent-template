@@ -1,0 +1,510 @@
+﻿{
+    "name":  "market-researcher-agent",
+    "generated":  "2026-09-22T14:24:36",
+    "generated_by":  "opencode - built from mcp-skills (vector index) + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (vector ranking; DeepSeek combined ranker timed out)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  98,
+                   "skills":  41,
+                   "workflows":  7,
+                   "mcpservers":  19,
+                   "agents":  7,
+                   "subagents":  5,
+                   "mcp_inventory":  8,
+                   "advice":  2
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  9594
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3923
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  16487
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3396
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  3712
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  671
+                  },
+                  {
+                      "path":  "advice\\task-advice-report.md",
+                      "category":  "advice",
+                      "bytes":  5508
+                  },
+                  {
+                      "path":  "advice\\task-advice.json",
+                      "category":  "advice",
+                      "bytes":  5251
+                  },
+                  {
+                      "path":  "agents\\autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents\\claude-code.json",
+                      "category":  "agents",
+                      "bytes":  1810
+                  },
+                  {
+                      "path":  "agents\\crewai.json",
+                      "category":  "agents",
+                      "bytes":  1692
+                  },
+                  {
+                      "path":  "agents\\dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents\\flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents\\langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "agents\\market-research-agents.json",
+                      "category":  "agents",
+                      "bytes":  2494
+                  },
+                  {
+                      "path":  "docs\\market-research-docs.json",
+                      "category":  "docs",
+                      "bytes":  2069
+                  },
+                  {
+                      "path":  "features\\market-research-features.json",
+                      "category":  "features",
+                      "bytes":  1865
+                  },
+                  {
+                      "path":  "mcp-inventory\\agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  33557
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  56545
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  8790
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633470
+                  },
+                  {
+                      "path":  "mcp-inventory\\system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3864
+                  },
+                  {
+                      "path":  "mcpservers\\aegisgovdao-aegisgov-sec-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  576
+                  },
+                  {
+                      "path":  "mcpservers\\agent-mcp-orchestrator.json",
+                      "category":  "mcpservers",
+                      "bytes":  1845
+                  },
+                  {
+                      "path":  "mcpservers\\alpaca.json",
+                      "category":  "mcpservers",
+                      "bytes":  457
+                  },
+                  {
+                      "path":  "mcpservers\\alpha-vantage-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  433
+                  },
+                  {
+                      "path":  "mcpservers\\alpha-vantage.json",
+                      "category":  "mcpservers",
+                      "bytes":  482
+                  },
+                  {
+                      "path":  "mcpservers\\binance-cryptocurrency-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  479
+                  },
+                  {
+                      "path":  "mcpservers\\context7.json",
+                      "category":  "mcpservers",
+                      "bytes":  1443
+                  },
+                  {
+                      "path":  "mcpservers\\filesystem.json",
+                      "category":  "mcpservers",
+                      "bytes":  1534
+                  },
+                  {
+                      "path":  "mcpservers\\financekit-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  544
+                  },
+                  {
+                      "path":  "mcpservers\\financial-data-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  437
+                  },
+                  {
+                      "path":  "mcpservers\\findata-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  478
+                  },
+                  {
+                      "path":  "mcpservers\\git.json",
+                      "category":  "mcpservers",
+                      "bytes":  1302
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-skills.json",
+                      "category":  "mcpservers",
+                      "bytes":  1461
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-yahoo-finance.json",
+                      "category":  "mcpservers",
+                      "bytes":  447
+                  },
+                  {
+                      "path":  "mcpservers\\memory.json",
+                      "category":  "mcpservers",
+                      "bytes":  1389
+                  },
+                  {
+                      "path":  "mcpservers\\playwright.json",
+                      "category":  "mcpservers",
+                      "bytes":  1508
+                  },
+                  {
+                      "path":  "mcpservers\\postgres-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  1206
+                  },
+                  {
+                      "path":  "mcpservers\\winremote.json",
+                      "category":  "mcpservers",
+                      "bytes":  1328
+                  },
+                  {
+                      "path":  "mcpservers\\yahoo-finance.json",
+                      "category":  "mcpservers",
+                      "bytes":  489
+                  },
+                  {
+                      "path":  "skills\\advisor-orchestrator-worker\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6894
+                  },
+                  {
+                      "path":  "skills\\apify-market-research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4881
+                  },
+                  {
+                      "path":  "skills\\apify-market-research\\reference\\scripts\\run_actor.js",
+                      "category":  "skills",
+                      "bytes":  11929
+                  },
+                  {
+                      "path":  "skills\\citation-management\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  33793
+                  },
+                  {
+                      "path":  "skills\\competitive-landscape\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1502
+                  },
+                  {
+                      "path":  "skills\\competitive-landscape\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  12942
+                  },
+                  {
+                      "path":  "skills\\compile-knowledge\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9286
+                  },
+                  {
+                      "path":  "skills\\deep-research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3352
+                  },
+                  {
+                      "path":  "skills\\efficient-web-research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11600
+                  },
+                  {
+                      "path":  "skills\\firecrawl\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8927
+                  },
+                  {
+                      "path":  "skills\\gemini-deep-research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4334
+                  },
+                  {
+                      "path":  "skills\\gemini-deep-research\\scripts\\research.py",
+                      "category":  "skills",
+                      "bytes":  24896
+                  },
+                  {
+                      "path":  "skills\\helium-mcp\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6215
+                  },
+                  {
+                      "path":  "skills\\longbridge-market-data\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6977
+                  },
+                  {
+                      "path":  "skills\\market-sizing-analysis\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13548
+                  },
+                  {
+                      "path":  "skills\\market-sizing-analysis\\examples\\saas-market-sizing.md",
+                      "category":  "skills",
+                      "bytes":  10618
+                  },
+                  {
+                      "path":  "skills\\market-sizing-analysis\\references\\data-sources.md",
+                      "category":  "skills",
+                      "bytes":  9475
+                  },
+                  {
+                      "path":  "skills\\ml-web-research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1848
+                  },
+                  {
+                      "path":  "skills\\multi-source-search\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6239
+                  },
+                  {
+                      "path":  "skills\\multi-source-search\\references\\report-schema.md",
+                      "category":  "skills",
+                      "bytes":  1736
+                  },
+                  {
+                      "path":  "skills\\multi-source-search\\scripts\\validate_report.py",
+                      "category":  "skills",
+                      "bytes":  9567
+                  },
+                  {
+                      "path":  "skills\\news-sentiment-engine\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3788
+                  },
+                  {
+                      "path":  "skills\\pi-web-search\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3809
+                  },
+                  {
+                      "path":  "skills\\quant-analyst\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2192
+                  },
+                  {
+                      "path":  "skills\\research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  809
+                  },
+                  {
+                      "path":  "skills\\research-prompt\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5188
+                  },
+                  {
+                      "path":  "skills\\tavily-web\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1489
+                  },
+                  {
+                      "path":  "skills\\web-web-research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2282
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3959
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\assets\\nvda-deep-dive-hero.png",
+                      "category":  "skills",
+                      "bytes":  418706
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\assets\\nvda-deep-dive-scenarios.png",
+                      "category":  "skills",
+                      "bytes":  501245
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\assets\\nvda-deep-dive-thesis.png",
+                      "category":  "skills",
+                      "bytes":  504946
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\assets\\social-preview.png",
+                      "category":  "skills",
+                      "bytes":  51450
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\examples\\nvda-analysis.md",
+                      "category":  "skills",
+                      "bytes":  2642
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\references\\edgar-guide.md",
+                      "category":  "skills",
+                      "bytes":  1620
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\references\\methodology.md",
+                      "category":  "skills",
+                      "bytes":  7149
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\references\\scoring.md",
+                      "category":  "skills",
+                      "bytes":  3349
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\tests\\test_edgar.py",
+                      "category":  "skills",
+                      "bytes":  3120
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\tests\\test_market.py",
+                      "category":  "skills",
+                      "bytes":  3616
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\tools\\edgar.py",
+                      "category":  "skills",
+                      "bytes":  16899
+                  },
+                  {
+                      "path":  "skills\\xvary-stock-research\\tools\\market.py",
+                      "category":  "skills",
+                      "bytes":  9294
+                  },
+                  {
+                      "path":  "subagents\\citation-editor.md",
+                      "category":  "subagents",
+                      "bytes":  897
+                  },
+                  {
+                      "path":  "subagents\\data-gatherer.md",
+                      "category":  "subagents",
+                      "bytes":  894
+                  },
+                  {
+                      "path":  "subagents\\news-hunter.md",
+                      "category":  "subagents",
+                      "bytes":  954
+                  },
+                  {
+                      "path":  "subagents\\sector-scout.md",
+                      "category":  "subagents",
+                      "bytes":  920
+                  },
+                  {
+                      "path":  "subagents\\synthesis-writer.md",
+                      "category":  "subagents",
+                      "bytes":  875
+                  },
+                  {
+                      "path":  "tools\\market-research-tools.json",
+                      "category":  "tools",
+                      "bytes":  2729
+                  },
+                  {
+                      "path":  "workflows\\documentation-generation.md",
+                      "category":  "workflows",
+                      "bytes":  2562
+                  },
+                  {
+                      "path":  "workflows\\fw-orchestrate-agents.md",
+                      "category":  "workflows",
+                      "bytes":  2923
+                  },
+                  {
+                      "path":  "workflows\\fw-parallel-agent-execution.md",
+                      "category":  "workflows",
+                      "bytes":  2732
+                  },
+                  {
+                      "path":  "workflows\\fw-research-optimize-execute.md",
+                      "category":  "workflows",
+                      "bytes":  2915
+                  },
+                  {
+                      "path":  "workflows\\fw-role-separated-agents.md",
+                      "category":  "workflows",
+                      "bytes":  2796
+                  },
+                  {
+                      "path":  "workflows\\fw-verification-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2385
+                  },
+                  {
+                      "path":  "workflows\\research-optimize-execute.md",
+                      "category":  "workflows",
+                      "bytes":  2409
+                  }
+              ]
+}

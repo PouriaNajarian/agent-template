@@ -1,0 +1,166 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: web-testing-strategy, testing-qa, e2e-testing",
+                                     "Follow the workflow: test-strategy-rollout"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Connect / install the MCP servers: playwright (installed), cocaxcode-api-testing-mcp",
+                                     "Use the tools: Playwright, pytest, Vitest, Jest"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Run the full suite + coverage; confirm output before sign-off",
+                                     "Consult the documentation: playwright-docs, pytest-docs",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "coverage-dashboard",
+                                         "flaky-tracker",
+                                         "acceptance-verifier"
+                                     ],
+                        "workflow":  [
+                                         "test-strategy-rollout",
+                                         "tdd-feature-delivery",
+                                         "fw-verification-loop"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "playwright-docs",
+                                     "pytest-docs",
+                                     "vitest-docs"
+                                 ],
+                        "tools":  [
+                                      "Playwright",
+                                      "pytest",
+                                      "Vitest",
+                                      "Jest",
+                                      "K6",
+                                      "Cypress"
+                                  ],
+                        "skills":  [
+                                       "web-testing-strategy",
+                                       "testing-qa",
+                                       "cf-testing",
+                                       "python-testing-patterns",
+                                       "test-analysis-extensions",
+                                       "e2e-testing",
+                                       "test-automator",
+                                       "javascript-testing-patterns",
+                                       "golang-testing",
+                                       "testing-patterns",
+                                       "claude-webapp-testing",
+                                       "ai-regression-testing",
+                                       "acceptance-orchestrator",
+                                       "k6-load-testing",
+                                       "webapp-testing",
+                                       "unit-testing-test-generate",
+                                       "eng-test-driven-development",
+                                       "dev-test-driven-development",
+                                       "dev-verification-before-completion",
+                                       "test-anti-patterns",
+                                       "test-smell-detection",
+                                       "coverage-analysis",
+                                       "tdd",
+                                       "verify-and-stop",
+                                       "build-scenario-tests"
+                                   ],
+                        "mcpserver":  [
+                                          "playwright",
+                                          "playwright-mcp",
+                                          "cocaxcode-api-testing-mcp",
+                                          "mcp-playwright-server",
+                                          "executeautomation-playwright-mcp-server"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Never claim tests pass without running them - evidence over assertions.",
+                     "Fix the code, not the test."
+                 ],
+    "task":  "Build a QA Agent for a trading/investment system: owns test strategy and quality: unit, integration, E2E and regression suites; coverage gates; test-quality audits (anti-patterns, smells); acceptance verification; and the verification-before-completion gate for every other agent\u0027s work",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://playwright.dev",
+                                      "https://pytest.org",
+                                      "https://vitest.dev",
+                                      "https://jestjs.io"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027playwright\u0027)",
+                                           "get_mcp_server(\u0027cocaxcode-api-testing-mcp\u0027)",
+                                           "get_mcp_server(\u0027playwright-mcp\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://playwright.dev/docs",
+                                     "https://docs.pytest.org"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027web-testing-strategy\u0027)",
+                                       "get_skill(\u0027testing-qa\u0027)",
+                                       "get_skill(\u0027e2e-testing\u0027)",
+                                       "get_skill(\u0027test-anti-patterns\u0027)",
+                                       "get_skill(\u0027dev-verification-before-completion\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027test-strategy-rollout\u0027)",
+                                          "get_workflow(\u0027tdd-feature-delivery\u0027)",
+                                          "get_workflow(\u0027fw-verification-loop\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the QA agent, following the operating loop in agent.md and the test-strategy-rollout workflow.",
+    "ordered_steps":  [
+                          "Strategy: pyramid + risk matrix (strategy-planner, web-testing-strategy).",
+                          "Unit/integration tests (test-writer, dev-test-driven-development + language patterns).",
+                          "E2E critical journeys (e2e-runner, playwright MCP).",
+                          "Coverage report vs gates (coverage-analysis).",
+                          "Quality audit (quality-auditor: test-anti-patterns, test-smell-detection).",
+                          "Regression protection (ai-regression-testing, build-scenario-tests).",
+                          "Verification gate (verification-gate, dev-verification-before-completion); sign off with evidence."
+                      ],
+    "requirement":  "QA agent: test strategy, unit integration e2e tests, test coverage, test automation, playwright browser testing, TDD, regression testing, test anti-patterns, acceptance criteria, verification",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "strong (web-testing-strategy, testing-qa, e2e-testing, test quality suite)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "strong (Playwright, pytest, Vitest, Jest, k6)",
+                     "docs":  "medium - web-verify the URLs before relying on them",
+                     "mcpservers":  "strong (playwright installed, api-testing-mcp)",
+                     "workflows":  "strong (test-strategy-rollout, tdd-feature-delivery, fw-verification-loop)"
+                 },
+    "advice_elapsed_s":  null
+}

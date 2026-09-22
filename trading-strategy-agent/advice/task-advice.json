@@ -1,0 +1,152 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: quant-analyst, risk-manager, price-psychology-strategist",
+                                     "Follow the workflows: fw-model-development + fw-model-evaluation"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Connect / install the MCP servers: alpaca, crashtestyourstrategy, alphaassay, alforge-labs-alpha-forge-mcp",
+                                     "Use the tools: Backtrader, VectorBT, QuantConnect LEAN"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Verify the spec is unambiguous and falsifiable",
+                                     "Consult the documentation: quantconnect-docs, backtrader-docs",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "strategy-builder",
+                                         "risk-dashboard",
+                                         "strategy-journal"
+                                     ],
+                        "workflow":  [
+                                         "fw-model-development",
+                                         "fw-model-evaluation"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "quantconnect-docs",
+                                     "backtrader-docs",
+                                     "vectorbt-docs"
+                                 ],
+                        "tools":  [
+                                      "Backtrader",
+                                      "VectorBT",
+                                      "QuantConnect LEAN",
+                                      "Pandas",
+                                      "pandas-ta"
+                                  ],
+                        "skills":  [
+                                       "quant-analyst",
+                                       "trading-ledger",
+                                       "risk-manager",
+                                       "price-psychology-strategist",
+                                       "ml-data-pipeline",
+                                       "ml-model-development",
+                                       "ml-model-evaluation",
+                                       "data-storytelling",
+                                       "sql-pro",
+                                       "longbridge-market-data",
+                                       "longbridge"
+                                   ],
+                        "mcpserver":  [
+                                          "crashtestyourstrategy",
+                                          "kyurish-trading212-mcp-server",
+                                          "etbars-vibetrader-mcp",
+                                          "arrow-algo",
+                                          "laukikk-alpaca-mcp",
+                                          "alpaca",
+                                          "botspot",
+                                          "keel-trade-keel-trade",
+                                          "alforge-labs-alpha-forge-mcp",
+                                          "alphaassay"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Every rule must be unambiguous - the backtest agent must not need to interpret.",
+                     "Risk limits are mandatory, not optional decoration."
+                 ],
+    "task":  "Build a Trading Strategy Agent for a trading/investment system: designs and specifies trading strategies: signal logic (trend, momentum, mean-reversion, breakout), entry/exit rules, position sizing, risk limits and portfolio allocation - with an explicit, testable rule set ready for the backtest agent",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://www.backtrader.com",
+                                      "https://vectorbt.dev",
+                                      "https://www.quantconnect.com"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027alpaca\u0027)",
+                                           "get_mcp_server(\u0027crashtestyourstrategy\u0027)",
+                                           "get_mcp_server(\u0027alphaassay\u0027)",
+                                           "get_mcp_server(\u0027alforge-labs-alpha-forge-mcp\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://www.quantconnect.com/docs"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027quant-analyst\u0027)",
+                                       "get_skill(\u0027risk-manager\u0027)",
+                                       "get_skill(\u0027trading-ledger\u0027)",
+                                       "get_skill(\u0027ml-model-evaluation\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027fw-model-development\u0027)",
+                                          "get_workflow(\u0027fw-model-evaluation\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the Trading Strategy agent, following the operating loop in agent.md and the fw-model-development workflow.",
+    "ordered_steps":  [
+                          "Edge hypothesis (edge-hunter): one falsifiable sentence.",
+                          "Universe \u0026 timeframe: assets, lookbacks, data requirements.",
+                          "Signal rules (signal-designer): exact conditions.",
+                          "Entry/exit/invalidation + execution rules.",
+                          "Position sizing \u0026 risk (risk-designer): R-multiples, caps, drawdown guard.",
+                          "Test plan (test-plan-writer): metrics, IS/OOS, benchmarks, failure criteria.",
+                          "Write the strategy specification (spec-writer); verify before completing."
+                      ],
+    "requirement":  "Trading strategy agent: design strategies, entry/exit rules, risk management, position sizing, portfolio allocation, signal generation",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "strong (quant-analyst, risk-manager, trading-ledger, ml-model-evaluation)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "medium (Backtrader, VectorBT, QuantConnect LEAN)",
+                     "docs":  "medium - web-verify the URLs before relying on them",
+                     "mcpservers":  "strong (strategy/trading ecosystem: alpaca, botspot, arrow-algo, alphaassay, alpha-forge)",
+                     "workflows":  "medium (model development/evaluation reused)"
+                 },
+    "advice_elapsed_s":  null
+}

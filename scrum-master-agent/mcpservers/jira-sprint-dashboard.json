@@ -1,0 +1,15 @@
+﻿{
+    "name":  "jira-sprint-dashboard",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Generates interactive sprint analytics and executive dashboards by connecting Jira data to Claude AI. Provides insights on burndown, velocity, and goal progress.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/CHIBOLAR/jira_mcp_sprinthealth",
+    "url":  "",
+    "custom":  false
+}

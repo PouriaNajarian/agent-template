@@ -1,0 +1,40 @@
+﻿{
+    "category":  "core",
+    "description":  "Filesystem access for agents: read, write, list, edit files with allowed-root restrictions.",
+    "ides":  [
+                 "claude",
+                 "cline",
+                 "cursor",
+                 "devin",
+                 "opencode"
+             ],
+    "install":  "npx -y @modelcontextprotocol/server-filesystem \u003callowed-dir\u003e",
+    "keywords":  [
+                     "file system",
+                     "files",
+                     "fs"
+                 ],
+    "name":  "filesystem",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/modelcontextprotocol/servers"
+                       },
+                       {
+                           "command":  "npx -y @modelcontextprotocol/server-filesystem \u003callowed-dir\u003e",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "filesystem",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/modelcontextprotocol/servers"
+}

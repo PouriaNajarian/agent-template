@@ -1,0 +1,15 @@
+﻿{
+    "name":  "ai-security-gateway-mcp-gateway",
+    "category":  "cloud",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "AISG MCP Gateway — a security \u0026amp; DLP proxy for the Model Context Protocol. Aggregates your MCP servers behind one endpoint and enforces policy on every tool call",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/aisecuritygateway-ai-docs-mcp-gateway",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,405 @@
+﻿{
+    "name":  "qa-agent",
+    "generated":  "2026-09-22T15:06:36",
+    "generated_by":  "opencode - built from mcp-skills (vector index) + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (vector ranking; DeepSeek combined ranker timed out)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  77,
+                   "skills":  29,
+                   "workflows":  6,
+                   "mcpservers":  13,
+                   "agents":  6,
+                   "subagents":  5,
+                   "mcp_inventory":  8,
+                   "advice":  null
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  7983
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3836
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  12421
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3250
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  4641
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  538
+                  },
+                  {
+                      "path":  "advice\\task-advice.json",
+                      "category":  "advice",
+                      "bytes":  10089
+                  },
+                  {
+                      "path":  "agents\\autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents\\claude-code.json",
+                      "category":  "agents",
+                      "bytes":  1810
+                  },
+                  {
+                      "path":  "agents\\crewai.json",
+                      "category":  "agents",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "agents\\dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents\\flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents\\langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "docs\\qa-docs.json",
+                      "category":  "docs",
+                      "bytes":  1386
+                  },
+                  {
+                      "path":  "features\\qa-features.json",
+                      "category":  "features",
+                      "bytes":  1324
+                  },
+                  {
+                      "path":  "mcp-inventory\\agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  33557
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  56545
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  8790
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633470
+                  },
+                  {
+                      "path":  "mcp-inventory\\system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3864
+                  },
+                  {
+                      "path":  "mcpservers\\agent-mcp-orchestrator.json",
+                      "category":  "mcpservers",
+                      "bytes":  1845
+                  },
+                  {
+                      "path":  "mcpservers\\cocaxcode-api-testing-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  645
+                  },
+                  {
+                      "path":  "mcpservers\\context7.json",
+                      "category":  "mcpservers",
+                      "bytes":  1443
+                  },
+                  {
+                      "path":  "mcpservers\\executeautomation-playwright-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  439
+                  },
+                  {
+                      "path":  "mcpservers\\filesystem.json",
+                      "category":  "mcpservers",
+                      "bytes":  1534
+                  },
+                  {
+                      "path":  "mcpservers\\git.json",
+                      "category":  "mcpservers",
+                      "bytes":  1302
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-playwright-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  448
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-skills.json",
+                      "category":  "mcpservers",
+                      "bytes":  1461
+                  },
+                  {
+                      "path":  "mcpservers\\memory.json",
+                      "category":  "mcpservers",
+                      "bytes":  1389
+                  },
+                  {
+                      "path":  "mcpservers\\playwright-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  496
+                  },
+                  {
+                      "path":  "mcpservers\\playwright.json",
+                      "category":  "mcpservers",
+                      "bytes":  610
+                  },
+                  {
+                      "path":  "mcpservers\\postgres-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  1206
+                  },
+                  {
+                      "path":  "mcpservers\\winremote.json",
+                      "category":  "mcpservers",
+                      "bytes":  1328
+                  },
+                  {
+                      "path":  "skills\\acceptance-orchestrator\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3773
+                  },
+                  {
+                      "path":  "skills\\ai-regression-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  14820
+                  },
+                  {
+                      "path":  "skills\\build-scenario-tests\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6874
+                  },
+                  {
+                      "path":  "skills\\cf-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  914
+                  },
+                  {
+                      "path":  "skills\\claude-webapp-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4014
+                  },
+                  {
+                      "path":  "skills\\claude-webapp-testing\\scripts\\with_server.py",
+                      "category":  "skills",
+                      "bytes":  3798
+                  },
+                  {
+                      "path":  "skills\\coverage-analysis\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10700
+                  },
+                  {
+                      "path":  "skills\\dev-test-driven-development\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9019
+                  },
+                  {
+                      "path":  "skills\\dev-verification-before-completion\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3650
+                  },
+                  {
+                      "path":  "skills\\e2e-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8376
+                  },
+                  {
+                      "path":  "skills\\eng-test-driven-development\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  16481
+                  },
+                  {
+                      "path":  "skills\\golang-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  17343
+                  },
+                  {
+                      "path":  "skills\\javascript-testing-patterns\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1751
+                  },
+                  {
+                      "path":  "skills\\javascript-testing-patterns\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  26867
+                  },
+                  {
+                      "path":  "skills\\k6-load-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  15421
+                  },
+                  {
+                      "path":  "skills\\python-testing-patterns\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1822
+                  },
+                  {
+                      "path":  "skills\\python-testing-patterns\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  22463
+                  },
+                  {
+                      "path":  "skills\\tdd\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3604
+                  },
+                  {
+                      "path":  "skills\\test-analysis-extensions\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4393
+                  },
+                  {
+                      "path":  "skills\\test-anti-patterns\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  23242
+                  },
+                  {
+                      "path":  "skills\\test-automator\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11720
+                  },
+                  {
+                      "path":  "skills\\test-smell-detection\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9489
+                  },
+                  {
+                      "path":  "skills\\testing-patterns\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6648
+                  },
+                  {
+                      "path":  "skills\\testing-qa\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5469
+                  },
+                  {
+                      "path":  "skills\\unit-testing-test-generate\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11470
+                  },
+                  {
+                      "path":  "skills\\verify-and-stop\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  718
+                  },
+                  {
+                      "path":  "skills\\web-testing-strategy\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1970
+                  },
+                  {
+                      "path":  "skills\\webapp-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4375
+                  },
+                  {
+                      "path":  "skills\\webapp-testing\\scripts\\with_server.py",
+                      "category":  "skills",
+                      "bytes":  7357
+                  },
+                  {
+                      "path":  "subagents\\e2e-runner.md",
+                      "category":  "subagents",
+                      "bytes":  853
+                  },
+                  {
+                      "path":  "subagents\\quality-auditor.md",
+                      "category":  "subagents",
+                      "bytes":  812
+                  },
+                  {
+                      "path":  "subagents\\strategy-planner.md",
+                      "category":  "subagents",
+                      "bytes":  731
+                  },
+                  {
+                      "path":  "subagents\\test-writer.md",
+                      "category":  "subagents",
+                      "bytes":  843
+                  },
+                  {
+                      "path":  "subagents\\verification-gate.md",
+                      "category":  "subagents",
+                      "bytes":  733
+                  },
+                  {
+                      "path":  "tools\\qa-tools.json",
+                      "category":  "tools",
+                      "bytes":  3008
+                  },
+                  {
+                      "path":  "workflows\\build-ai-feature.md",
+                      "category":  "workflows",
+                      "bytes":  2829
+                  },
+                  {
+                      "path":  "workflows\\code-review-pass.md",
+                      "category":  "workflows",
+                      "bytes":  2598
+                  },
+                  {
+                      "path":  "workflows\\fw-agentic-coding-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2789
+                  },
+                  {
+                      "path":  "workflows\\fw-verification-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2385
+                  },
+                  {
+                      "path":  "workflows\\tdd-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  2679
+                  },
+                  {
+                      "path":  "workflows\\test-strategy-rollout.md",
+                      "category":  "workflows",
+                      "bytes":  2758
+                  }
+              ]
+}

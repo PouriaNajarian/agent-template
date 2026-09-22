@@ -1,0 +1,43 @@
+﻿{
+    "name":  "researcher-mcp",
+    "category":  "search",
+    "description":  "A research assistant powered by Perplexity AI for intelligent search, documentation retrieval, and code assistance.",
+    "source_url":  "https://mcpservers.org/servers/clssck/researcher-mcp",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "research",
+                     "assistant",
+                     "powered",
+                     "perplexity"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/clssck/researcher-mcp",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "researcher-mcp",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0267,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027researcher-mcp\u0027)"
+}

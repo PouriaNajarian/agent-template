@@ -1,0 +1,35 @@
+[
+    {
+        "category": "finance",
+        "description": "Fundamental analysis dashboard: statements trend charts, ratio history, earnings quality flags.",
+        "name": "fundamental-dashboard",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["fundamentals", "dashboard", "ratios"],
+        "references": [
+            { "type": "catalog_file", "name": "fundamental-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Valuation modeler: DCF with assumptions, sensitivity tables, multiples comparison.",
+        "name": "valuation-modeler",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["dcf", "valuation", "sensitivity"],
+        "references": [
+            { "type": "catalog_file", "name": "valuation-modeler", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Filings reader: search 10-K/10-Q/8-K full text, extract sections, build summaries.",
+        "name": "filings-reader",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["filings", "sec", "10-k"],
+        "references": [
+            { "type": "catalog_file", "name": "filings-reader", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

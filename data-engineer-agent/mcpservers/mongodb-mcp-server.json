@@ -1,0 +1,15 @@
+﻿{
+    "name":  "mongodb-mcp-server",
+    "category":  "database",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "An MCP server providing tools and prompts for interacting with a MongoDB database.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/jb-7-jay/learn-mcp-server-mongo",
+    "url":  "",
+    "custom":  false
+}

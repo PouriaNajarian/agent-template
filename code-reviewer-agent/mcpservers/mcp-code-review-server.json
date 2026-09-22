@@ -1,0 +1,33 @@
+﻿{
+    "category":  "development",
+    "description":  "AI-powered code review for Claude Code, Cursor, Cline and any MCP client — OWASP security scans, bug detection, N+1 queries and performance profiling, fully local.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "keywords":  [
+                     "powered",
+                     "code",
+                     "review",
+                     "claude"
+                 ],
+    "name":  "mcp-code-review-server",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/goodjobwilliam/aicraft"
+                       },
+                       {
+                           "name":  "mcp-code-review-server",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://mcpservers.org/servers/goodjobwilliam/aicraft"
+}

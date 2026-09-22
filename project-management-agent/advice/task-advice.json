@@ -1,0 +1,166 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: eng-planning-and-task-breakdown, plan-writing, to-tickets",
+                                     "Follow the workflows: fw-role-separated-agents + fw-agentic-coding-loop"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Connect / install the MCP servers: spranab-saga-mcp, jira-mcp, linear-mcp, pm33-mcp-server",
+                                     "Publish tickets with blocking edges (to-tickets, triage)"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Verify milestones with evidence (dev-verification-before-completion)",
+                                     "Consult the documentation: jira-docs, linear-docs",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "program-dashboard",
+                                         "risk-register",
+                                         "dependency-graph"
+                                     ],
+                        "workflow":  [
+                                         "fw-role-separated-agents",
+                                         "fw-agentic-coding-loop",
+                                         "fw-spec-driven-development"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "jira-docs",
+                                     "linear-docs",
+                                     "pmbok-docs"
+                                 ],
+                        "tools":  [
+                                      "Jira",
+                                      "Linear",
+                                      "Notion",
+                                      "Asana",
+                                      "Todoist"
+                                  ],
+                        "skills":  [
+                                       "ecom-project-management",
+                                       "plan-writing",
+                                       "eng-planning-and-task-breakdown",
+                                       "planning-with-files",
+                                       "wrike-automation",
+                                       "eng-incremental-implementation",
+                                       "dev-writing-plans",
+                                       "dev-executing-plans",
+                                       "dev-verification-before-completion",
+                                       "to-tickets",
+                                       "wayfinder",
+                                       "triage",
+                                       "to-spec",
+                                       "changeset",
+                                       "eng-spec-driven-development",
+                                       "dev-dispatching-parallel-agents",
+                                       "dev-using-git-worktrees",
+                                       "cron-scheduler",
+                                       "eng-observability-and-instrumentation",
+                                       "context-driven-development"
+                                   ],
+                        "mcpserver":  [
+                                          "pm33-mcp-server",
+                                          "notion-api-mcp",
+                                          "christulino-todoist-v1-mcp-server",
+                                          "roychri-mcp-server-asana",
+                                          "tacticlaunch-mcp-linear",
+                                          "spranab-saga-mcp",
+                                          "backlog-mcp-server",
+                                          "louis030195-toggl-mcp",
+                                          "corbym-backlog-mcp",
+                                          "jira-mcp",
+                                          "linear-mcp"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Never report a milestone complete without evidence (tests, gates, accepted deliverables).",
+                     "Do not confuse activity with progress; surface blockers, don\u0027t hide them."
+                 ],
+    "task":  "Build a Project Management Agent for a trading/investment system: plans and tracks projects end-to-end: scope, milestones, task breakdown with dependencies, resource allocation, risk management, scheduling and status reporting; coordinates the other agents (market researcher, data engineer, analysts, strategy, backtest, security, QA) as one delivery program",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://www.atlassian.com/software/jira",
+                                      "https://linear.app",
+                                      "https://www.notion.so"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027pm33-mcp-server\u0027)",
+                                           "get_mcp_server(\u0027spranab-saga-mcp\u0027)",
+                                           "get_mcp_server(\u0027jira-mcp\u0027)",
+                                           "get_mcp_server(\u0027linear-mcp\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://support.atlassian.com/jira-software-cloud",
+                                     "https://linear.app/docs"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027eng-planning-and-task-breakdown\u0027)",
+                                       "get_skill(\u0027plan-writing\u0027)",
+                                       "get_skill(\u0027to-tickets\u0027)",
+                                       "get_skill(\u0027wayfinder\u0027)",
+                                       "get_skill(\u0027changeset\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027fw-role-separated-agents\u0027)",
+                                          "get_workflow(\u0027fw-agentic-coding-loop\u0027)",
+                                          "get_workflow(\u0027fw-spec-driven-development\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the Project Management agent, following the operating loop in agent.md and the fw-role-separated-agents workflow.",
+    "ordered_steps":  [
+                          "Scope \u0026 spec (to-spec, eng-spec-driven-development).",
+                          "Breakdown: phases, milestones, task graph with dependencies (planner).",
+                          "Publish tickets with blocking edges (ticket-writer, to-tickets, triage).",
+                          "Sequence: critical path, parallel streams, capacity (scheduler).",
+                          "Maintain the risk register (risk-tracker).",
+                          "Track daily: rollup from trackers + git + agent reports.",
+                          "Verify milestones with evidence; write status report (status-reporter)."
+                      ],
+    "requirement":  "Project management agent: plan projects, task breakdown, milestone tracking, backlog, risk management, resource allocation, dependencies, status reporting",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "strong (ecom-project-management, plan-writing, to-tickets, wayfinder, changeset)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "medium (Jira, Linear, Notion, Asana)",
+                     "docs":  "medium - web-verify the URLs before relying on them",
+                     "mcpservers":  "strong (pm33, saga tracker, jira, linear, backlog)",
+                     "workflows":  "medium (role-separated, agentic loop, spec-driven)"
+                 },
+    "advice_elapsed_s":  null
+}

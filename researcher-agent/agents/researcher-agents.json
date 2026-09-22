@@ -1,0 +1,576 @@
+﻿[
+    {
+        "name":  "crewai",
+        "category":  "framework",
+        "usage_areas":  [
+                            "agents",
+                            "automation"
+                        ],
+        "description":  "Multi-agent orchestration framework for Python.",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "install":  "pip install crewai crewai-tools",
+        "source_url":  "https://crewai.com",
+        "tutorial":  "https://docs.crewai.com",
+        "keywords":  [
+                         "crew",
+                         "agents",
+                         "orchestration"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://crewai.com",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://docs.crewai.com",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "pip install crewai crewai-tools"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "crewai",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.105,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "trae",
+        "category":  "ide",
+        "description":  "ByteDance Trae: AI-native IDE.",
+        "usage_areas":  [
+                            "coding"
+                        ],
+        "platforms":  [
+                          "windows",
+                          "mac"
+                      ],
+        "install":  "Download from trae.ai",
+        "source_url":  "https://www.trae.ai",
+        "tutorial":  "https://www.trae.ai/docs",
+        "keywords":  [
+                         "trae",
+                         "ide",
+                         "ai"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://www.trae.ai",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://www.trae.ai/docs",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "Download from trae.ai"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "trae",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.105,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "openhands",
+        "category":  "cloud-agent",
+        "usage_areas":  [
+                            "coding",
+                            "automation"
+                        ],
+        "description":  "Open-source autonomous software development agent (formerly OpenDevin).",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac",
+                          "web"
+                      ],
+        "install":  "docker run -it --pull=always ghcr.io/all-hands-ai/openhands",
+        "source_url":  "https://docs.all-hands.dev",
+        "tutorial":  "https://docs.all-hands.dev",
+        "keywords":  [
+                         "openhands",
+                         "devin",
+                         "autonomous"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://docs.all-hands.dev",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://docs.all-hands.dev",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "docker run -it --pull=always ghcr.io/all-hands-ai/openhands"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "openhands",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.103,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "cursor",
+        "category":  "ide",
+        "usage_areas":  [
+                            "coding",
+                            "design"
+                        ],
+        "description":  "AI-first code editor with agents, composer, and MCP support.",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "install":  "Download from cursor.com",
+        "source_url":  "https://cursor.com",
+        "tutorial":  "https://cursor.com/docs",
+        "keywords":  [
+                         "editor",
+                         "ide",
+                         "coding"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://cursor.com",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://cursor.com/docs",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "Download from cursor.com"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "cursor",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.102,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "goose",
+        "category":  "cli-agent",
+        "usage_areas":  [
+                            "coding",
+                            "agents"
+                        ],
+        "description":  "Open-source local AI agent by Block (formerly Codename Goose).",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "install":  "curl -fsSL https://github.com/block/goose/releases | sh  (see docs)",
+        "source_url":  "https://block.github.io/goose/",
+        "tutorial":  "https://block.github.io/goose/docs",
+        "keywords":  [
+                         "goose",
+                         "cli",
+                         "agent"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://block.github.io/goose/",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://block.github.io/goose/docs",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "curl -fsSL https://github.com/block/goose/releases | sh  (see docs)"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "goose",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.098,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "davinci-resolve",
+        "category":  "video-editor",
+        "usage_areas":  [
+                            "video"
+                        ],
+        "description":  "Professional video editing and color grading (AI features).",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "install":  "Download from blackmagicdesign.com",
+        "source_url":  "https://www.blackmagicdesign.com/products/davinciresolve",
+        "tutorial":  "https://docs.blackmagicdesign.com",
+        "keywords":  [
+                         "video",
+                         "editing",
+                         "color"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://www.blackmagicdesign.com/products/davinciresolve",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://docs.blackmagicdesign.com",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "Download from blackmagicdesign.com"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "davinci-resolve",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.097,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "replit-agent",
+        "category":  "platform",
+        "description":  "Replit Agent: autonomous app development in browser.",
+        "usage_areas":  [
+                            "coding"
+                        ],
+        "platforms":  [
+                          "web"
+                      ],
+        "install":  "replit.com",
+        "source_url":  "https://replit.com",
+        "tutorial":  "https://docs.replit.com",
+        "keywords":  [
+                         "replit",
+                         "agent",
+                         "browser"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://replit.com",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://docs.replit.com",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "replit.com"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "replit-agent",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.097,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "bolt-new",
+        "category":  "platform",
+        "description":  "StackBlitz Bolt: prompt-to-app web builder.",
+        "usage_areas":  [
+                            "coding",
+                            "design"
+                        ],
+        "platforms":  [
+                          "web"
+                      ],
+        "install":  "bolt.new",
+        "source_url":  "https://bolt.new",
+        "tutorial":  "https://stackblitz.com",
+        "keywords":  [
+                         "bolt",
+                         "web app",
+                         "no-code"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://bolt.new",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://stackblitz.com",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "bolt.new"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "bolt-new",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.091,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "claude-code",
+        "category":  "cli-agent",
+        "usage_areas":  [
+                            "coding",
+                            "agents"
+                        ],
+        "description":  "Anthropic\u0027s CLI agent with skills, MCP, and subagents.",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "install":  "npm i -g @anthropic-ai/claude-code",
+        "source_url":  "https://docs.anthropic.com/en/docs/claude-code",
+        "tutorial":  "https://docs.anthropic.com/en/docs/claude-code",
+        "keywords":  [
+                         "claude",
+                         "cli",
+                         "coding"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://docs.anthropic.com/en/docs/claude-code",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://docs.anthropic.com/en/docs/claude-code",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "npm i -g @anthropic-ai/claude-code"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "claude-code",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.089,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "ollama",
+        "category":  "runtime",
+        "usage_areas":  [
+                            "local-llm",
+                            "chat"
+                        ],
+        "description":  "Run LLMs locally with one command (llama, qwen, deepseek...).",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "install":  "Windows installer / curl -fsSL https://ollama.com/install.sh | sh",
+        "source_url":  "https://ollama.com",
+        "tutorial":  "https://github.com/ollama/ollama",
+        "keywords":  [
+                         "ollama",
+                         "local llm",
+                         "models"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://ollama.com",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://github.com/ollama/ollama",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "Windows installer / curl -fsSL https://ollama.com/install.sh | sh"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "ollama",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.087,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "dify",
+        "category":  "platform",
+        "usage_areas":  [
+                            "agents",
+                            "workflows",
+                            "chat",
+                            "automation"
+                        ],
+        "description":  "LLMOps platform for building agents, RAG apps, and workflows visually.",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac",
+                          "cloud"
+                      ],
+        "install":  "docker compose up -d (dify/docker)",
+        "source_url":  "https://dify.ai",
+        "tutorial":  "https://docs.dify.ai",
+        "keywords":  [
+                         "llmops",
+                         "rag",
+                         "workflow"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://dify.ai",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://docs.dify.ai",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "docker compose up -d (dify/docker)"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "dify",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.087,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    },
+    {
+        "name":  "devin",
+        "category":  "cloud-agent",
+        "usage_areas":  [
+                            "coding",
+                            "automation",
+                            "agents"
+                        ],
+        "description":  "Autonomous cloud software engineer with Cascade IDE.",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac",
+                          "web"
+                      ],
+        "install":  "Sign up at devin.ai; Cascade is an IDE extension",
+        "source_url":  "https://devin.ai",
+        "tutorial":  "https://docs.devin.ai",
+        "keywords":  [
+                         "devin",
+                         "cascade",
+                         "autonomous"
+                     ],
+        "references":  [
+                           {
+                               "type":  "repo",
+                               "url":  "https://devin.ai",
+                               "hint":  "Read the repo README / docs"
+                           },
+                           {
+                               "type":  "docs",
+                               "url":  "https://docs.devin.ai",
+                               "hint":  "Official docs / tutorial"
+                           },
+                           {
+                               "type":  "install",
+                               "command":  "Sign up at devin.ai; Cascade is an IDE extension"
+                           },
+                           {
+                               "type":  "catalog_file",
+                               "name":  "devin",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                           }
+                       ],
+        "relevance":  0.08,
+        "ranking":  "vector",
+        "engines":  [
+                        "vector"
+                    ]
+    }
+]

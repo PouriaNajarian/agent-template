@@ -1,0 +1,147 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: quant-analyst, longbridge-market-data, longbridge",
+                                     "Follow the workflow: fw-research-optimize-execute"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Connect / install the MCP servers: binance-cryptocurrency-mcp, kukapay-crypto-indicators-mcp, financekit-mcp, tradingview-mcp-server",
+                                     "Use the tools: pandas-ta, TA-Lib, Backtrader"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Verify every indicator value against pulled OHLCV data",
+                                     "Consult the documentation: tradingview-docs, pandas-ta-docs",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "ta-dashboard",
+                                         "pattern-detector",
+                                         "levels-engine-feature"
+                                     ],
+                        "workflow":  [
+                                         "fw-research-optimize-execute"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "tradingview-docs",
+                                     "pandas-ta-docs",
+                                     "ta-lib-docs"
+                                 ],
+                        "tools":  [
+                                      "pandas-ta",
+                                      "TA-Lib",
+                                      "Backtrader",
+                                      "Pandas",
+                                      "Matplotlib"
+                                  ],
+                        "skills":  [
+                                       "quant-analyst",
+                                       "longbridge-market-data",
+                                       "longbridge",
+                                       "trading-ledger",
+                                       "price-psychology-strategist",
+                                       "ml-data-pipeline",
+                                       "data-storytelling",
+                                       "sql-pro",
+                                       "competitive-landscape",
+                                       "deep-research",
+                                       "research-prompt"
+                                   ],
+                        "mcpserver":  [
+                                          "kukapay-crypto-indicators-mcp",
+                                          "cryptoanalysismcp",
+                                          "tradingview-mcp-server",
+                                          "binance-cryptocurrency-mcp",
+                                          "alpaca",
+                                          "yahoo-finance",
+                                          "alpha-vantage",
+                                          "financekit-mcp"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Every indicator value must carry timeframe + source - no fabricated numbers.",
+                     "Never read a chart you have not seen data for."
+                 ],
+    "task":  "Build a Technical Analyst AI agent for a trading/investment system: analyzes price action, chart patterns, candlesticks and indicators (trend, momentum, volatility, volume) across timeframes to produce a structured technical report with levels, market regime and an explicit trading bias",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://github.com/twopirllc/pandas-ta",
+                                      "https://ta-lib.org",
+                                      "https://www.backtrader.com"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027binance-cryptocurrency-mcp\u0027)",
+                                           "get_mcp_server(\u0027kukapay-crypto-indicators-mcp\u0027)",
+                                           "get_mcp_server(\u0027cryptoanalysismcp\u0027)",
+                                           "get_mcp_server(\u0027tradingview-mcp-server\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://www.tradingview.com/support"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027quant-analyst\u0027)",
+                                       "get_skill(\u0027longbridge-market-data\u0027)",
+                                       "get_skill(\u0027longbridge\u0027)",
+                                       "get_skill(\u0027trading-ledger\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027fw-research-optimize-execute\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the Technical Analyst agent, following the operating loop in agent.md and the fw-research-optimize-execute workflow.",
+    "ordered_steps":  [
+                          "Scope: symbol, exchange, timeframes (default M15/H1/D1 + W1 context).",
+                          "Pull + validate OHLCV (data-loader subagent).",
+                          "Trend structure + MAs (trend-scanner).",
+                          "Indicators: momentum/volatility/volume (indicator-reader, quant-analyst).",
+                          "Levels: S/R + entry/exit/invalidation (levels-engine).",
+                          "Write report + bias (bias-writer), verify before completing."
+                      ],
+    "requirement":  "Technical analyst agent: chart analysis, indicators RSI/MACD/MA/Bollinger, support/resistance, price action, trend analysis, TA signals",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "medium (quant-analyst + longbridge cover TA; no dedicated TA skill in catalog)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "medium (pandas-ta, TA-Lib, Backtrader, Matplotlib)",
+                     "docs":  "medium - web-verify the URLs before relying on them",
+                     "mcpservers":  "strong (crypto-indicators, cryptoanalysis, tradingview, financekit)",
+                     "workflows":  "medium (research workflow reused)"
+                 },
+    "advice_elapsed_s":  null
+}

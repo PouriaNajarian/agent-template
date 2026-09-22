@@ -1,0 +1,544 @@
+﻿[
+    {
+        "category":  "engineering",
+        "description":  "Review code for correctness, security, readability, and maintainability before merging.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "Review the checkout PR for security issues.",
+        "keywords":  [
+                         "review",
+                         "pr",
+                         "merge",
+                         "quality",
+                         "lint"
+                     ],
+        "llm_reason":  "",
+        "name":  "code-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "code-review",
+                               "path":  null,
+                               "resource":  "mcp-skills://skills/code-review",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0164,
+        "when_to_use":  "Before merging a change or when asked to assess code quality."
+    },
+    {
+        "added_at":  "2026-08-28T19:53:14",
+        "category":  "code",
+        "description":  "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "code-review-checklist",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "code-review-checklist",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\code-review-checklist\\SKILL.md",
+                               "resource":  "mcp-skills://skills/code-review-checklist",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0161,
+        "source":  "skills\\code-review-checklist\\SKILL.md",
+        "when_to_use":  "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability"
+    },
+    {
+        "added_at":  "2026-08-28T19:53:13",
+        "category":  "cloudflare",
+        "description":  "Audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "cloudflare-security-audit",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "cloudflare-security-audit",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\cloudflare-security-audit\\SKILL.md",
+                               "resource":  "mcp-skills://skills/cloudflare-security-audit",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0159,
+        "source":  "skills\\cloudflare-security-audit\\SKILL.md",
+        "when_to_use":  "Audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting."
+    },
+    {
+        "added_at":  "2026-08-04T21:52:14",
+        "category":  "web",
+        "description":  "Systematic code review for Next.js + Hono + Cloudflare projects. Covers correctness, readability, maintainability, security, performance, TypeScript type safety, and adherence to coding standards.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "web-code-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "web-code-review",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\web-code-review\\SKILL.md",
+                               "resource":  "mcp-skills://skills/web-code-review",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0156,
+        "source":  "skills\\web-code-review\\SKILL.md",
+        "when_to_use":  "Systematic code review for Next.js + Hono + Cloudflare projects. Covers correctness, readability, maintainability, security, performance, TypeScript type safety, and adherence to coding standards."
+    },
+    {
+        "added_at":  "2026-08-28T19:55:18",
+        "category":  "performance",
+        "description":  "You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "performance-testing-review-ai-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "performance-testing-review-ai-review",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\performance-testing-review-ai-review\\SKILL.md",
+                               "resource":  "mcp-skills://skills/performance-testing-review-ai-review",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0154,
+        "source":  "skills\\performance-testing-review-ai-review\\SKILL.md",
+        "when_to_use":  "You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C"
+    },
+    {
+        "added_at":  "2026-08-04T21:52:11",
+        "category":  "openai",
+        "description":  "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "openai-security-best-practices",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "openai-security-best-practices",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\openai-security-best-practices\\SKILL.md",
+                               "resource":  "mcp-skills://skills/openai-security-best-practices",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0152,
+        "source":  "skills\\openai-security-best-practices\\SKILL.md",
+        "when_to_use":  "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks."
+    },
+    {
+        "added_at":  "2026-08-28T19:53:14",
+        "category":  "code",
+        "description":  "You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "code-review-ai-ai-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "code-review-ai-ai-review",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\code-review-ai-ai-review\\SKILL.md",
+                               "resource":  "mcp-skills://skills/code-review-ai-ai-review",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0149,
+        "source":  "skills\\code-review-ai-ai-review\\SKILL.md",
+        "when_to_use":  "You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C"
+    },
+    {
+        "added_at":  "2026-08-28T19:52:27",
+        "category":  "007",
+        "description":  "Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "007",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "007",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\007\\SKILL.md",
+                               "resource":  "mcp-skills://skills/007",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0147,
+        "source":  "skills\\007\\SKILL.md",
+        "when_to_use":  "Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project."
+    },
+    {
+        "added_at":  "2026-09-17T09:26:39",
+        "category":  "review",
+        "description":  "Facilitate a structured conversation to customize how the review molecule works -- atom loading rules, severity classification, report format, scope rules, insight capture, and health logging. Produces a formal review-standards.md document that the review molecule will use as its process configuration. Use when the user says \u0027customize review\u0027, \u0027configure review\u0027, \u0027review preferences\u0027, \u0027review settings\u0027, \u0027change review process\u0027, or \u0027set up review\u0027.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "review-refiner",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "review-refiner",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\review-refiner\\SKILL.md",
+                               "resource":  "mcp-skills://skills/review-refiner",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0145,
+        "source":  "skills\\review-refiner\\SKILL.md",
+        "when_to_use":  "Facilitate a structured conversation to customize how the review molecule works -- atom loading rules, severity classification, report format, scope rules, insight capture, and health logging. Produces a formal review-standards.md document that the review molecule will use as its process configuration. Use when the user says \u0027customize review\u0027, \u0027configure review\u0027, \u0027review preferences\u0027, \u0027review settings\u0027, \u0027change review process\u0027, or \u0027set up review\u0027."
+    },
+    {
+        "added_at":  "2026-08-28T19:53:14",
+        "category":  "codebase",
+        "description":  "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "codebase-cleanup-deps-audit",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "codebase-cleanup-deps-audit",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\codebase-cleanup-deps-audit\\SKILL.md",
+                               "resource":  "mcp-skills://skills/codebase-cleanup-deps-audit",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0143,
+        "source":  "skills\\codebase-cleanup-deps-audit\\SKILL.md",
+        "when_to_use":  "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies."
+    },
+    {
+        "added_at":  "2026-08-28T19:56:45",
+        "category":  "threat",
+        "description":  "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "threat-modeling-expert",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "threat-modeling-expert",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\threat-modeling-expert\\SKILL.md",
+                               "resource":  "mcp-skills://skills/threat-modeling-expert",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0141,
+        "source":  "skills\\threat-modeling-expert\\SKILL.md",
+        "when_to_use":  "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems."
+    },
+    {
+        "added_at":  "2026-08-28T19:56:16",
+        "category":  "security",
+        "description":  "Static Application Security Testing (SAST) for code vulnerability",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "security-scanning-security-sast",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "security-scanning-security-sast",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\security-scanning-security-sast\\SKILL.md",
+                               "resource":  "mcp-skills://skills/security-scanning-security-sast",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0139,
+        "source":  "skills\\security-scanning-security-sast\\SKILL.md",
+        "when_to_use":  "Static Application Security Testing (SAST) for code vulnerability"
+    },
+    {
+        "added_at":  "2026-08-28T19:56:52",
+        "category":  "ui",
+        "description":  "Review UI code for design system compliance, accessibility, and best practices",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "ui-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "ui-review",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\ui-review\\SKILL.md",
+                               "resource":  "mcp-skills://skills/ui-review",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0137,
+        "source":  "skills\\ui-review\\SKILL.md",
+        "when_to_use":  "Review UI code for design system compliance, accessibility, and best practices"
+    },
+    {
+        "added_at":  "2026-08-28T19:53:55",
+        "category":  "git",
+        "description":  "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "git-advanced-workflows",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "git-advanced-workflows",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\git-advanced-workflows\\SKILL.md",
+                               "resource":  "mcp-skills://skills/git-advanced-workflows",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0135,
+        "source":  "skills\\git-advanced-workflows\\SKILL.md",
+        "when_to_use":  "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence."
+    },
+    {
+        "added_at":  "2026-08-28T19:56:45",
+        "category":  "threat",
+        "description":  "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "threat-mitigation-mapping",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "threat-mitigation-mapping",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\threat-mitigation-mapping\\SKILL.md",
+                               "resource":  "mcp-skills://skills/threat-mitigation-mapping",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0133,
+        "source":  "skills\\threat-mitigation-mapping\\SKILL.md",
+        "when_to_use":  "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness."
+    },
+    {
+        "added_at":  "2026-08-28T19:56:15",
+        "category":  "security",
+        "description":  "You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide automated remediation strategies.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "security-scanning-security-dependencies",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "security-scanning-security-dependencies",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\security-scanning-security-dependencies\\SKILL.md",
+                               "resource":  "mcp-skills://skills/security-scanning-security-dependencies",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0132,
+        "source":  "skills\\security-scanning-security-dependencies\\SKILL.md",
+        "when_to_use":  "You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide automated remediation strategies."
+    },
+    {
+        "added_at":  "2026-08-28T19:57:18",
+        "category":  "wp",
+        "description":  "Review generated or changed WordPress plugins, themes, and blocks for security, internationalization, performance, and API correctness.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "wp-guard",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "wp-guard",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\wp-guard\\SKILL.md",
+                               "resource":  "mcp-skills://skills/wp-guard",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.013,
+        "source":  "skills\\wp-guard\\SKILL.md",
+        "when_to_use":  "Review generated or changed WordPress plugins, themes, and blocks for security, internationalization, performance, and API correctness."
+    },
+    {
+        "added_at":  "2026-08-28T19:53:06",
+        "category":  "cc",
+        "description":  "This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "cc-skill-security-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "cc-skill-security-review",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\cc-skill-security-review\\SKILL.md",
+                               "resource":  "mcp-skills://skills/cc-skill-security-review",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0128,
+        "source":  "skills\\cc-skill-security-review\\SKILL.md",
+        "when_to_use":  "This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints."
+    },
+    {
+        "added_at":  "2026-08-28T19:53:34",
+        "category":  "differential",
+        "description":  "Security-focused code review for PRs, commits, and diffs.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "differential-review",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "differential-review",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\differential-review\\SKILL.md",
+                               "resource":  "mcp-skills://skills/differential-review",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0127,
+        "source":  "skills\\differential-review\\SKILL.md",
+        "when_to_use":  "Security-focused code review for PRs, commits, and diffs."
+    },
+    {
+        "added_at":  "2026-08-28T19:53:27",
+        "category":  "dependency",
+        "description":  "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.",
+        "engines":  [
+                        "vector"
+                    ],
+        "example_task":  "",
+        "keywords":  [
+
+                     ],
+        "llm_reason":  "",
+        "name":  "dependency-management-deps-audit",
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read this SKILL.md for the full instructions",
+                               "name":  "dependency-management-deps-audit",
+                               "path":  "D:\\Projects\\MCP Skills\\skills\\dependency-management-deps-audit\\SKILL.md",
+                               "resource":  "mcp-skills://skills/dependency-management-deps-audit",
+                               "type":  "skill_file"
+                           }
+                       ],
+        "relevance":  0.0125,
+        "source":  "skills\\dependency-management-deps-audit\\SKILL.md",
+        "when_to_use":  "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies."
+    }
+]

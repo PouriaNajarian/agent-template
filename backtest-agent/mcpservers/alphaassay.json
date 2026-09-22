@@ -1,0 +1,15 @@
+﻿{
+    "name":  "alphaassay",
+    "category":  "finance",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Independent statistical validation for trading signals and backtests: deflated Sharpe, out-of-sample and leakage forensics, signed replayable verdicts; a methodology audit, not investment advice.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/alphaassay/mcp",
+    "url":  "",
+    "custom":  false
+}

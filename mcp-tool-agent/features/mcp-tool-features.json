@@ -1,0 +1,35 @@
+[
+    {
+        "category": "development",
+        "description": "MCP registry: browse, search, install MCP servers with metadata.",
+        "name": "mcp-registry",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["registry", "mcp", "discovery"],
+        "references": [
+            { "type": "catalog_file", "name": "mcp-registry", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "Tool health dashboard: status, latency, error rates per MCP server.",
+        "name": "tool-health-dashboard",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["health", "dashboard", "mcp"],
+        "references": [
+            { "type": "catalog_file", "name": "tool-health-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "development",
+        "description": "Contract registry: per-agent tool contracts with function schemas and failure modes.",
+        "name": "contract-registry",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["contracts", "schema", "tools"],
+        "references": [
+            { "type": "catalog_file", "name": "contract-registry", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

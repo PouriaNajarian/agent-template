@@ -1,0 +1,40 @@
+﻿{
+    "category":  "skills",
+    "description":  "This server: skill discovery, workflows, MCP/agent catalogs.",
+    "ides":  [
+                 "claude",
+                 "cline",
+                 "cursor",
+                 "devin",
+                 "opencode"
+             ],
+    "install":  "python D:\\Projects\\MCP Skills\\mcp_skills_server.py",
+    "keywords":  [
+                     "discovery",
+                     "skills",
+                     "workflows"
+                 ],
+    "name":  "mcp-skills",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/modelcontextprotocol"
+                       },
+                       {
+                           "command":  "python D:\\Projects\\MCP Skills\\mcp_skills_server.py",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "mcp-skills",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/modelcontextprotocol"
+}

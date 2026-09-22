@@ -1,0 +1,43 @@
+﻿{
+    "name":  "documind-mcp-server",
+    "category":  "development",
+    "description":  "An MCP server for analyzing documentation quality using advanced neural processing.",
+    "source_url":  "https://mcpservers.org/servers/Sunwood-ai-labs/documind-mcp-server",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "analyzing",
+                     "documentation",
+                     "quality",
+                     "advanced"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/Sunwood-ai-labs/documind-mcp-server",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "documind-mcp-server",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.027,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027documind-mcp-server\u0027)"
+}

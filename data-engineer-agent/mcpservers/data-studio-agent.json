@@ -1,0 +1,15 @@
+﻿{
+    "name":  "data-studio-agent",
+    "category":  "database",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Unified MCP server giving AI coding agents direct access to your databases: 70+ SQL databases via SqlKit (PostgreSQL, MySQL, SQL Server, SQLite, ClickHouse, Snowflake, BigQuery) and NoSQL via DocKit (Elasticsearch, MongoDB, DynamoDB). Local-first: credentials never leave your machine, read-only by d",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/geek-fun/data-studio-agent",
+    "url":  "",
+    "custom":  false
+}

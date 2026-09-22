@@ -1,0 +1,15 @@
+﻿{
+    "name":  "skyrxin-sast-mcp-server",
+    "category":  "security",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "SAST/DAST server exposing 11 security scanners (Bandit, Semgrep, Trivy, CodeQL, Checkov, Gitleaks, OSV-Scanner, Grype, OWASP ZAP, and more) with closed-loop remediation (scan patch re-scan verify), SARIF/SBOM/VEX export, compliance reporting, and CI integrations (GitHub Advanced Security",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/Skyrxin/sast-mcp-server",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "financekit-mcp",
+    "category":  "other",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Financial market intelligence with 12 tools: real-time stock quotes, crypto prices, technical analysis (RSI, MACD, Bollinger Bands), market overview, and portfolio tracking. Zero API keys required.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/vdalhambra/financekit-mcp",
+    "url":  "",
+    "custom":  false
+}

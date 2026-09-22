@@ -1,0 +1,33 @@
+﻿{
+    "category":  "developer-tools",
+    "description":  "Strict AI code reviewer powered by Groq. Finds bugs, vulnerabilities and SQL injections. Tools: analyze_code, compare_code, explain_code, generate_tests, analyze_file, HTML reports.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "keywords":  [
+                     "strict",
+                     "code",
+                     "reviewer",
+                     "powered"
+                 ],
+    "name":  "notasandy-mcp-code-sanitizer",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/notasandy/mcp-code-sanitizer"
+                       },
+                       {
+                           "name":  "notasandy-mcp-code-sanitizer",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/notasandy/mcp-code-sanitizer"
+}

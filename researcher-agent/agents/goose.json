@@ -1,0 +1,48 @@
+﻿{
+    "name":  "goose",
+    "category":  "cli-agent",
+    "usage_areas":  [
+                        "coding",
+                        "agents"
+                    ],
+    "description":  "Open-source local AI agent by Block (formerly Codename Goose).",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "install":  "curl -fsSL https://github.com/block/goose/releases | sh  (see docs)",
+    "source_url":  "https://block.github.io/goose/",
+    "tutorial":  "https://block.github.io/goose/docs",
+    "keywords":  [
+                     "goose",
+                     "cli",
+                     "agent"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://block.github.io/goose/",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://block.github.io/goose/docs",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "curl -fsSL https://github.com/block/goose/releases | sh  (see docs)"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "goose",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.098,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

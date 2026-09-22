@@ -1,0 +1,15 @@
+﻿{
+    "name":  "agile-luminary",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Connects AI clients to the Agile Luminary project management system via its REST API.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/AgileLuminary/mcp-agile-luminary",
+    "url":  "",
+    "custom":  false
+}

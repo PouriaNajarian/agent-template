@@ -1,0 +1,38 @@
+[
+    {
+        "category": "finance",
+        "description": "TradingView charting documentation - indicators, screeners, chart types, alerts.",
+        "name": "tradingview-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://www.tradingview.com/support",
+        "keywords": ["charting", "indicators", "tradingview"],
+        "references": [
+            { "type": "web", "url": "https://www.tradingview.com/support", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "pandas-ta documentation - indicator list, usage, examples.",
+        "name": "pandas-ta-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://github.com/twopirllc/pandas-ta",
+        "keywords": ["indicators", "pandas-ta"],
+        "references": [
+            { "type": "web", "url": "https://github.com/twopirllc/pandas-ta", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "TA-Lib documentation - 150+ indicator functions reference.",
+        "name": "ta-lib-docs",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://ta-lib.org/function.html",
+        "keywords": ["indicators", "ta-lib"],
+        "references": [
+            { "type": "web", "url": "https://ta-lib.org/function.html", "hint": "The documentation page itself" }
+        ]
+    }
+]

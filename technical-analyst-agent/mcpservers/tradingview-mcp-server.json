@@ -1,0 +1,15 @@
+﻿{
+    "name":  "tradingview-mcp-server",
+    "category":  "finance",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "The most complete AI-powered trading toolkit for Claude and MCP clients. Backtesting + Live Sentiment + Yahoo Finance + 30+ Technical Analysis Tools — all in one MCP server.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/atilaahmettaner/tradingview-mcp",
+    "url":  "",
+    "custom":  false
+}

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "notion-api-mcp",
+    "category":  "knowledge-retrieval-mcp",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Interact with Notion\u0026#x27;s API to manage todo lists, databases, and content organization.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/pbohannon/notion-api-mcp",
+    "url":  "",
+    "custom":  false
+}

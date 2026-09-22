@@ -1,0 +1,69 @@
+[
+    {
+        "category": "data",
+        "description": "Data analysis and manipulation toolkit for Python.",
+        "license": "BSD-3-Clause",
+        "name": "Pandas",
+        "ranking": "vector",
+        "relevance": 0.238,
+        "url": "https://pandas.pydata.org",
+        "skill": "ml-data-pipeline",
+        "keywords": ["dataframes", "analysis"],
+        "references": [
+            { "type": "web", "url": "https://pandas.pydata.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "In-process analytical SQL database for data analysis.",
+        "license": "MIT",
+        "name": "DuckDB",
+        "ranking": "vector",
+        "relevance": 0.181,
+        "url": "https://duckdb.org",
+        "skill": "sql-schema-design",
+        "keywords": ["analytics", "sql", "embedded"],
+        "references": [
+            { "type": "web", "url": "https://duckdb.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "research",
+        "description": "Open-source deep research agent that plans, searches, reads and synthesizes into cited reports.",
+        "license": "Apache-2.0",
+        "name": "open-deep-research",
+        "ranking": "vector",
+        "relevance": 0.17,
+        "url": "https://github.com/langchain-ai/open_deep_research",
+        "keywords": ["deep research", "reports", "citations"],
+        "references": [
+            { "type": "web", "url": "https://github.com/langchain-ai/open_deep_research", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "news",
+        "description": "RSS aggregation + LLM sentiment analysis into structured briefings (used by news-sentiment-engine skill).",
+        "license": "MIT",
+        "name": "rss-parser + LLM sentiment",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://www.npmjs.com/package/rss-parser",
+        "keywords": ["rss", "news", "sentiment"],
+        "references": [
+            { "type": "web", "url": "https://www.npmjs.com/package/rss-parser", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "search",
+        "description": "Financial data and research search across SEC filings, market news and alternative data.",
+        "license": "Apache-2.0",
+        "name": "findata / finbrain",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://github.com/sapph1re/findata-mcp",
+        "keywords": ["financial data", "research"],
+        "references": [
+            { "type": "web", "url": "https://github.com/sapph1re/findata-mcp", "hint": "Official site / source repository" }
+        ]
+    }
+]

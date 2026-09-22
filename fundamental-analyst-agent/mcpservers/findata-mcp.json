@@ -1,0 +1,15 @@
+﻿{
+    "name":  "findata-mcp",
+    "category":  "finance",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Financial data MCP server: stock quotes, company fundamentals, economic indicators, SEC filings, and crypto prices via x402 micropayments",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/sapph1re/findata-mcp",
+    "url":  "",
+    "custom":  false
+}

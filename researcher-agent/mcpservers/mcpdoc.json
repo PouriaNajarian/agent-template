@@ -1,0 +1,43 @@
+﻿{
+    "name":  "mcpdoc",
+    "category":  "search",
+    "description":  "Access website documentation for AI search engines (llms.txt files) over MCP.",
+    "source_url":  "https://mcpservers.org/servers/tevinric/mcpdoc",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "website",
+                     "documentation",
+                     "search",
+                     "engines"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/tevinric/mcpdoc",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "mcpdoc",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0294,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027mcpdoc\u0027)"
+}

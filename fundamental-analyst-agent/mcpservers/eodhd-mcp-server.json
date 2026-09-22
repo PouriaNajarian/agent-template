@@ -1,0 +1,15 @@
+﻿{
+    "name":  "eodhd-mcp-server",
+    "category":  "database",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Access global financial market data through 70+ tools: end-of-day \u0026amp; intraday prices, fundamentals, earnings \u0026amp; financial statements, news \u0026amp; sentiment, screeners, technical indicators, macro and more - across stocks, ETFs, forex and crypto.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/eodhistoricaldata/eodhd-mcp-server",
+    "url":  "",
+    "custom":  false
+}

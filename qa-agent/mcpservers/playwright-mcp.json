@@ -1,0 +1,15 @@
+﻿{
+    "name":  "playwright-mcp",
+    "category":  "web-scraping",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Official Playwright MCP server for browser automation, page inspection, screenshots, and web interaction from Claude, Cursor, and other AI agents.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/playwright-mcp-server",
+    "url":  "",
+    "custom":  false
+}

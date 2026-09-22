@@ -1,0 +1,710 @@
+﻿{
+    "name":  "code-reviewer-agent",
+    "generated":  "2026-09-20T21:43:20",
+    "generated_by":  "opencode - built from mcp-skills get_task_advice + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (task_id 04c640861f)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  138,
+                   "skills":  74,
+                   "workflows":  16,
+                   "mcpservers":  17,
+                   "agents":  7,
+                   "subagents":  5,
+                   "mcp_inventory":  9,
+                   "advice":  2
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  10612
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3818
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3465
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  11005
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  2394
+                  },
+                  {
+                      "path":  "advice/task-advice-report.md",
+                      "category":  "advice",
+                      "bytes":  18022
+                  },
+                  {
+                      "path":  "advice/task-advice.json",
+                      "category":  "advice",
+                      "bytes":  686342
+                  },
+                  {
+                      "path":  "agents/autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents/code-review-agents.json",
+                      "category":  "agents",
+                      "bytes":  29871
+                  },
+                  {
+                      "path":  "agents/comfyui.json",
+                      "category":  "agents",
+                      "bytes":  1896
+                  },
+                  {
+                      "path":  "agents/crewai.json",
+                      "category":  "agents",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "agents/dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents/flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents/langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "docs/code-review-docs.json",
+                      "category":  "docs",
+                      "bytes":  18330
+                  },
+                  {
+                      "path":  "features/code-review-features.json",
+                      "category":  "features",
+                      "bytes":  18590
+                  },
+                  {
+                      "path":  "mcp-inventory/agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3227
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  122034
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-catalog.tsv",
+                      "category":  "mcp-inventory",
+                      "bytes":  3180208
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory/mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  30964
+                  },
+                  {
+                      "path":  "mcp-inventory/orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory/orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  9098
+                  },
+                  {
+                      "path":  "mcp-inventory/orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633465
+                  },
+                  {
+                      "path":  "mcp-inventory/system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3854
+                  },
+                  {
+                      "path":  "mcpservers/agent-mcp-orchestrator.json",
+                      "category":  "mcpservers",
+                      "bytes":  1845
+                  },
+                  {
+                      "path":  "mcpservers/code-review-mcpservers.json",
+                      "category":  "mcpservers",
+                      "bytes":  24083
+                  },
+                  {
+                      "path":  "mcpservers/context7.json",
+                      "category":  "mcpservers",
+                      "bytes":  1443
+                  },
+                  {
+                      "path":  "mcpservers/corbym-backlog-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  1293
+                  },
+                  {
+                      "path":  "mcpservers/devin__cloudflare-docs.json",
+                      "category":  "mcpservers",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "mcpservers/devin__deepwiki.json",
+                      "category":  "mcpservers",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "mcpservers/devin__github-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "mcpservers/filesystem.json",
+                      "category":  "mcpservers",
+                      "bytes":  1534
+                  },
+                  {
+                      "path":  "mcpservers/git.json",
+                      "category":  "mcpservers",
+                      "bytes":  1302
+                  },
+                  {
+                      "path":  "mcpservers/mcp-code-review-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  1261
+                  },
+                  {
+                      "path":  "mcpservers/mcp-skills.json",
+                      "category":  "mcpservers",
+                      "bytes":  1461
+                  },
+                  {
+                      "path":  "mcpservers/memory.json",
+                      "category":  "mcpservers",
+                      "bytes":  1389
+                  },
+                  {
+                      "path":  "mcpservers/notasandy-mcp-code-sanitizer.json",
+                      "category":  "mcpservers",
+                      "bytes":  1283
+                  },
+                  {
+                      "path":  "mcpservers/playwright.json",
+                      "category":  "mcpservers",
+                      "bytes":  1508
+                  },
+                  {
+                      "path":  "mcpservers/postgres-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  1206
+                  },
+                  {
+                      "path":  "mcpservers/selvage-lab-selvage.json",
+                      "category":  "mcpservers",
+                      "bytes":  1199
+                  },
+                  {
+                      "path":  "mcpservers/winremote.json",
+                      "category":  "mcpservers",
+                      "bytes":  1328
+                  },
+                  {
+                      "path":  "skills/code-review-skills-ranking.json",
+                      "category":  "skills",
+                      "bytes":  28656
+                  },
+                  {
+                      "path":  "skills/agent-creator/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11400
+                  },
+                  {
+                      "path":  "skills/api-security/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7148
+                  },
+                  {
+                      "path":  "skills/api-security/references/jwt-oauth-testing.md",
+                      "category":  "skills",
+                      "bytes":  3066
+                  },
+                  {
+                      "path":  "skills/api-security/references/rest-graphql-testing.md",
+                      "category":  "skills",
+                      "bytes":  3433
+                  },
+                  {
+                      "path":  "skills/api-security-best-practices/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  24751
+                  },
+                  {
+                      "path":  "skills/api-security-testing/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4146
+                  },
+                  {
+                      "path":  "skills/brooks-review/pr-review-guide.md",
+                      "category":  "skills",
+                      "bytes":  7158
+                  },
+                  {
+                      "path":  "skills/brooks-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2255
+                  },
+                  {
+                      "path":  "skills/build-scenario-tests/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6874
+                  },
+                  {
+                      "path":  "skills/cf-code-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1039
+                  },
+                  {
+                      "path":  "skills/code-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1010
+                  },
+                  {
+                      "path":  "skills/code-review/_catalog-entry.json",
+                      "category":  "skills",
+                      "bytes":  1376
+                  },
+                  {
+                      "path":  "skills/code-review-checklist/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12502
+                  },
+                  {
+                      "path":  "skills/code-review-excellence/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1811
+                  },
+                  {
+                      "path":  "skills/code-review-excellence/resources/implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  13904
+                  },
+                  {
+                      "path":  "skills/code-reviewer/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9272
+                  },
+                  {
+                      "path":  "skills/code-standards/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2988
+                  },
+                  {
+                      "path":  "skills/codex-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1580
+                  },
+                  {
+                      "path":  "skills/coding-standards/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13300
+                  },
+                  {
+                      "path":  "skills/comprehensive-review-full-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10472
+                  },
+                  {
+                      "path":  "skills/comprehensive-review-pr-enhance/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3131
+                  },
+                  {
+                      "path":  "skills/comprehensive-review-pr-enhance/resources/implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  20253
+                  },
+                  {
+                      "path":  "skills/coverage-analysis/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10700
+                  },
+                  {
+                      "path":  "skills/crap-score/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10353
+                  },
+                  {
+                      "path":  "skills/dev-receiving-code-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6207
+                  },
+                  {
+                      "path":  "skills/dev-requesting-code-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2960
+                  },
+                  {
+                      "path":  "skills/dev-verification-before-completion/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3650
+                  },
+                  {
+                      "path":  "skills/differential-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7128
+                  },
+                  {
+                      "path":  "skills/eng-code-review-and-quality/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  20547
+                  },
+                  {
+                      "path":  "skills/fix-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2253
+                  },
+                  {
+                      "path":  "skills/gh-review-requests/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3148
+                  },
+                  {
+                      "path":  "skills/git-pr-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4039
+                  },
+                  {
+                      "path":  "skills/git-pr-workflows-git-workflow/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5372
+                  },
+                  {
+                      "path":  "skills/karpathy-guidelines/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2583
+                  },
+                  {
+                      "path":  "skills/logic-review/logic-review-guide.md",
+                      "category":  "skills",
+                      "bytes":  21863
+                  },
+                  {
+                      "path":  "skills/logic-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  14462
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8702
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/agents/openai.yaml",
+                      "category":  "skills",
+                      "bytes":  241
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/golang-general-backend-security.md",
+                      "category":  "skills",
+                      "bytes":  39484
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/javascript-express-web-server-security.md",
+                      "category":  "skills",
+                      "bytes":  50515
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/javascript-general-web-frontend-security.md",
+                      "category":  "skills",
+                      "bytes":  39385
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/javascript-jquery-web-frontend-security.md",
+                      "category":  "skills",
+                      "bytes":  34259
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+                      "category":  "skills",
+                      "bytes":  44567
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+                      "category":  "skills",
+                      "bytes":  42676
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/javascript-typescript-vue-web-frontend-security.md",
+                      "category":  "skills",
+                      "bytes":  32236
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/python-django-web-server-security.md",
+                      "category":  "skills",
+                      "bytes":  39543
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/python-fastapi-web-server-security.md",
+                      "category":  "skills",
+                      "bytes":  45962
+                  },
+                  {
+                      "path":  "skills/openai-security-best-practices/references/python-flask-web-server-security.md",
+                      "category":  "skills",
+                      "bytes":  32452
+                  },
+                  {
+                      "path":  "skills/performance-testing-review-ai-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  16446
+                  },
+                  {
+                      "path":  "skills/performance-testing-review-multi-agent-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7385
+                  },
+                  {
+                      "path":  "skills/receiving-code-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6900
+                  },
+                  {
+                      "path":  "skills/review-and-simplify-changes/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8913
+                  },
+                  {
+                      "path":  "skills/review-multi-agent-orchestration/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10459
+                  },
+                  {
+                      "path":  "skills/review-refiner/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13293
+                  },
+                  {
+                      "path":  "skills/review-swarm/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7566
+                  },
+                  {
+                      "path":  "skills/review-swarm/agents/openai.yaml",
+                      "category":  "skills",
+                      "bytes":  252
+                  },
+                  {
+                      "path":  "skills/sec-api-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1157
+                  },
+                  {
+                      "path":  "skills/sec-api-security/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1065
+                  },
+                  {
+                      "path":  "skills/sec-authentication-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1103
+                  },
+                  {
+                      "path":  "skills/sec-authorization-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  989
+                  },
+                  {
+                      "path":  "skills/sec-vulnerability-validation/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1253
+                  },
+                  {
+                      "path":  "skills/security-audit/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5781
+                  },
+                  {
+                      "path":  "skills/security-auditor/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11712
+                  },
+                  {
+                      "path":  "skills/security-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12694
+                  },
+                  {
+                      "path":  "skills/security-scanning-security-dependencies/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2345
+                  },
+                  {
+                      "path":  "skills/security-scanning-security-dependencies/resources/implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  17595
+                  },
+                  {
+                      "path":  "skills/security-scanning-security-hardening/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11377
+                  },
+                  {
+                      "path":  "skills/security-scanning-security-sast/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  15262
+                  },
+                  {
+                      "path":  "skills/test-anti-patterns/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  23242
+                  },
+                  {
+                      "path":  "skills/test-smell-detection/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9489
+                  },
+                  {
+                      "path":  "skills/verify-and-stop/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  718
+                  },
+                  {
+                      "path":  "skills/vibers-code-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4704
+                  },
+                  {
+                      "path":  "skills/web-code-review/SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2115
+                  },
+                  {
+                      "path":  "subagents/correctness-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1192
+                  },
+                  {
+                      "path":  "subagents/performance-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1288
+                  },
+                  {
+                      "path":  "subagents/pr-context-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1254
+                  },
+                  {
+                      "path":  "subagents/security-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1500
+                  },
+                  {
+                      "path":  "subagents/test-coverage-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  1267
+                  },
+                  {
+                      "path":  "tools/code-review-tools.json",
+                      "category":  "tools",
+                      "bytes":  22889
+                  },
+                  {
+                      "path":  "workflows/api-security-hardening.md",
+                      "category":  "workflows",
+                      "bytes":  2780
+                  },
+                  {
+                      "path":  "workflows/api-security-review.md",
+                      "category":  "workflows",
+                      "bytes":  2383
+                  },
+                  {
+                      "path":  "workflows/code-review-pass.md",
+                      "category":  "workflows",
+                      "bytes":  2598
+                  },
+                  {
+                      "path":  "workflows/code-review.md",
+                      "category":  "workflows",
+                      "bytes":  2463
+                  },
+                  {
+                      "path":  "workflows/debug-production-issue.md",
+                      "category":  "workflows",
+                      "bytes":  2853
+                  },
+                  {
+                      "path":  "workflows/dependency-upgrade.md",
+                      "category":  "workflows",
+                      "bytes":  2152
+                  },
+                  {
+                      "path":  "workflows/fw-agentic-coding-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2789
+                  },
+                  {
+                      "path":  "workflows/fw-code-review.md",
+                      "category":  "workflows",
+                      "bytes":  3423
+                  },
+                  {
+                      "path":  "workflows/fw-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  4442
+                  },
+                  {
+                      "path":  "workflows/fw-role-separated-agents.md",
+                      "category":  "workflows",
+                      "bytes":  2796
+                  },
+                  {
+                      "path":  "workflows/fw-spec-driven-development.md",
+                      "category":  "workflows",
+                      "bytes":  2778
+                  },
+                  {
+                      "path":  "workflows/fw-verification-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2385
+                  },
+                  {
+                      "path":  "workflows/performance-optimization.md",
+                      "category":  "workflows",
+                      "bytes":  2804
+                  },
+                  {
+                      "path":  "workflows/security-audit.md",
+                      "category":  "workflows",
+                      "bytes":  2560
+                  },
+                  {
+                      "path":  "workflows/tdd-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  2679
+                  },
+                  {
+                      "path":  "workflows/test-strategy-rollout.md",
+                      "category":  "workflows",
+                      "bytes":  2758
+                  }
+              ]
+}

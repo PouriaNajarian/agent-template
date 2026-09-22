@@ -1,0 +1,152 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: mcp-tool-developer, claude-mcp-builder, mcp-apps-builder",
+                                     "Follow the workflow: api-integration"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Discover via orchestrator + mcp-skills + registries (global-chat-agent-discovery)",
+                                     "Install/configure via orchestrator install_mcp_server; build custom with mcp-tool-developer"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Verify: get_server_functions + live smoke test; check logs",
+                                     "Document the contract for the consuming agent",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "mcp-registry",
+                                         "tool-health-dashboard",
+                                         "contract-registry"
+                                     ],
+                        "workflow":  [
+                                         "api-integration",
+                                         "fw-ai-agent-setup"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "mcp-spec-docs",
+                                     "fastmcp-docs",
+                                     "mcp-ts-sdk-docs",
+                                     "orchestrator-api-docs"
+                                 ],
+                        "tools":  [
+                                      "FastMCP",
+                                      "MCP SDK",
+                                      "mcp-gateway",
+                                      "pytest",
+                                      "OmniRoute"
+                                  ],
+                        "skills":  [
+                                       "mcp-tool-developer",
+                                       "claude-mcp-builder",
+                                       "mcp-builder-ms",
+                                       "mcp-apps-builder",
+                                       "ms-azure-aigateway",
+                                       "n8n-mcp-tools-expert",
+                                       "global-chat-agent-discovery",
+                                       "not-human-search-mcp",
+                                       "agent-harness-fault-injection",
+                                       "api-design",
+                                       "api-connector-builder",
+                                       "api-contract-testing",
+                                       "create-custom-agent",
+                                       "eng-api-and-interface-design",
+                                       "eng-test-driven-development",
+                                       "eng-observability-and-instrumentation"
+                                   ],
+                        "mcpserver":  [
+                                          "mikkoparkkola-mcp-gateway",
+                                          "mcp360-universal-gateway",
+                                          "markgatcha-universal-mcp-toolkit",
+                                          "ai-security-gateway-mcp-gateway"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Never install a server without testing it; never hardcode keys.",
+                     "Always sync agent configs through the orchestrator."
+                 ],
+    "task":  "Build an MCP/Tool Agent for a trading/investment system: owns the tool layer: discovers, selects, builds, configures, tests and maintains MCP servers and tool integrations; queries the orchestrator for live inventory, builds new MCP servers when a capability is missing, keeps every agent\u0027s tool contract documented and tested",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://github.com/jlowin/fastmcp",
+                                      "https://github.com/modelcontextprotocol/typescript-sdk",
+                                      "https://github.com/MikkoParkkola/mcp-gateway"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027mikkoparkkola-mcp-gateway\u0027)",
+                                           "get_mcp_server(\u0027mcp360-universal-gateway\u0027)",
+                                           "get_mcp_server(\u0027ai-security-gateway-mcp-gateway\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://modelcontextprotocol.io",
+                                     "http://localhost:8790"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027mcp-tool-developer\u0027)",
+                                       "get_skill(\u0027claude-mcp-builder\u0027)",
+                                       "get_skill(\u0027mcp-apps-builder\u0027)",
+                                       "get_skill(\u0027api-contract-testing\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027api-integration\u0027)",
+                                          "get_workflow(\u0027fw-ai-agent-setup\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the MCP/Tool agent, following the operating loop in agent.md and the api-integration workflow.",
+    "ordered_steps":  [
+                          "Requirement: capability, consumer agent, security constraints.",
+                          "Discover: orchestrator catalog + mcp-skills + registries (tool-scout).",
+                          "Evaluate shortlist: fit, platform, security, maintenance, license.",
+                          "Install/configure via orchestrator, or build custom (mcp-builder).",
+                          "Verify: functions + smoke test + logs (verifier).",
+                          "Document contract per consuming agent (contract-writer).",
+                          "Test failure modes; update agent configs via orchestrator sync; verify before completing."
+                      ],
+    "requirement":  "MCP/tool agent: build MCP servers, integrate tools and APIs, tool selection, MCP server development, API connectors, orchestration, tool inventory",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "strong (mcp-tool-developer, claude-mcp-builder, mcp-apps-builder, api-contract-testing)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "medium (FastMCP, MCP SDK, pytest)",
+                     "docs":  "medium - web-verify the URLs before relying on them",
+                     "mcpservers":  "strong (gateway ecosystem: mcp-gateway, mcp360, ai-security-gateway)",
+                     "workflows":  "medium (api-integration reused)"
+                 },
+    "advice_elapsed_s":  null
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "category": "project-management",
+        "description": "Sprint board: swimlanes, blockers, burndown, sprint goal per sprint.",
+        "name": "sprint-board",
+        "ranking": "vector",
+        "relevance": 0.2,
+        "keywords": ["sprint", "board", "burndown"],
+        "references": [
+            { "type": "catalog_file", "name": "sprint-board", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Velocity dashboard: sprint trend, throughput, cycle time, forecast.",
+        "name": "velocity-dashboard",
+        "ranking": "vector",
+        "relevance": 0.18,
+        "keywords": ["velocity", "throughput", "forecast"],
+        "references": [
+            { "type": "catalog_file", "name": "velocity-dashboard", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Retro board: well/improve/experiments with action owners and review dates.",
+        "name": "retro-board",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "keywords": ["retro", "experiments", "actions"],
+        "references": [
+            { "type": "catalog_file", "name": "retro-board", "path": "D:\\Projects\\MCP Skills\\features.json" }
+        ]
+    }
+]

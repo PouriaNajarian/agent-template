@@ -1,0 +1,335 @@
+﻿{
+    "name":  "trading-strategy-agent",
+    "generated":  "2026-09-22T14:50:58",
+    "generated_by":  "opencode - built from mcp-skills (vector index) + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (vector ranking; DeepSeek combined ranker timed out)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  63,
+                   "skills":  11,
+                   "workflows":  4,
+                   "mcpservers":  19,
+                   "agents":  6,
+                   "subagents":  5,
+                   "mcp_inventory":  8,
+                   "advice":  null
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  8068
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3882
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  9478
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3224
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  2017
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  414
+                  },
+                  {
+                      "path":  "advice\\task-advice.json",
+                      "category":  "advice",
+                      "bytes":  9188
+                  },
+                  {
+                      "path":  "agents\\autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents\\claude-code.json",
+                      "category":  "agents",
+                      "bytes":  1810
+                  },
+                  {
+                      "path":  "agents\\crewai.json",
+                      "category":  "agents",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "agents\\dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents\\flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents\\langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "docs\\trading-strategy-docs.json",
+                      "category":  "docs",
+                      "bytes":  1450
+                  },
+                  {
+                      "path":  "features\\trading-strategy-features.json",
+                      "category":  "features",
+                      "bytes":  1374
+                  },
+                  {
+                      "path":  "mcp-inventory\\agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  33557
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  56545
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  8790
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633470
+                  },
+                  {
+                      "path":  "mcp-inventory\\system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3864
+                  },
+                  {
+                      "path":  "mcpservers\\agent-mcp-orchestrator.json",
+                      "category":  "mcpservers",
+                      "bytes":  1845
+                  },
+                  {
+                      "path":  "mcpservers\\alforge-labs-alpha-forge-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  575
+                  },
+                  {
+                      "path":  "mcpservers\\alpaca.json",
+                      "category":  "mcpservers",
+                      "bytes":  457
+                  },
+                  {
+                      "path":  "mcpservers\\alphaassay.json",
+                      "category":  "mcpservers",
+                      "bytes":  529
+                  },
+                  {
+                      "path":  "mcpservers\\arrow-algo.json",
+                      "category":  "mcpservers",
+                      "bytes":  502
+                  },
+                  {
+                      "path":  "mcpservers\\botspot.json",
+                      "category":  "mcpservers",
+                      "bytes":  535
+                  },
+                  {
+                      "path":  "mcpservers\\context7.json",
+                      "category":  "mcpservers",
+                      "bytes":  1443
+                  },
+                  {
+                      "path":  "mcpservers\\crashtestyourstrategy.json",
+                      "category":  "mcpservers",
+                      "bytes":  609
+                  },
+                  {
+                      "path":  "mcpservers\\etbars-vibetrader-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  460
+                  },
+                  {
+                      "path":  "mcpservers\\filesystem.json",
+                      "category":  "mcpservers",
+                      "bytes":  1534
+                  },
+                  {
+                      "path":  "mcpservers\\git.json",
+                      "category":  "mcpservers",
+                      "bytes":  1302
+                  },
+                  {
+                      "path":  "mcpservers\\keel-trade-keel-trade.json",
+                      "category":  "mcpservers",
+                      "bytes":  570
+                  },
+                  {
+                      "path":  "mcpservers\\kyurish-trading212-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  536
+                  },
+                  {
+                      "path":  "mcpservers\\laukikk-alpaca-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  459
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-skills.json",
+                      "category":  "mcpservers",
+                      "bytes":  1461
+                  },
+                  {
+                      "path":  "mcpservers\\memory.json",
+                      "category":  "mcpservers",
+                      "bytes":  1389
+                  },
+                  {
+                      "path":  "mcpservers\\playwright.json",
+                      "category":  "mcpservers",
+                      "bytes":  1508
+                  },
+                  {
+                      "path":  "mcpservers\\postgres-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  1206
+                  },
+                  {
+                      "path":  "mcpservers\\winremote.json",
+                      "category":  "mcpservers",
+                      "bytes":  1328
+                  },
+                  {
+                      "path":  "skills\\data-storytelling\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13631
+                  },
+                  {
+                      "path":  "skills\\longbridge\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3351
+                  },
+                  {
+                      "path":  "skills\\longbridge-market-data\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6977
+                  },
+                  {
+                      "path":  "skills\\ml-data-pipeline\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1725
+                  },
+                  {
+                      "path":  "skills\\ml-model-development\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2075
+                  },
+                  {
+                      "path":  "skills\\ml-model-evaluation\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2176
+                  },
+                  {
+                      "path":  "skills\\price-psychology-strategist\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5335
+                  },
+                  {
+                      "path":  "skills\\quant-analyst\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2192
+                  },
+                  {
+                      "path":  "skills\\risk-manager\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2296
+                  },
+                  {
+                      "path":  "skills\\sql-pro\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8305
+                  },
+                  {
+                      "path":  "skills\\trading-ledger\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8946
+                  },
+                  {
+                      "path":  "subagents\\edge-hunter.md",
+                      "category":  "subagents",
+                      "bytes":  893
+                  },
+                  {
+                      "path":  "subagents\\risk-designer.md",
+                      "category":  "subagents",
+                      "bytes":  746
+                  },
+                  {
+                      "path":  "subagents\\signal-designer.md",
+                      "category":  "subagents",
+                      "bytes":  716
+                  },
+                  {
+                      "path":  "subagents\\spec-writer.md",
+                      "category":  "subagents",
+                      "bytes":  763
+                  },
+                  {
+                      "path":  "subagents\\test-plan-writer.md",
+                      "category":  "subagents",
+                      "bytes":  848
+                  },
+                  {
+                      "path":  "tools\\trading-strategy-tools.json",
+                      "category":  "tools",
+                      "bytes":  2574
+                  },
+                  {
+                      "path":  "workflows\\fw-ml-data-pipeline.md",
+                      "category":  "workflows",
+                      "bytes":  3545
+                  },
+                  {
+                      "path":  "workflows\\fw-model-development.md",
+                      "category":  "workflows",
+                      "bytes":  4374
+                  },
+                  {
+                      "path":  "workflows\\fw-model-evaluation.md",
+                      "category":  "workflows",
+                      "bytes":  4089
+                  },
+                  {
+                      "path":  "workflows\\fw-verification-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2385
+                  }
+              ]
+}

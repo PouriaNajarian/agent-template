@@ -1,0 +1,43 @@
+﻿{
+    "name":  "node-js-api-docs",
+    "category":  "development",
+    "description":  "An MCP server for accessing and searching Node.js API documentation.",
+    "source_url":  "https://mcpservers.org/servers/lirantal/mcp-server-nodejs-api-docs",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "accessing",
+                     "searching",
+                     "node",
+                     "documentation"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/lirantal/mcp-server-nodejs-api-docs",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "node-js-api-docs",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0274,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027node-js-api-docs\u0027)"
+}

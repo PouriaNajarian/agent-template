@@ -1,0 +1,375 @@
+﻿{
+    "name":  "scrum-master-agent",
+    "generated":  "2026-09-22T16:44:24",
+    "generated_by":  "opencode - built from mcp-skills (vector index) + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (vector ranking; DeepSeek combined ranker timed out)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  71,
+                   "skills":  26,
+                   "workflows":  6,
+                   "mcpservers":  10,
+                   "agents":  6,
+                   "subagents":  5,
+                   "mcp_inventory":  8,
+                   "advice":  null
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  7815
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3832
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  11361
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3130
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  2785
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  566
+                  },
+                  {
+                      "path":  "advice\\task-advice.json",
+                      "category":  "advice",
+                      "bytes":  9426
+                  },
+                  {
+                      "path":  "agents\\autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents\\claude-code.json",
+                      "category":  "agents",
+                      "bytes":  1810
+                  },
+                  {
+                      "path":  "agents\\crewai.json",
+                      "category":  "agents",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "agents\\dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents\\flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents\\langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "docs\\scrum-master-docs.json",
+                      "category":  "docs",
+                      "bytes":  1477
+                  },
+                  {
+                      "path":  "features\\scrum-master-features.json",
+                      "category":  "features",
+                      "bytes":  1344
+                  },
+                  {
+                      "path":  "mcp-inventory\\agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  33557
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  56545
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  8790
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633470
+                  },
+                  {
+                      "path":  "mcp-inventory\\system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3864
+                  },
+                  {
+                      "path":  "mcpservers\\agile-luminary.json",
+                      "category":  "mcpservers",
+                      "bytes":  446
+                  },
+                  {
+                      "path":  "mcpservers\\agile-planner-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  472
+                  },
+                  {
+                      "path":  "mcpservers\\agile-team-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  470
+                  },
+                  {
+                      "path":  "mcpservers\\corbym-backlog-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  573
+                  },
+                  {
+                      "path":  "mcpservers\\jira-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  437
+                  },
+                  {
+                      "path":  "mcpservers\\jira-sprint-dashboard.json",
+                      "category":  "mcpservers",
+                      "bytes":  527
+                  },
+                  {
+                      "path":  "mcpservers\\pm33-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  636
+                  },
+                  {
+                      "path":  "mcpservers\\qretro.json",
+                      "category":  "mcpservers",
+                      "bytes":  506
+                  },
+                  {
+                      "path":  "mcpservers\\spranab-saga-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  615
+                  },
+                  {
+                      "path":  "mcpservers\\tacticlaunch-mcp-linear.json",
+                      "category":  "mcpservers",
+                      "bytes":  397
+                  },
+                  {
+                      "path":  "skills\\context-driven-development\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12692
+                  },
+                  {
+                      "path":  "skills\\dev-brainstorming\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10051
+                  },
+                  {
+                      "path":  "skills\\dev-brainstorming\\scripts\\frame-template.html",
+                      "category":  "skills",
+                      "bytes":  8307
+                  },
+                  {
+                      "path":  "skills\\dev-brainstorming\\scripts\\helper.js",
+                      "category":  "skills",
+                      "bytes":  5615
+                  },
+                  {
+                      "path":  "skills\\dev-brainstorming\\scripts\\server.cjs",
+                      "category":  "skills",
+                      "bytes":  26416
+                  },
+                  {
+                      "path":  "skills\\dev-brainstorming\\scripts\\start-server.sh",
+                      "category":  "skills",
+                      "bytes":  6908
+                  },
+                  {
+                      "path":  "skills\\dev-brainstorming\\scripts\\stop-server.sh",
+                      "category":  "skills",
+                      "bytes":  3263
+                  },
+                  {
+                      "path":  "skills\\dev-dispatching-parallel-agents\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6082
+                  },
+                  {
+                      "path":  "skills\\dev-verification-before-completion\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3650
+                  },
+                  {
+                      "path":  "skills\\ecom-project-management\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6765
+                  },
+                  {
+                      "path":  "skills\\eng-planning-and-task-breakdown\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7657
+                  },
+                  {
+                      "path":  "skills\\eng-spec-driven-development\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8531
+                  },
+                  {
+                      "path":  "skills\\plan-writing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4549
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6314
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\scripts\\check-complete.sh",
+                      "category":  "skills",
+                      "bytes":  1204
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\scripts\\init-session.sh",
+                      "category":  "skills",
+                      "bytes":  2374
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\templates\\findings.md",
+                      "category":  "skills",
+                      "bytes":  3656
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\templates\\progress.md",
+                      "category":  "skills",
+                      "bytes":  4115
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\templates\\task_plan.md",
+                      "category":  "skills",
+                      "bytes":  4745
+                  },
+                  {
+                      "path":  "skills\\retro\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3396
+                  },
+                  {
+                      "path":  "skills\\team-collaboration-standup-notes\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2547
+                  },
+                  {
+                      "path":  "skills\\team-collaboration-standup-notes\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  31705
+                  },
+                  {
+                      "path":  "skills\\to-spec\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3076
+                  },
+                  {
+                      "path":  "skills\\to-tickets\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5778
+                  },
+                  {
+                      "path":  "skills\\triage\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6660
+                  },
+                  {
+                      "path":  "skills\\wrike-automation\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9987
+                  },
+                  {
+                      "path":  "subagents\\backlog-groomer.md",
+                      "category":  "subagents",
+                      "bytes":  680
+                  },
+                  {
+                      "path":  "subagents\\metrics-reporter.md",
+                      "category":  "subagents",
+                      "bytes":  786
+                  },
+                  {
+                      "path":  "subagents\\retro-facilitator.md",
+                      "category":  "subagents",
+                      "bytes":  715
+                  },
+                  {
+                      "path":  "subagents\\sprint-planner.md",
+                      "category":  "subagents",
+                      "bytes":  703
+                  },
+                  {
+                      "path":  "subagents\\standup-runner.md",
+                      "category":  "subagents",
+                      "bytes":  711
+                  },
+                  {
+                      "path":  "tools\\scrum-master-tools.json",
+                      "category":  "tools",
+                      "bytes":  2048
+                  },
+                  {
+                      "path":  "workflows\\code-review-pass.md",
+                      "category":  "workflows",
+                      "bytes":  2598
+                  },
+                  {
+                      "path":  "workflows\\fw-agentic-coding-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2789
+                  },
+                  {
+                      "path":  "workflows\\fw-role-separated-agents.md",
+                      "category":  "workflows",
+                      "bytes":  2796
+                  },
+                  {
+                      "path":  "workflows\\fw-spec-driven-development.md",
+                      "category":  "workflows",
+                      "bytes":  2778
+                  },
+                  {
+                      "path":  "workflows\\tdd-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  2679
+                  },
+                  {
+                      "path":  "workflows\\test-strategy-rollout.md",
+                      "category":  "workflows",
+                      "bytes":  2758
+                  }
+              ]
+}

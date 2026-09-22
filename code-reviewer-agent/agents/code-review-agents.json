@@ -1,0 +1,758 @@
+﻿[
+    {
+        "category":  "platform",
+        "description":  "Visual framework for multi-agent and RAG apps.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "pip install langflow \u0026\u0026 langflow run",
+        "keywords":  [
+                         "langflow",
+                         "agents",
+                         "rag"
+                     ],
+        "llm_reason":  "",
+        "name":  "langflow",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://langflow.org"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.langflow.org"
+                           },
+                           {
+                               "command":  "pip install langflow \u0026\u0026 langflow run",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "langflow",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0328,
+        "source_url":  "https://langflow.org",
+        "tutorial":  "https://docs.langflow.org",
+        "usage_areas":  [
+                            "agents",
+                            "workflows"
+                        ]
+    },
+    {
+        "category":  "visual-tool",
+        "description":  "Node-based workflow UI for stable diffusion image/video/audio generation.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "git clone https://github.com/comfyanonymous/ComfyUI \u0026\u0026 cd ComfyUI \u0026\u0026 pip install -r requirements.txt",
+        "keywords":  [
+                         "stable diffusion",
+                         "workflow",
+                         "generation"
+                     ],
+        "llm_reason":  "",
+        "name":  "comfyui",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/comfyanonymous/ComfyUI"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.comfy.org"
+                           },
+                           {
+                               "command":  "git clone https://github.com/comfyanonymous/ComfyUI \u0026\u0026 cd ComfyUI \u0026\u0026 pip install -r requirements.txt",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "comfyui",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0323,
+        "source_url":  "https://github.com/comfyanonymous/ComfyUI",
+        "tutorial":  "https://docs.comfy.org",
+        "usage_areas":  [
+                            "video",
+                            "image",
+                            "audio",
+                            "design"
+                        ]
+    },
+    {
+        "category":  "platform",
+        "description":  "LLMOps platform for building agents, RAG apps, and workflows visually.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "docker compose up -d (dify/docker)",
+        "keywords":  [
+                         "llmops",
+                         "rag",
+                         "workflow"
+                     ],
+        "llm_reason":  "",
+        "name":  "dify",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac",
+                          "cloud"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://dify.ai"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.dify.ai"
+                           },
+                           {
+                               "command":  "docker compose up -d (dify/docker)",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "dify",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0317,
+        "source_url":  "https://dify.ai",
+        "tutorial":  "https://docs.dify.ai",
+        "usage_areas":  [
+                            "agents",
+                            "workflows",
+                            "chat",
+                            "automation"
+                        ]
+    },
+    {
+        "category":  "video-editor",
+        "description":  "Professional video editing and color grading (AI features).",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "Download from blackmagicdesign.com",
+        "keywords":  [
+                         "video",
+                         "editing",
+                         "color"
+                     ],
+        "llm_reason":  "",
+        "name":  "davinci-resolve",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://www.blackmagicdesign.com/products/davinciresolve"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.blackmagicdesign.com"
+                           },
+                           {
+                               "command":  "Download from blackmagicdesign.com",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "davinci-resolve",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0312,
+        "source_url":  "https://www.blackmagicdesign.com/products/davinciresolve",
+        "tutorial":  "https://docs.blackmagicdesign.com",
+        "usage_areas":  [
+                            "video"
+                        ]
+    },
+    {
+        "category":  "framework",
+        "description":  "Multi-agent orchestration framework for Python.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "pip install crewai crewai-tools",
+        "keywords":  [
+                         "crew",
+                         "agents",
+                         "orchestration"
+                     ],
+        "llm_reason":  "",
+        "name":  "crewai",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://crewai.com"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.crewai.com"
+                           },
+                           {
+                               "command":  "pip install crewai crewai-tools",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "crewai",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0308,
+        "source_url":  "https://crewai.com",
+        "tutorial":  "https://docs.crewai.com",
+        "usage_areas":  [
+                            "agents",
+                            "automation"
+                        ]
+    },
+    {
+        "category":  "ide",
+        "description":  "ByteDance Trae: AI-native IDE.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "Download from trae.ai",
+        "keywords":  [
+                         "trae",
+                         "ide",
+                         "ai"
+                     ],
+        "llm_reason":  "",
+        "name":  "trae",
+        "platforms":  [
+                          "windows",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://www.trae.ai"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://www.trae.ai/docs"
+                           },
+                           {
+                               "command":  "Download from trae.ai",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "trae",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0303,
+        "source_url":  "https://www.trae.ai",
+        "tutorial":  "https://www.trae.ai/docs",
+        "usage_areas":  [
+                            "coding"
+                        ]
+    },
+    {
+        "category":  "platform",
+        "description":  "Drag-and-drop LLM workflow builder.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "npm i -g flowise \u0026\u0026 flowise start",
+        "keywords":  [
+                         "flowise",
+                         "workflow",
+                         "llm"
+                     ],
+        "llm_reason":  "",
+        "name":  "flowise",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac",
+                          "cloud"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://flowiseai.com"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.flowiseai.com"
+                           },
+                           {
+                               "command":  "npm i -g flowise \u0026\u0026 flowise start",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "flowise",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0299,
+        "source_url":  "https://flowiseai.com",
+        "tutorial":  "https://docs.flowiseai.com",
+        "usage_areas":  [
+                            "agents",
+                            "workflows",
+                            "chat"
+                        ]
+    },
+    {
+        "category":  "framework",
+        "description":  "Microsoft\u0027s multi-agent conversation framework.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "pip install autogen-agentchat",
+        "keywords":  [
+                         "autogen",
+                         "multi-agent"
+                     ],
+        "llm_reason":  "",
+        "name":  "autogen",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://microsoft.github.io/autogen/"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://microsoft.github.io/autogen/stable/"
+                           },
+                           {
+                               "command":  "pip install autogen-agentchat",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "autogen",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0294,
+        "source_url":  "https://microsoft.github.io/autogen/",
+        "tutorial":  "https://microsoft.github.io/autogen/stable/",
+        "usage_areas":  [
+                            "agents",
+                            "automation"
+                        ]
+    },
+    {
+        "category":  "visual-tool",
+        "description":  "InvokeAI: professional AI image generation studio.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "pip install invokeai",
+        "keywords":  [
+                         "image generation",
+                         "stable diffusion",
+                         "studio"
+                     ],
+        "llm_reason":  "",
+        "name":  "invoke-ai",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/invoke-ai/InvokeAI"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://invoke-ai.github.io"
+                           },
+                           {
+                               "command":  "pip install invokeai",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "invoke-ai",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.029,
+        "source_url":  "https://github.com/invoke-ai/InvokeAI",
+        "tutorial":  "https://invoke-ai.github.io",
+        "usage_areas":  [
+                            "image",
+                            "design"
+                        ]
+    },
+    {
+        "category":  "video-tool",
+        "description":  "Open-source screen recording and live streaming.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "Download from obsproject.com",
+        "keywords":  [
+                         "streaming",
+                         "recording",
+                         "video"
+                     ],
+        "llm_reason":  "",
+        "name":  "obs-studio",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://obsproject.com"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://obsproject.com/wiki"
+                           },
+                           {
+                               "command":  "Download from obsproject.com",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "obs-studio",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0286,
+        "source_url":  "https://obsproject.com",
+        "tutorial":  "https://obsproject.com/wiki",
+        "usage_areas":  [
+                            "video",
+                            "streaming"
+                        ]
+    },
+    {
+        "category":  "design-tool",
+        "description":  "Collaborative interface design tool.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "figma.com (desktop app or web)",
+        "keywords":  [
+                         "design",
+                         "ui",
+                         "prototype"
+                     ],
+        "llm_reason":  "",
+        "name":  "figma",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac",
+                          "web"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://www.figma.com"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://help.figma.com"
+                           },
+                           {
+                               "command":  "figma.com (desktop app or web)",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "figma",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0282,
+        "source_url":  "https://www.figma.com",
+        "tutorial":  "https://help.figma.com",
+        "usage_areas":  [
+                            "design",
+                            "ui"
+                        ]
+    },
+    {
+        "category":  "cli-agent",
+        "description":  "AI pair-programming in your terminal with git integration.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "pip install aider-chat",
+        "keywords":  [
+                         "cli",
+                         "pair programming",
+                         "git"
+                     ],
+        "llm_reason":  "",
+        "name":  "aider",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://aider.chat"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://aider.chat/docs"
+                           },
+                           {
+                               "command":  "pip install aider-chat",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "aider",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0278,
+        "source_url":  "https://aider.chat",
+        "tutorial":  "https://aider.chat/docs",
+        "usage_areas":  [
+                            "coding"
+                        ]
+    },
+    {
+        "category":  "ide",
+        "description":  "AI-first code editor with agents, composer, and MCP support.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "Download from cursor.com",
+        "keywords":  [
+                         "editor",
+                         "ide",
+                         "coding"
+                     ],
+        "llm_reason":  "",
+        "name":  "cursor",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://cursor.com"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://cursor.com/docs"
+                           },
+                           {
+                               "command":  "Download from cursor.com",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "cursor",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0274,
+        "source_url":  "https://cursor.com",
+        "tutorial":  "https://cursor.com/docs",
+        "usage_areas":  [
+                            "coding",
+                            "design"
+                        ]
+    },
+    {
+        "category":  "platform",
+        "description":  "Workflow automation platform with AI agent nodes.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "npx n8n (or docker run -it --rm n8nio/n8n)",
+        "keywords":  [
+                         "automation",
+                         "workflow",
+                         "nodes"
+                     ],
+        "llm_reason":  "",
+        "name":  "n8n",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac",
+                          "cloud"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://n8n.io"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.n8n.io"
+                           },
+                           {
+                               "command":  "npx n8n (or docker run -it --rm n8nio/n8n)",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "n8n",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.027,
+        "source_url":  "https://n8n.io",
+        "tutorial":  "https://docs.n8n.io",
+        "usage_areas":  [
+                            "automation",
+                            "workflows",
+                            "agents"
+                        ]
+    },
+    {
+        "category":  "3d-tool",
+        "description":  "Open-source 3D creation: modeling, animation, rendering.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "install":  "Download from blender.org",
+        "keywords":  [
+                         "3d",
+                         "animation",
+                         "rendering"
+                     ],
+        "llm_reason":  "",
+        "name":  "blender",
+        "platforms":  [
+                          "windows",
+                          "linux",
+                          "mac"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://www.blender.org"
+                           },
+                           {
+                               "hint":  "Official docs / tutorial",
+                               "type":  "docs",
+                               "url":  "https://docs.blender.org"
+                           },
+                           {
+                               "command":  "Download from blender.org",
+                               "type":  "install"
+                           },
+                           {
+                               "name":  "blender",
+                               "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0267,
+        "source_url":  "https://www.blender.org",
+        "tutorial":  "https://docs.blender.org",
+        "usage_areas":  [
+                            "video",
+                            "design",
+                            "3d"
+                        ]
+    }
+]

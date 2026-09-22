@@ -1,0 +1,38 @@
+[
+    {
+        "category": "project-management",
+        "description": "Scrum Guide - the official definition of Scrum.",
+        "name": "scrum-guide-docs",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "url": "https://scrumguides.org",
+        "keywords": ["scrum", "guide", "ceremonies"],
+        "references": [
+            { "type": "web", "url": "https://scrumguides.org", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Jira Scrum documentation - boards, sprints, reports (velocity, burndown).",
+        "name": "jira-scrum-docs",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://support.atlassian.com/jira-software-cloud",
+        "keywords": ["jira", "scrum", "sprints"],
+        "references": [
+            { "type": "web", "url": "https://support.atlassian.com/jira-software-cloud", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "project-management",
+        "description": "Scrum.org resources - agile metrics, coaching, facilitation guides.",
+        "name": "scrum-org-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://www.scrum.org/resources",
+        "keywords": ["scrum", "metrics", "coaching"],
+        "references": [
+            { "type": "web", "url": "https://www.scrum.org/resources", "hint": "The documentation page itself" }
+        ]
+    }
+]

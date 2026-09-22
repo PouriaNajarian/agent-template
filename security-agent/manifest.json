@@ -1,0 +1,490 @@
+﻿{
+    "name":  "security-agent",
+    "generated":  "2026-09-22T15:02:45",
+    "generated_by":  "opencode - built from mcp-skills (vector index) + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (vector ranking; DeepSeek combined ranker timed out)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  94,
+                   "skills":  43,
+                   "workflows":  6,
+                   "mcpservers":  16,
+                   "agents":  6,
+                   "subagents":  5,
+                   "mcp_inventory":  8,
+                   "advice":  null
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  9386
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3832
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  16316
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3246
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  4491
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  530
+                  },
+                  {
+                      "path":  "advice\\task-advice.json",
+                      "category":  "advice",
+                      "bytes":  10784
+                  },
+                  {
+                      "path":  "agents\\autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents\\claude-code.json",
+                      "category":  "agents",
+                      "bytes":  1810
+                  },
+                  {
+                      "path":  "agents\\crewai.json",
+                      "category":  "agents",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "agents\\dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents\\flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents\\langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "docs\\security-docs.json",
+                      "category":  "docs",
+                      "bytes":  2068
+                  },
+                  {
+                      "path":  "features\\security-features.json",
+                      "category":  "features",
+                      "bytes":  1330
+                  },
+                  {
+                      "path":  "mcp-inventory\\agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  33557
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  56545
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  8790
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633470
+                  },
+                  {
+                      "path":  "mcp-inventory\\system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3864
+                  },
+                  {
+                      "path":  "mcpservers\\agent-mcp-orchestrator.json",
+                      "category":  "mcpservers",
+                      "bytes":  1845
+                  },
+                  {
+                      "path":  "mcpservers\\context7.json",
+                      "category":  "mcpservers",
+                      "bytes":  1443
+                  },
+                  {
+                      "path":  "mcpservers\\filesystem.json",
+                      "category":  "mcpservers",
+                      "bytes":  1534
+                  },
+                  {
+                      "path":  "mcpservers\\git.json",
+                      "category":  "mcpservers",
+                      "bytes":  1302
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-prompt-injection-scanner.json",
+                      "category":  "mcpservers",
+                      "bytes":  514
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-skills.json",
+                      "category":  "mcpservers",
+                      "bytes":  1461
+                  },
+                  {
+                      "path":  "mcpservers\\mcp-zap-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  477
+                  },
+                  {
+                      "path":  "mcpservers\\mcpshield.json",
+                      "category":  "mcpservers",
+                      "bytes":  455
+                  },
+                  {
+                      "path":  "mcpservers\\memory.json",
+                      "category":  "mcpservers",
+                      "bytes":  1389
+                  },
+                  {
+                      "path":  "mcpservers\\owasp-agentic-security-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  484
+                  },
+                  {
+                      "path":  "mcpservers\\playwright.json",
+                      "category":  "mcpservers",
+                      "bytes":  1508
+                  },
+                  {
+                      "path":  "mcpservers\\postgres-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  1206
+                  },
+                  {
+                      "path":  "mcpservers\\semgrep-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  392
+                  },
+                  {
+                      "path":  "mcpservers\\semgrep.json",
+                      "category":  "mcpservers",
+                      "bytes":  451
+                  },
+                  {
+                      "path":  "mcpservers\\skyrxin-sast-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  633
+                  },
+                  {
+                      "path":  "mcpservers\\winremote.json",
+                      "category":  "mcpservers",
+                      "bytes":  1328
+                  },
+                  {
+                      "path":  "skills\\api-security-best-practices\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  24751
+                  },
+                  {
+                      "path":  "skills\\api-security-testing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4146
+                  },
+                  {
+                      "path":  "skills\\backend-security-coder\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  10406
+                  },
+                  {
+                      "path":  "skills\\cf-security-audit\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1125
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  13533
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\AI-AND-LLM.md",
+                      "category":  "skills",
+                      "bytes":  11122
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\ATTACK-CLASSES.md",
+                      "category":  "skills",
+                      "bytes":  14465
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\CLIENT-SIDE.md",
+                      "category":  "skills",
+                      "bytes":  8731
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\HUNTING.md",
+                      "category":  "skills",
+                      "bytes":  6621
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\MEMORY-SAFETY-AND-BINARY.md",
+                      "category":  "skills",
+                      "bytes":  8324
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\RECONNAISSANCE.md",
+                      "category":  "skills",
+                      "bytes":  3812
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\VALIDATION-AND-REPORTING.md",
+                      "category":  "skills",
+                      "bytes":  8520
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\references\\WEB-PROTOCOL-AND-AUTH.md",
+                      "category":  "skills",
+                      "bytes":  13998
+                  },
+                  {
+                      "path":  "skills\\cloudflare-security-audit\\resources\\report-schema.json",
+                      "category":  "skills",
+                      "bytes":  8449
+                  },
+                  {
+                      "path":  "skills\\codebase-cleanup-deps-audit\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2438
+                  },
+                  {
+                      "path":  "skills\\codebase-cleanup-deps-audit\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  25031
+                  },
+                  {
+                      "path":  "skills\\dependency-management-deps-audit\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2268
+                  },
+                  {
+                      "path":  "skills\\dependency-management-deps-audit\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  25031
+                  },
+                  {
+                      "path":  "skills\\exploitability-validation\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  17017
+                  },
+                  {
+                      "path":  "skills\\fortify\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9027
+                  },
+                  {
+                      "path":  "skills\\llm-security\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6634
+                  },
+                  {
+                      "path":  "skills\\llm-security\\references\\agent-obedience-engineering.md",
+                      "category":  "skills",
+                      "bytes":  12604
+                  },
+                  {
+                      "path":  "skills\\llm-security\\references\\agent-security-testing.md",
+                      "category":  "skills",
+                      "bytes":  4752
+                  },
+                  {
+                      "path":  "skills\\llm-security\\references\\owasp-llm-top10.md",
+                      "category":  "skills",
+                      "bytes":  2996
+                  },
+                  {
+                      "path":  "skills\\llm-security\\references\\prompt-injection-methodology.md",
+                      "category":  "skills",
+                      "bytes":  3571
+                  },
+                  {
+                      "path":  "skills\\netsec-briefing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2437
+                  },
+                  {
+                      "path":  "skills\\scanning-tools\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  15123
+                  },
+                  {
+                      "path":  "skills\\sec-api-security\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1065
+                  },
+                  {
+                      "path":  "skills\\sec-report-writing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1334
+                  },
+                  {
+                      "path":  "skills\\sec-secret-detection\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  1614
+                  },
+                  {
+                      "path":  "skills\\secure-coding\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5897
+                  },
+                  {
+                      "path":  "skills\\security-audit\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5781
+                  },
+                  {
+                      "path":  "skills\\security-review\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12694
+                  },
+                  {
+                      "path":  "skills\\security-scanning-security-dependencies\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2345
+                  },
+                  {
+                      "path":  "skills\\security-scanning-security-dependencies\\resources\\implementation-playbook.md",
+                      "category":  "skills",
+                      "bytes":  17595
+                  },
+                  {
+                      "path":  "skills\\security-scanning-security-hardening\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11377
+                  },
+                  {
+                      "path":  "skills\\security-scanning-security-sast\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  15262
+                  },
+                  {
+                      "path":  "skills\\supply-chain-security\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6177
+                  },
+                  {
+                      "path":  "skills\\supply-chain-security\\references\\cicd-pipeline-security.md",
+                      "category":  "skills",
+                      "bytes":  3626
+                  },
+                  {
+                      "path":  "skills\\supply-chain-security\\references\\sbom-sca-methodology.md",
+                      "category":  "skills",
+                      "bytes":  2120
+                  },
+                  {
+                      "path":  "skills\\threat-modeling-expert\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2542
+                  },
+                  {
+                      "path":  "skills\\vulnerability-scanner\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8421
+                  },
+                  {
+                      "path":  "skills\\vulnerability-scanner\\scripts\\security_scan.py",
+                      "category":  "skills",
+                      "bytes":  18628
+                  },
+                  {
+                      "path":  "subagents\\agent-layer-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  925
+                  },
+                  {
+                      "path":  "subagents\\api-reviewer.md",
+                      "category":  "subagents",
+                      "bytes":  834
+                  },
+                  {
+                      "path":  "subagents\\report-writer.md",
+                      "category":  "subagents",
+                      "bytes":  724
+                  },
+                  {
+                      "path":  "subagents\\scanner.md",
+                      "category":  "subagents",
+                      "bytes":  891
+                  },
+                  {
+                      "path":  "subagents\\validator.md",
+                      "category":  "subagents",
+                      "bytes":  809
+                  },
+                  {
+                      "path":  "tools\\security-tools.json",
+                      "category":  "tools",
+                      "bytes":  3047
+                  },
+                  {
+                      "path":  "workflows\\api-security-hardening.md",
+                      "category":  "workflows",
+                      "bytes":  2780
+                  },
+                  {
+                      "path":  "workflows\\api-security-review.md",
+                      "category":  "workflows",
+                      "bytes":  2383
+                  },
+                  {
+                      "path":  "workflows\\fw-compliance-audit.md",
+                      "category":  "workflows",
+                      "bytes":  3145
+                  },
+                  {
+                      "path":  "workflows\\fw-penetration-test.md",
+                      "category":  "workflows",
+                      "bytes":  4910
+                  },
+                  {
+                      "path":  "workflows\\pentest-engagement.md",
+                      "category":  "workflows",
+                      "bytes":  2721
+                  },
+                  {
+                      "path":  "workflows\\security-audit.md",
+                      "category":  "workflows",
+                      "bytes":  2560
+                  }
+              ]
+}

@@ -1,0 +1,15 @@
+﻿{
+    "name":  "alpha-vantage",
+    "category":  "cloud",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Access Alpha Vantage financial data APIs to get real-time and historical stock data, forex rates, and cryptocurrency information.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/smani7dm/alphavantage-mcp-server",
+    "url":  "",
+    "custom":  false
+}

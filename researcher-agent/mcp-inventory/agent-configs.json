@@ -1,0 +1,104 @@
+{
+  "agents": [
+    {
+      "agent": "cascade-devin-mcp_config.json",
+      "display": "Devin / Cascade CLI",
+      "live_path": "C:\\Users\\PrNaj\\AppData\\Roaming\\devin\\mcp_config.json",
+      "exists": true,
+      "servers": 21,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcpServers"
+    },
+    {
+      "agent": "claude-desktop-config.json",
+      "display": "Claude Desktop",
+      "live_path": "C:\\Users\\PrNaj\\AppData\\Roaming\\Claude\\claude_desktop_config.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcpServers"
+    },
+    {
+      "agent": "claude-code-config.json",
+      "display": "Claude Code CLI",
+      "live_path": "C:\\Users\\PrNaj\\.claude.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcpServers"
+    },
+    {
+      "agent": "codex-config.json",
+      "display": "Codex CLI (OpenAI)",
+      "live_path": "C:\\Users\\PrNaj\\.codex\\config.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcpServers"
+    },
+    {
+      "agent": "opencode-config.jsonc",
+      "display": "OpenCode CLI",
+      "live_path": "C:\\Users\\PrNaj\\.config\\opencode\\opencode.jsonc",
+      "exists": true,
+      "servers": 24,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcp"
+    },
+    {
+      "agent": "zed-settings.json",
+      "display": "Zed Editor",
+      "live_path": "C:\\Users\\PrNaj\\AppData\\Roaming\\Zed\\settings.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcp_servers"
+    },
+    {
+      "agent": "vscode-copilot-settings.json",
+      "display": "VS Code Copilot",
+      "live_path": "C:\\Users\\PrNaj\\AppData\\Roaming\\Code\\User\\settings.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "chat.mcp.servers"
+    },
+    {
+      "agent": "discovered:Cursor",
+      "display": "Cursor (discovered)",
+      "live_path": "C:\\Users\\PrNaj\\.cursor\\mcp.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcpServers"
+    },
+    {
+      "agent": "discovered:Cline (VS Code)",
+      "display": "Cline (VS Code) (discovered)",
+      "live_path": "C:\\Users\\PrNaj\\AppData\\Roaming\\Code\\User\\globalStorage\\saoudrizwan.claude-dev\\settings\\cline_mcp_settings.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcpServers"
+    },
+    {
+      "agent": "discovered:GitHub Copilot CLI",
+      "display": "GitHub Copilot CLI (discovered)",
+      "live_path": "C:\\Users\\PrNaj\\.copilot\\config.json",
+      "exists": true,
+      "servers": 20,
+      "last_sync": "2026-09-20 12:32:03",
+      "sync_ok": true,
+      "format": "mcpServers"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿{
+    "category":  "developer-tools",
+    "description":  "LLM-based code review MCP server with AST-powered smart context extraction. Supports Claude, GPT, Gemini, and 20+ models via OpenRouter.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "keywords":  [
+                     "based",
+                     "code",
+                     "review",
+                     "powered"
+                 ],
+    "name":  "selvage-lab-selvage",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/selvage-lab/selvage"
+                       },
+                       {
+                           "name":  "selvage-lab-selvage",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/selvage-lab/selvage"
+}

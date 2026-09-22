@@ -1,0 +1,42 @@
+﻿{
+    "category":  "framework",
+    "description":  "Microsoft\u0027s multi-agent conversation framework.",
+    "install":  "pip install autogen-agentchat",
+    "keywords":  [
+                     "autogen",
+                     "multi-agent"
+                 ],
+    "name":  "autogen",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://microsoft.github.io/autogen/"
+                       },
+                       {
+                           "hint":  "Official docs / tutorial",
+                           "type":  "docs",
+                           "url":  "https://microsoft.github.io/autogen/stable/"
+                       },
+                       {
+                           "command":  "pip install autogen-agentchat",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "autogen",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://microsoft.github.io/autogen/",
+    "tutorial":  "https://microsoft.github.io/autogen/stable/",
+    "usage_areas":  [
+                        "agents",
+                        "automation"
+                    ]
+}

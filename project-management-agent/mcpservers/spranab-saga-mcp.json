@@ -1,0 +1,15 @@
+﻿{
+    "name":  "spranab-saga-mcp",
+    "category":  "product-management",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "A Jira-like project tracker for AI agents with full hierarchy (Projects \u003e Epics \u003e Tasks \u003e Subtasks), task dependencies with auto-block/unblock, threaded comments, reusable templates, activity logging, and a natural language dashboard. SQLite-backed, 31 tools.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/spranab/saga-mcp",
+    "url":  "",
+    "custom":  false
+}

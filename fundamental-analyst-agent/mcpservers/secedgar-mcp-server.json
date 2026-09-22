@@ -1,0 +1,15 @@
+﻿{
+    "name":  "secedgar-mcp-server",
+    "category":  "productivity",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "SEC EDGAR filings and financials",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/cyanheads/secedgar-mcp-server",
+    "url":  "",
+    "custom":  false
+}

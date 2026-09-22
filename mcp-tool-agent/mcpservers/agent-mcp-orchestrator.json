@@ -1,0 +1,41 @@
+﻿{
+    "category":  "agents",
+    "description":  "Centralized local MCP orchestrator: live health status of every MCP server on this machine, list known servers with install commands, get per-server info, logs and open incidents. Local HTTP MCP on port 8793 + health dashboard on 8790.",
+    "ides":  [
+                 "opencode",
+                 "claude",
+                 "devin",
+                 "cursor"
+             ],
+    "install":  "python D:\\\\Projects\\\\agent-mcp-orchestrator\\\\scripts\\\\agent_mcp_orchestrator.py --http --port 8793",
+    "keywords":  [
+                     "orchestrator",
+                     "mcp status",
+                     "health",
+                     "servers",
+                     "installed"
+                 ],
+    "name":  "agent-mcp-orchestrator",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://github.com/PouriaNajarian/agent-mcp-orchestrator"
+                       },
+                       {
+                           "command":  "python D:\\\\Projects\\\\agent-mcp-orchestrator\\\\scripts\\\\agent_mcp_orchestrator.py --http --port 8793",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "agent-mcp-orchestrator",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://github.com/PouriaNajarian/agent-mcp-orchestrator"
+}

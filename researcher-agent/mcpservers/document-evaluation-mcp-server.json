@@ -1,0 +1,43 @@
+﻿{
+    "name":  "document-evaluation-mcp-server",
+    "category":  "pdf-mcp",
+    "description":  "Evaluates technical documentation against globalization standards, analyzing for translation issues, ambiguity, and sentence length.",
+    "source_url":  "https://mcpservers.org/servers/yamasite/GlobalizationWritingMCP",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "evaluates",
+                     "technical",
+                     "documentation",
+                     "against"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/yamasite/GlobalizationWritingMCP",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "document-evaluation-mcp-server",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0278,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027document-evaluation-mcp-server\u0027)"
+}

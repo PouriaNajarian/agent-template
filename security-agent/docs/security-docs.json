@@ -1,0 +1,50 @@
+[
+    {
+        "category": "security",
+        "description": "OWASP Top 10 - the standard web application security risks reference.",
+        "name": "owasp-top10-docs",
+        "ranking": "vector",
+        "relevance": 0.16,
+        "url": "https://owasp.org/www-project-top-ten",
+        "keywords": ["owasp", "top 10", "security"],
+        "references": [
+            { "type": "web", "url": "https://owasp.org/www-project-top-ten", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "OWASP LLM Top 10 - security risks for LLM applications and agents.",
+        "name": "owasp-llm-top10-docs",
+        "ranking": "vector",
+        "relevance": 0.15,
+        "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications",
+        "keywords": ["llm", "top 10", "prompt injection"],
+        "references": [
+            { "type": "web", "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "OWASP ASVS - Application Security Verification Standard.",
+        "name": "owasp-asvs-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://owasp.org/www-project-application-security-verification-standard",
+        "keywords": ["asvs", "verification", "security"],
+        "references": [
+            { "type": "web", "url": "https://owasp.org/www-project-application-security-verification-standard", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "security",
+        "description": "MITRE CWE - common weakness enumeration for classification.",
+        "name": "cwe-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://cwe.mitre.org",
+        "keywords": ["cwe", "classification"],
+        "references": [
+            { "type": "web", "url": "https://cwe.mitre.org", "hint": "The documentation page itself" }
+        ]
+    }
+]

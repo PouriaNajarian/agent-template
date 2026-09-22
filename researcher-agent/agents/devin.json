@@ -1,0 +1,50 @@
+﻿{
+    "name":  "devin",
+    "category":  "cloud-agent",
+    "usage_areas":  [
+                        "coding",
+                        "automation",
+                        "agents"
+                    ],
+    "description":  "Autonomous cloud software engineer with Cascade IDE.",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac",
+                      "web"
+                  ],
+    "install":  "Sign up at devin.ai; Cascade is an IDE extension",
+    "source_url":  "https://devin.ai",
+    "tutorial":  "https://docs.devin.ai",
+    "keywords":  [
+                     "devin",
+                     "cascade",
+                     "autonomous"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://devin.ai",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://docs.devin.ai",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "Sign up at devin.ai; Cascade is an IDE extension"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "devin",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.08,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

@@ -1,0 +1,48 @@
+﻿{
+    "name":  "ollama",
+    "category":  "runtime",
+    "usage_areas":  [
+                        "local-llm",
+                        "chat"
+                    ],
+    "description":  "Run LLMs locally with one command (llama, qwen, deepseek...).",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac"
+                  ],
+    "install":  "Windows installer / curl -fsSL https://ollama.com/install.sh | sh",
+    "source_url":  "https://ollama.com",
+    "tutorial":  "https://github.com/ollama/ollama",
+    "keywords":  [
+                     "ollama",
+                     "local llm",
+                     "models"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://ollama.com",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://github.com/ollama/ollama",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "Windows installer / curl -fsSL https://ollama.com/install.sh | sh"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "ollama",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.087,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

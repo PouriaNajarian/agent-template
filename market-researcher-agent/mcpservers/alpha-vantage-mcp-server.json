@@ -1,0 +1,15 @@
+﻿{
+    "name":  "alpha-vantage-mcp-server",
+    "category":  "cloud",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Provides real-time financial market data using the Alpha Vantage API.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/QuantML-Github/alpha-vantage-mcp",
+    "url":  "",
+    "custom":  false
+}

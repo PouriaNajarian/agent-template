@@ -1,0 +1,15 @@
+﻿{
+    "name":  "dbt-labs-dbt-mcp",
+    "category":  "data-platforms",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Official MCP server for dbt (data build tool) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/dbt-labs/dbt-mcp",
+    "url":  "",
+    "custom":  false
+}

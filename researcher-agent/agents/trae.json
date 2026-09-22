@@ -1,0 +1,46 @@
+﻿{
+    "name":  "trae",
+    "category":  "ide",
+    "description":  "ByteDance Trae: AI-native IDE.",
+    "usage_areas":  [
+                        "coding"
+                    ],
+    "platforms":  [
+                      "windows",
+                      "mac"
+                  ],
+    "install":  "Download from trae.ai",
+    "source_url":  "https://www.trae.ai",
+    "tutorial":  "https://www.trae.ai/docs",
+    "keywords":  [
+                     "trae",
+                     "ide",
+                     "ai"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://www.trae.ai",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://www.trae.ai/docs",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "Download from trae.ai"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "trae",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.105,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

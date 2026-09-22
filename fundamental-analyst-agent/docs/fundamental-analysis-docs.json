@@ -1,0 +1,38 @@
+[
+    {
+        "category": "finance",
+        "description": "SEC EDGAR full-text search documentation - company filings, financial statements, exhibit search.",
+        "name": "sec-edgar-docs",
+        "ranking": "vector",
+        "relevance": 0.14,
+        "url": "https://www.sec.gov/edgar/search",
+        "keywords": ["sec", "edgar", "filings"],
+        "references": [
+            { "type": "web", "url": "https://www.sec.gov/edgar/search", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Financial data platform docs - EODHD: fundamentals, statements, screeners, technical indicators.",
+        "name": "eodhd-docs",
+        "ranking": "vector",
+        "relevance": 0.13,
+        "url": "https://eodhd.com/financial-apis",
+        "keywords": ["fundamentals", "statements", "financial data"],
+        "references": [
+            { "type": "web", "url": "https://eodhd.com/financial-apis", "hint": "The documentation page itself" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "Fintech compliance guide - relevant regulatory context for financial reporting.",
+        "name": "fintech-compliance-docs",
+        "ranking": "vector",
+        "relevance": 0.12,
+        "url": "https://www.fintechfutures.com/guides",
+        "keywords": ["fintech", "compliance"],
+        "references": [
+            { "type": "web", "url": "https://www.fintechfutures.com/guides", "hint": "The documentation page itself" }
+        ]
+    }
+]

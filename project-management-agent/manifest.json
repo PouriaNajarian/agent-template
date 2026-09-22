@@ -1,0 +1,385 @@
+﻿{
+    "name":  "project-management-agent",
+    "generated":  "2026-09-22T16:42:11",
+    "generated_by":  "opencode - built from mcp-skills (vector index) + agent-mcp-orchestrator inventory",
+    "advice_source":  "mcp-skills :8787 (vector ranking; DeepSeek combined ranker timed out)",
+    "inventory_source":  "agent-mcp-orchestrator :8790",
+    "entrypoint":  "agent.md",
+    "counts":  {
+                   "total_files":  73,
+                   "skills":  25,
+                   "workflows":  8,
+                   "mcpservers":  11,
+                   "agents":  6,
+                   "subagents":  5,
+                   "mcp_inventory":  8,
+                   "advice":  null
+               },
+    "files":  [
+                  {
+                      "path":  "agent.md",
+                      "category":  "agent.md",
+                      "bytes":  8218
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "category":  "AGENTS.md",
+                      "bytes":  3863
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "category":  "manifest.json",
+                      "bytes":  11675
+                  },
+                  {
+                      "path":  "README.md",
+                      "category":  "README.md",
+                      "bytes":  3224
+                  },
+                  {
+                      "path":  "skills-index.md",
+                      "category":  "skills-index.md",
+                      "bytes":  3733
+                  },
+                  {
+                      "path":  "workflows-index.md",
+                      "category":  "workflows-index.md",
+                      "bytes":  674
+                  },
+                  {
+                      "path":  "advice\\task-advice.json",
+                      "category":  "advice",
+                      "bytes":  10259
+                  },
+                  {
+                      "path":  "agents\\autogen.json",
+                      "category":  "agents",
+                      "bytes":  1618
+                  },
+                  {
+                      "path":  "agents\\claude-code.json",
+                      "category":  "agents",
+                      "bytes":  1810
+                  },
+                  {
+                      "path":  "agents\\crewai.json",
+                      "category":  "agents",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "agents\\dify.json",
+                      "category":  "agents",
+                      "bytes":  1679
+                  },
+                  {
+                      "path":  "agents\\flowise.json",
+                      "category":  "agents",
+                      "bytes":  1654
+                  },
+                  {
+                      "path":  "agents\\langflow.json",
+                      "category":  "agents",
+                      "bytes":  1603
+                  },
+                  {
+                      "path":  "docs\\project-management-docs.json",
+                      "category":  "docs",
+                      "bytes":  1472
+                  },
+                  {
+                      "path":  "features\\project-management-features.json",
+                      "category":  "features",
+                      "bytes":  1361
+                  },
+                  {
+                      "path":  "mcp-inventory\\agent-configs.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-catalog.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  33557
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  43038
+                  },
+                  {
+                      "path":  "mcp-inventory\\mcp-functions.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  56545
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-api.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3234
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-health.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  8790
+                  },
+                  {
+                      "path":  "mcp-inventory\\orchestrator-servers.json",
+                      "category":  "mcp-inventory",
+                      "bytes":  5633470
+                  },
+                  {
+                      "path":  "mcp-inventory\\system-mcps.md",
+                      "category":  "mcp-inventory",
+                      "bytes":  3864
+                  },
+                  {
+                      "path":  "mcpservers\\backlog-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  457
+                  },
+                  {
+                      "path":  "mcpservers\\christulino-todoist-v1-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  524
+                  },
+                  {
+                      "path":  "mcpservers\\corbym-backlog-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  573
+                  },
+                  {
+                      "path":  "mcpservers\\jira-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  437
+                  },
+                  {
+                      "path":  "mcpservers\\linear-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  452
+                  },
+                  {
+                      "path":  "mcpservers\\louis030195-toggl-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  535
+                  },
+                  {
+                      "path":  "mcpservers\\notion-api-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  459
+                  },
+                  {
+                      "path":  "mcpservers\\pm33-mcp-server.json",
+                      "category":  "mcpservers",
+                      "bytes":  636
+                  },
+                  {
+                      "path":  "mcpservers\\roychri-mcp-server-asana.json",
+                      "category":  "mcpservers",
+                      "bytes":  525
+                  },
+                  {
+                      "path":  "mcpservers\\spranab-saga-mcp.json",
+                      "category":  "mcpservers",
+                      "bytes":  615
+                  },
+                  {
+                      "path":  "mcpservers\\tacticlaunch-mcp-linear.json",
+                      "category":  "mcpservers",
+                      "bytes":  397
+                  },
+                  {
+                      "path":  "skills\\changeset\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  757
+                  },
+                  {
+                      "path":  "skills\\context-driven-development\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  12692
+                  },
+                  {
+                      "path":  "skills\\cron-scheduler\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  217
+                  },
+                  {
+                      "path":  "skills\\dev-dispatching-parallel-agents\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6082
+                  },
+                  {
+                      "path":  "skills\\dev-executing-plans\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  2309
+                  },
+                  {
+                      "path":  "skills\\dev-using-git-worktrees\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6817
+                  },
+                  {
+                      "path":  "skills\\dev-verification-before-completion\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3650
+                  },
+                  {
+                      "path":  "skills\\dev-writing-plans\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6911
+                  },
+                  {
+                      "path":  "skills\\ecom-project-management\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6765
+                  },
+                  {
+                      "path":  "skills\\eng-incremental-implementation\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9505
+                  },
+                  {
+                      "path":  "skills\\eng-observability-and-instrumentation\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11051
+                  },
+                  {
+                      "path":  "skills\\eng-planning-and-task-breakdown\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  7657
+                  },
+                  {
+                      "path":  "skills\\eng-spec-driven-development\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  8531
+                  },
+                  {
+                      "path":  "skills\\plan-writing\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  4549
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6314
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\scripts\\check-complete.sh",
+                      "category":  "skills",
+                      "bytes":  1204
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\scripts\\init-session.sh",
+                      "category":  "skills",
+                      "bytes":  2374
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\templates\\findings.md",
+                      "category":  "skills",
+                      "bytes":  3656
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\templates\\progress.md",
+                      "category":  "skills",
+                      "bytes":  4115
+                  },
+                  {
+                      "path":  "skills\\planning-with-files\\templates\\task_plan.md",
+                      "category":  "skills",
+                      "bytes":  4745
+                  },
+                  {
+                      "path":  "skills\\to-spec\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  3076
+                  },
+                  {
+                      "path":  "skills\\to-tickets\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  5778
+                  },
+                  {
+                      "path":  "skills\\triage\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  6660
+                  },
+                  {
+                      "path":  "skills\\wayfinder\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  11981
+                  },
+                  {
+                      "path":  "skills\\wrike-automation\\SKILL.md",
+                      "category":  "skills",
+                      "bytes":  9987
+                  },
+                  {
+                      "path":  "subagents\\planner.md",
+                      "category":  "subagents",
+                      "bytes":  826
+                  },
+                  {
+                      "path":  "subagents\\risk-tracker.md",
+                      "category":  "subagents",
+                      "bytes":  692
+                  },
+                  {
+                      "path":  "subagents\\scheduler.md",
+                      "category":  "subagents",
+                      "bytes":  811
+                  },
+                  {
+                      "path":  "subagents\\status-reporter.md",
+                      "category":  "subagents",
+                      "bytes":  743
+                  },
+                  {
+                      "path":  "subagents\\ticket-writer.md",
+                      "category":  "subagents",
+                      "bytes":  762
+                  },
+                  {
+                      "path":  "tools\\project-management-tools.json",
+                      "category":  "tools",
+                      "bytes":  2520
+                  },
+                  {
+                      "path":  "workflows\\code-review-pass.md",
+                      "category":  "workflows",
+                      "bytes":  2598
+                  },
+                  {
+                      "path":  "workflows\\deployment.md",
+                      "category":  "workflows",
+                      "bytes":  2390
+                  },
+                  {
+                      "path":  "workflows\\fw-agentic-coding-loop.md",
+                      "category":  "workflows",
+                      "bytes":  2789
+                  },
+                  {
+                      "path":  "workflows\\fw-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  4442
+                  },
+                  {
+                      "path":  "workflows\\fw-role-separated-agents.md",
+                      "category":  "workflows",
+                      "bytes":  2796
+                  },
+                  {
+                      "path":  "workflows\\fw-spec-driven-development.md",
+                      "category":  "workflows",
+                      "bytes":  2778
+                  },
+                  {
+                      "path":  "workflows\\tdd-feature-delivery.md",
+                      "category":  "workflows",
+                      "bytes":  2679
+                  },
+                  {
+                      "path":  "workflows\\test-strategy-rollout.md",
+                      "category":  "workflows",
+                      "bytes":  2758
+                  }
+              ]
+}

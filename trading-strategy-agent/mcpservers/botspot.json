@@ -1,0 +1,15 @@
+﻿{
+    "name":  "botspot",
+    "category":  "other",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Full-lifecycle algorithmic trading: describe strategies in plain English, AI generates code, backtest on real data, deploy live to 10+ brokers. Stocks, options, crypto, futures. Free tier available.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/lumiwealth/botspot-mcp",
+    "url":  "",
+    "custom":  false
+}

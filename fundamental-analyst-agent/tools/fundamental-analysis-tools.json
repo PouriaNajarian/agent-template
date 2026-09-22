@@ -1,0 +1,57 @@
+[
+    {
+        "category": "data",
+        "description": "Data analysis and manipulation toolkit for Python - statement analysis and modeling.",
+        "license": "BSD-3-Clause",
+        "name": "Pandas",
+        "ranking": "vector",
+        "relevance": 0.161,
+        "url": "https://pandas.pydata.org",
+        "skill": "ml-data-pipeline",
+        "keywords": ["dataframes", "analysis"],
+        "references": [
+            { "type": "web", "url": "https://pandas.pydata.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "Fundamental package for scientific computing in Python.",
+        "license": "BSD-3-Clause",
+        "name": "NumPy",
+        "ranking": "vector",
+        "relevance": 0.212,
+        "url": "https://numpy.org",
+        "skill": "ml-model-development",
+        "keywords": ["arrays", "numerical"],
+        "references": [
+            { "type": "web", "url": "https://numpy.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "data",
+        "description": "In-process analytical SQL database for statement/ratio analysis.",
+        "license": "MIT",
+        "name": "DuckDB",
+        "ranking": "vector",
+        "relevance": 0.117,
+        "url": "https://duckdb.org",
+        "skill": "sql-schema-design",
+        "keywords": ["analytics", "sql", "embedded"],
+        "references": [
+            { "type": "web", "url": "https://duckdb.org", "hint": "Official site / source repository" }
+        ]
+    },
+    {
+        "category": "finance",
+        "description": "OpenBB Platform - open-source investment research terminal: fundamentals, ratios, DCF helpers, screeners.",
+        "license": "MIT",
+        "name": "OpenBB",
+        "ranking": "vector",
+        "relevance": 0.11,
+        "url": "https://openbb.co",
+        "keywords": ["fundamentals", "research", "terminal"],
+        "references": [
+            { "type": "web", "url": "https://openbb.co", "hint": "Official site / source repository" }
+        ]
+    }
+]

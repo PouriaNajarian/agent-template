@@ -1,0 +1,15 @@
+﻿{
+    "name":  "mcp-yahoo-finance",
+    "category":  "database",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "Access real-time stock prices, company information, and financial data from Yahoo Finance.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://mcpservers.org/servers/maxscheijen/mcp-yahoo-finance",
+    "url":  "",
+    "custom":  false
+}

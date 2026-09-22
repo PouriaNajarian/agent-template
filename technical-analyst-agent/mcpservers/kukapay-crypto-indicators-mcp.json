@@ -1,0 +1,15 @@
+﻿{
+    "name":  "kukapay-crypto-indicators-mcp",
+    "category":  "finance-fintech",
+    "status":  "not_installed",
+    "transport":  "stdio",
+    "port":  "",
+    "description":  "An MCP server providing a range of cryptocurrency technical analysis indicators and strategie.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "source_url":  "https://github.com/kukapay/crypto-indicators-mcp",
+    "url":  "",
+    "custom":  false
+}

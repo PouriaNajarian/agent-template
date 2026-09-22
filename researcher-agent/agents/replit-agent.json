@@ -1,0 +1,45 @@
+﻿{
+    "name":  "replit-agent",
+    "category":  "platform",
+    "description":  "Replit Agent: autonomous app development in browser.",
+    "usage_areas":  [
+                        "coding"
+                    ],
+    "platforms":  [
+                      "web"
+                  ],
+    "install":  "replit.com",
+    "source_url":  "https://replit.com",
+    "tutorial":  "https://docs.replit.com",
+    "keywords":  [
+                     "replit",
+                     "agent",
+                     "browser"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://replit.com",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "docs",
+                           "url":  "https://docs.replit.com",
+                           "hint":  "Official docs / tutorial"
+                       },
+                       {
+                           "type":  "install",
+                           "command":  "replit.com"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "replit-agent",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json"
+                       }
+                   ],
+    "relevance":  0.097,
+    "ranking":  "vector",
+    "engines":  [
+                    "vector"
+                ]
+}

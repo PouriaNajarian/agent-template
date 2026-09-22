@@ -1,0 +1,33 @@
+﻿{
+    "category":  "database",
+    "description":  "A remote MCP server for Postgres, deployable on Cloudflare Workers without authentication.",
+    "ides":  [
+
+             ],
+    "install":  "",
+    "keywords":  [
+                     "remote",
+                     "postgres",
+                     "deployable",
+                     "cloudflare"
+                 ],
+    "name":  "postgres-mcp",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/MCP-Mirror/AlexanderCohen_postgres-mcp"
+                       },
+                       {
+                           "name":  "postgres-mcp",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://mcpservers.org/servers/MCP-Mirror/AlexanderCohen_postgres-mcp"
+}

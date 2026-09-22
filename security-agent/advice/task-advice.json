@@ -1,0 +1,171 @@
+﻿{
+    "plan":  [
+                 {
+                     "actions":  [
+                                     "Load the top skills: security-audit, security-scanning-security-sast, llm-security",
+                                     "Follow the workflow: fw-penetration-test"
+                                 ],
+                     "phase":  "Setup"
+                 },
+                 {
+                     "actions":  [
+                                     "Connect / install the MCP servers: skyrxin-sast-mcp-server, mcp-zap-server, mcpshield, owasp-agentic-security-mcp",
+                                     "Use the tools: ZAP, Semgrep, Gitleaks, Trivy"
+                                 ],
+                     "phase":  "Implement"
+                 },
+                 {
+                     "actions":  [
+                                     "Validate every finding (exploitability) - no false positives as facts",
+                                     "Consult the documentation: owasp-top10-docs, owasp-llm-top10-docs",
+                                     "Implement, then verify before completing."
+                                 ],
+                     "phase":  "Verify"
+                 }
+             ],
+    "recommended":  {
+                        "features":  [
+                                         "security-dashboard",
+                                         "secrets-rotation",
+                                         "sbom-management"
+                                     ],
+                        "workflow":  [
+                                         "fw-penetration-test",
+                                         "security-audit",
+                                         "api-security-review"
+                                     ],
+                        "agent":  [
+                                      "claude-code",
+                                      "dify",
+                                      "crewai",
+                                      "langflow"
+                                  ],
+                        "docs":  [
+                                     "owasp-top10-docs",
+                                     "owasp-llm-top10-docs",
+                                     "owasp-asvs-docs",
+                                     "cwe-docs"
+                                 ],
+                        "tools":  [
+                                      "ZAP",
+                                      "Semgrep",
+                                      "Gitleaks",
+                                      "Trivy",
+                                      "Burp Suite Community",
+                                      "Bandit"
+                                  ],
+                        "skills":  [
+                                       "security-audit",
+                                       "security-scanning-security-sast",
+                                       "security-scanning-security-dependencies",
+                                       "api-security-best-practices",
+                                       "api-security-testing",
+                                       "sec-api-security",
+                                       "codebase-cleanup-deps-audit",
+                                       "backend-security-coder",
+                                       "cloudflare-security-audit",
+                                       "secure-coding",
+                                       "dependency-management-deps-audit",
+                                       "vulnerability-scanner",
+                                       "scanning-tools",
+                                       "cf-security-audit",
+                                       "security-scanning-security-hardening",
+                                       "security-review",
+                                       "threat-modeling-expert",
+                                       "llm-security",
+                                       "supply-chain-security",
+                                       "netsec-briefing",
+                                       "sec-secret-detection",
+                                       "sec-report-writing",
+                                       "exploitability-validation",
+                                       "fortify"
+                                   ],
+                        "mcpserver":  [
+                                          "skyrxin-sast-mcp-server",
+                                          "mcp-zap-server",
+                                          "mcp-prompt-injection-scanner",
+                                          "mcpshield",
+                                          "owasp-agentic-security-mcp",
+                                          "semgrep",
+                                          "semgrep-mcp"
+                                      ]
+                    },
+    "cautions":  [
+                     "DeepSeek combined ranker was unavailable (MCP timeout); vector rankings used. Re-run get_task_advice when the backend is healthy to refresh advice/.",
+                     "Only test what is authorized; never place real orders or touch real funds during tests.",
+                     "Every finding must be validated or labeled HYPOTHESIS - raw scanner output is not a finding."
+                 ],
+    "task":  "Build a Security Agent for a trading/investment system: audits the whole system (code, APIs, dependencies, MCP servers, secrets, agent prompts, infrastructure) for vulnerabilities; validates findings (no false positives as facts), hardens what is authorized, and produces severity-ranked reports with remediation",
+    "combined_ranking_functions":  {
+                                       "features":  "get_features_combined(task)",
+                                       "skills":  "get_skills_combined(task)",
+                                       "docs":  "get_docs_combined(task)",
+                                       "mcpservers":  "get_mcpservers_combined(task)",
+                                       "workflows":  "get_workflows_combined(task)",
+                                       "tools":  "get_tools_combined(task)",
+                                       "agents":  "get_agents_combined(task)"
+                                   },
+    "how_to_read":  {
+                        "tools":  [
+                                      "https://www.zaproxy.org",
+                                      "https://semgrep.dev",
+                                      "https://github.com/gitleaks/gitleaks",
+                                      "https://trivy.dev"
+                                  ],
+                        "mcpservers":  [
+                                           "get_mcp_server(\u0027skyrxin-sast-mcp-server\u0027)",
+                                           "get_mcp_server(\u0027mcp-zap-server\u0027)",
+                                           "get_mcp_server(\u0027mcpshield\u0027)",
+                                           "get_mcp_server(\u0027owasp-agentic-security-mcp\u0027)"
+                                       ],
+                        "docs":  [
+                                     "https://owasp.org/www-project-top-ten",
+                                     "https://owasp.org/www-project-top-10-for-large-language-model-applications"
+                                 ],
+                        "skills":  [
+                                       "get_skill(\u0027security-audit\u0027)",
+                                       "get_skill(\u0027security-scanning-security-sast\u0027)",
+                                       "get_skill(\u0027llm-security\u0027)",
+                                       "get_skill(\u0027exploitability-validation\u0027)",
+                                       "get_skill(\u0027sec-report-writing\u0027)"
+                                   ],
+                        "workflows":  [
+                                          "get_workflow(\u0027fw-penetration-test\u0027)",
+                                          "get_workflow(\u0027security-audit\u0027)",
+                                          "get_workflow(\u0027api-security-review\u0027)"
+                                      ]
+                    },
+    "categories_returned":  [
+                                "agents",
+                                "docs",
+                                "features",
+                                "mcpservers",
+                                "skills",
+                                "tools",
+                                "workflows"
+                            ],
+    "summary":  "Apply the recommended skills, workflow and tools for building the Security agent, following the operating loop in agent.md and the fw-penetration-test workflow.",
+    "ordered_steps":  [
+                          "Scope \u0026 rules: confirm authorization, define testing rules.",
+                          "Threat model: STRIDE/PASTA, trust boundaries (threat-modeling-expert).",
+                          "SAST scan (security-scanning-security-sast, skyrxin-sast-mcp-server).",
+                          "API + auth review (api-security-testing, sec-api-security).",
+                          "Dependencies + supply chain (security-scanning-security-dependencies, supply-chain-security).",
+                          "Secrets scan (sec-secret-detection).",
+                          "Agent/MCP layer review (llm-security, mcpshield, owasp-agentic-security-mcp).",
+                          "Validate findings (exploitability-validation).",
+                          "Write severity-ranked report + residual risk (sec-report-writing); verify before completing."
+                      ],
+    "requirement":  "Security agent: security audit, vulnerability scanning, SAST, dependency vulnerabilities, secrets detection, threat modeling, API security, OWASP, secure coding, prompt injection defense, MCP security",
+    "ranking_engine":  "vector",
+    "generated":  "2026-09-22",
+    "coverage":  {
+                     "skills":  "strong (security-audit, SAST/SCA/secrets, llm-security, exploitability-validation)",
+                     "features":  "medium - web-verify the URLs before relying on them",
+                     "tools":  "strong (ZAP, Semgrep, Gitleaks, Trivy, Bandit)",
+                     "docs":  "strong (OWASP Top 10, LLM Top 10, ASVS, CWE)",
+                     "mcpservers":  "strong (skyrxin 11-scanner, ZAP, mcpshield, owasp-agentic)",
+                     "workflows":  "strong (fw-penetration-test, security-audit, api-security-review)"
+                 },
+    "advice_elapsed_s":  null
+}

@@ -1,0 +1,43 @@
+﻿{
+    "name":  "techmanual-ai",
+    "category":  "search",
+    "description":  "Search and retrieve technical documentation for T\u0026amp;M, industrial automation, and power electronics. Covers everything from oscilloscopes, microcontrollers, vehicles, power supplies, and more from a wide range of manufacturers.",
+    "source_url":  "https://mcpservers.org/servers/techmanual-ai/techmanual.ai",
+    "install":  "",
+    "platforms":  [
+                      "linux",
+                      "mac",
+                      "windows"
+                  ],
+    "ides":  [
+
+             ],
+    "keywords":  [
+                     "search",
+                     "retrieve",
+                     "technical",
+                     "documentation"
+                 ],
+    "references":  [
+                       {
+                           "type":  "repo",
+                           "url":  "https://mcpservers.org/servers/techmanual-ai/techmanual.ai",
+                           "hint":  "Read the repo README / docs"
+                       },
+                       {
+                           "type":  "catalog_file",
+                           "name":  "techmanual-ai",
+                           "path":  "D:\\Projects\\MCP Skills\\mcpservers.json"
+                       }
+                   ],
+    "relevance":  0.0282,
+    "ranking":  "combined",
+    "engines":  [
+                    "vector",
+                    "llm"
+                ],
+    "llm_reason":  "",
+    "query_used":  "MCP servers for web search and documentation retrieval",
+    "self_host":  false,
+    "run_hint":  "remote/paid service - see get_mcp_server(\u0027techmanual-ai\u0027)"
+}

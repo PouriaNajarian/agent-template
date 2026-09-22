@@ -1,0 +1,602 @@
+﻿[
+    {
+        "category":  "developer-tools",
+        "description":  "Strict AI code reviewer powered by Groq. Finds bugs, vulnerabilities and SQL injections. Tools: analyze_code, compare_code, explain_code, generate_tests, analyze_file, HTML reports.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "strict",
+                         "code",
+                         "reviewer",
+                         "powered"
+                     ],
+        "llm_reason":  "",
+        "name":  "notasandy-mcp-code-sanitizer",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/notasandy/mcp-code-sanitizer"
+                           },
+                           {
+                               "name":  "notasandy-mcp-code-sanitizer",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0328,
+        "source_url":  "https://github.com/notasandy/mcp-code-sanitizer"
+    },
+    {
+        "category":  "development",
+        "description":  "AI-powered tools for code review, brainstorming, performance analysis, and security review in Ruby.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "powered",
+                         "tools",
+                         "code",
+                         "review"
+                     ],
+        "llm_reason":  "",
+        "name":  "ai-pair-programmer-ruby",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/K4sku/ai-pair-programmer-mcp"
+                           },
+                           {
+                               "name":  "ai-pair-programmer-ruby",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0323,
+        "source_url":  "https://mcpservers.org/servers/K4sku/ai-pair-programmer-mcp"
+    },
+    {
+        "category":  "development",
+        "description":  "AI-powered code review for Claude Code, Cursor, Cline and any MCP client — OWASP security scans, bug detection, N+1 queries and performance profiling, fully local.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "powered",
+                         "code",
+                         "review",
+                         "claude"
+                     ],
+        "llm_reason":  "",
+        "name":  "mcp-code-review-server",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/goodjobwilliam/aicraft"
+                           },
+                           {
+                               "name":  "mcp-code-review-server",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0317,
+        "source_url":  "https://mcpservers.org/servers/goodjobwilliam/aicraft"
+    },
+    {
+        "category":  "development",
+        "description":  "Provides advanced code review, implementation planning, and pull request generation using Matter AI.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "provides",
+                         "advanced",
+                         "code",
+                         "review"
+                     ],
+        "llm_reason":  "",
+        "name":  "matter-ai",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/GravityCloudAI/matter-ai-mcp"
+                           },
+                           {
+                               "name":  "matter-ai",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0312,
+        "source_url":  "https://mcpservers.org/servers/GravityCloudAI/matter-ai-mcp"
+    },
+    {
+        "category":  "development",
+        "description":  "Strict AI code reviewer powered by Groq. Finds bugs, SQL injections, hardcoded secrets and vulnerabilities. Scores code 0–100 with concrete fixes.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "strict",
+                         "code",
+                         "reviewer",
+                         "powered"
+                     ],
+        "llm_reason":  "",
+        "name":  "mcp-code-sanitizer",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/notasandy/mcp-code-sanitizer"
+                           },
+                           {
+                               "name":  "mcp-code-sanitizer",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0308,
+        "source_url":  "https://mcpservers.org/servers/notasandy/mcp-code-sanitizer"
+    },
+    {
+        "category":  "developer-tools",
+        "description":  "Multi-perspective architecture review for AI-assisted development. Nine expert viewpoints (CTO, Security, Product, DevOps, Customer, Strategy, Investor, Unicorn Founder, Solo Entrepreneur) analyze your project and produce actionable findings. Includes AI collaboration coaching and quantitative",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "multi",
+                         "perspective",
+                         "architecture",
+                         "review"
+                     ],
+        "llm_reason":  "",
+        "name":  "fantasieleven-code-callout",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/fantasieleven-code/callout"
+                           },
+                           {
+                               "name":  "fantasieleven-code-callout",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0303,
+        "source_url":  "https://github.com/fantasieleven-code/callout"
+    },
+    {
+        "category":  "version-control",
+        "description":  "Integrates with the Gerrit code review system to review code changes and details.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "integrates",
+                         "gerrit",
+                         "code",
+                         "review"
+                     ],
+        "llm_reason":  "",
+        "name":  "gerrit-code-review",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/cayirtepeomer/gerrit-code-review-mcp"
+                           },
+                           {
+                               "name":  "gerrit-code-review",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0299,
+        "source_url":  "https://mcpservers.org/servers/cayirtepeomer/gerrit-code-review-mcp"
+    },
+    {
+        "category":  "developer-tools",
+        "description":  "LLM-based code review MCP server with AST-powered smart context extraction. Supports Claude, GPT, Gemini, and 20+ models via OpenRouter.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "based",
+                         "code",
+                         "review",
+                         "powered"
+                     ],
+        "llm_reason":  "",
+        "name":  "selvage-lab-selvage",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/selvage-lab/selvage"
+                           },
+                           {
+                               "name":  "selvage-lab-selvage",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0294,
+        "source_url":  "https://github.com/selvage-lab/selvage"
+    },
+    {
+        "category":  "productivity",
+        "description":  "AI-powered MCP server that audits local codebases for code quality, security, project structure, and maintainability.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "powered",
+                         "audits",
+                         "local",
+                         "codebases"
+                     ],
+        "llm_reason":  "",
+        "name":  "reposentinel",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/priyanshuchawda/reposentinel-mcp"
+                           },
+                           {
+                               "name":  "reposentinel",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.029,
+        "source_url":  "https://mcpservers.org/servers/priyanshuchawda/reposentinel-mcp"
+    },
+    {
+        "category":  "development",
+        "description":  "Local-first code intelligence MCP server. Hybrid BM25 + ONNX vector search, symbol-level impact analysis, diff-aware PR review with risk scoring, and persistent memory tied to git state. 20 tools, MIT licensed.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "local",
+                         "first",
+                         "code",
+                         "intelligence"
+                     ],
+        "llm_reason":  "",
+        "name":  "sverklo",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/sverklo/sverklo"
+                           },
+                           {
+                               "name":  "sverklo",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0286,
+        "source_url":  "https://mcpservers.org/servers/sverklo/sverklo"
+    },
+    {
+        "category":  "productivity",
+        "description":  "MCP server that gives AI agents structured read/write access to a story-based project backlog. Agents can list stories, read content, update status, and append notes — all backed by plain markdown files versioned in your repository.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "gives",
+                         "agents",
+                         "structured",
+                         "read"
+                     ],
+        "llm_reason":  "",
+        "name":  "corbym-backlog-mcp",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/corbym/backlog-mcp"
+                           },
+                           {
+                               "name":  "corbym-backlog-mcp",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0282,
+        "source_url":  "https://github.com/corbym/backlog-mcp"
+    },
+    {
+        "category":  "developer-tools",
+        "description":  "PHP static analysis MCP server for architecture and maintainability. 11 tools exposing 60+ code quality metrics, problem detection, refactoring priorities, dependency graphs, git hotspots, test coverage, and impact analysis. Installable via Composer.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "static",
+                         "analysis",
+                         "architecture",
+                         "maintainability"
+                     ],
+        "llm_reason":  "",
+        "name":  "phpcodearcheology-phpcodearcheology",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/PhpCodeArcheology/PhpCodeArcheology"
+                           },
+                           {
+                               "name":  "phpcodearcheology-phpcodearcheology",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0278,
+        "source_url":  "https://github.com/PhpCodeArcheology/PhpCodeArcheology"
+    },
+    {
+        "category":  "database",
+        "description":  "A high-performance multi-database MCP server built with Golang, supporting MySQL \u0026 PostgreSQL (NoSQL coming soon). Includes built-in tools for query execution, transaction management, schema exploration, query building, and performance analysis, with seamless Cursor integration for enhanced d",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "high",
+                         "performance",
+                         "multi",
+                         "database"
+                     ],
+        "llm_reason":  "",
+        "name":  "freepeak-db-mcp-server",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/FreePeak/db-mcp-server"
+                           },
+                           {
+                               "name":  "freepeak-db-mcp-server",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0274,
+        "source_url":  "https://github.com/FreePeak/db-mcp-server"
+    },
+    {
+        "category":  "developer-tools",
+        "description":  "Structural graph map of any codebase for AI coding assistants. Scans entities, relationships, and feature flows across 13 languages so LLMs navigate by structure instead of grepping through everything.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "structural",
+                         "graph",
+                         "codebase",
+                         "coding"
+                     ],
+        "llm_reason":  "",
+        "name":  "james-chahwan-repo-graph",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://github.com/James-Chahwan/repo-graph"
+                           },
+                           {
+                               "name":  "james-chahwan-repo-graph",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.027,
+        "source_url":  "https://github.com/James-Chahwan/repo-graph"
+    },
+    {
+        "category":  "other",
+        "description":  "CVE database and vulnerability intelligence for AI agents. Search NIST NVD, check software security, find known vulnerabilities — no API key required.",
+        "engines":  [
+                        "vector",
+                        "llm"
+                    ],
+        "ides":  [
+
+                 ],
+        "install":  "",
+        "keywords":  [
+                         "database",
+                         "vulnerability",
+                         "intelligence",
+                         "agents"
+                     ],
+        "llm_reason":  "",
+        "name":  "cybersecurity-mcp-server",
+        "platforms":  [
+                          "linux",
+                          "mac",
+                          "windows"
+                      ],
+        "ranking":  "combined",
+        "references":  [
+                           {
+                               "hint":  "Read the repo README / docs",
+                               "type":  "repo",
+                               "url":  "https://mcpservers.org/servers/aiagentkarl/cybersecurity-mcp-server"
+                           },
+                           {
+                               "name":  "cybersecurity-mcp-server",
+                               "path":  "D:\\Projects\\MCP Skills\\mcpservers.json",
+                               "type":  "catalog_file"
+                           }
+                       ],
+        "relevance":  0.0267,
+        "source_url":  "https://mcpservers.org/servers/aiagentkarl/cybersecurity-mcp-server"
+    }
+]

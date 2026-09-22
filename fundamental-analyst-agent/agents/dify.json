@@ -1,0 +1,46 @@
+﻿{
+    "category":  "platform",
+    "description":  "LLMOps platform for building agents, RAG apps, and workflows visually.",
+    "install":  "docker compose up -d (dify/docker)",
+    "keywords":  [
+                     "llmops",
+                     "rag",
+                     "workflow"
+                 ],
+    "name":  "dify",
+    "platforms":  [
+                      "windows",
+                      "linux",
+                      "mac",
+                      "cloud"
+                  ],
+    "references":  [
+                       {
+                           "hint":  "Read the repo README / docs",
+                           "type":  "repo",
+                           "url":  "https://dify.ai"
+                       },
+                       {
+                           "hint":  "Official docs / tutorial",
+                           "type":  "docs",
+                           "url":  "https://docs.dify.ai"
+                       },
+                       {
+                           "command":  "docker compose up -d (dify/docker)",
+                           "type":  "install"
+                       },
+                       {
+                           "name":  "dify",
+                           "path":  "D:\\Projects\\MCP Skills\\agents.json",
+                           "type":  "catalog_file"
+                       }
+                   ],
+    "source_url":  "https://dify.ai",
+    "tutorial":  "https://docs.dify.ai",
+    "usage_areas":  [
+                        "agents",
+                        "workflows",
+                        "chat",
+                        "automation"
+                    ]
+}
